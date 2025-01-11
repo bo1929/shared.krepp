@@ -9,16 +9,19 @@ require(ggnewscale)
 require(scales)
 
 dfd <- vroom(
-  "../misc_data/query_reference_pairs-WoLv2-ge20p/all_distances.tsv",
-  col_names = c("ref_id", "query_id", "mash_dist", "JI")
-  ) 
+  "../misc_data/query_reference_pairs-WoLv2-ge20p/all_distances-mash.tsv",
+  col_names = c("ref_id", "query_id", "mash_dist")
+  )
+# dfd$mash_dist <- 1 - dfd$mash_dist/100
 dfd  = dfd[!duplicated(dfd),]
 dfc <- vroom(
   "../results/count_summary-all-WoLv2-alignment_comparison.csv",
+  skip = 1,
   col_names = c("read_id", "counts_bowtie", "counts_krepp", "novelty", "query_id")
 )
 dfr <- vroom(
   "../results/reference_summary-all-WoLv2-alignment_comparison.csv",
+  skip = 1,
   col_names = c("ref_id", "num_reads", "mean_dist", "method", "portion_reads", "novelty", "query_id")
 ) %>% filter(portion_reads >= 0.20)
 dfr <- merge(dfr, dfd, by = c("ref_id", "query_id"))
@@ -49,18 +52,19 @@ dfc_s %>% mutate(novelty_bin = cut(novelty, c(0, 0.01, 0.025, 0.05, 0.1, 0.15, 0
   summarise(
     ratio_mapped_mean=mean(ratio_mapped),
     ratio_g1mapped_mean=mean(ratio_g1mapped)
-    ) %>%
+    ) %>% filter(!is.na(novelty_bin)) %>%
   ggplot() +
   facet_wrap(~method, scale="free") +
   # geom_point(aes(x=novelty, y=ratio_mapped, color=interaction(">0",method))) +
   # geom_point(aes(x=novelty, y=ratio_g1mapped, color=interaction(">1",method))) +
   geom_segment(
-    aes(x=novelty_bin,xend=novelty_bin, y=ratio_mapped_mean,yend=ratio_g1mapped_mean,color=method),
-    # arrow = arrow(length = unit(7, "pt"), type="closed"),
-    lineend="round",
-    linejoin="bevel",
-    linewidth = 1
+     aes(x=novelty_bin,xend=novelty_bin, y=ratio_mapped_mean,yend=ratio_g1mapped_mean,color=method),
+     # arrow = arrow(length = unit(7, "pt"), type="closed"),
+     lineend="round",
+     linejoin="bevel",
+     linewidth = 1
     ) +
+  # geom_ribbon(aes(alpha = 0.15, group = method, x=novelty_bin, ymin=ratio_mapped_mean, ymax=ratio_g1mapped_mean, color=method)) +
   geom_label(aes(x=novelty_bin, y=ratio_mapped_mean, label=">0"), label.size = 0) +
   geom_label(aes(x=novelty_bin, y=ratio_g1mapped_mean, label=">1"), label.size = 0) +
   scale_color_brewer(palette = "Set1", direction = -1) +
@@ -74,20 +78,22 @@ dfc_s %>% mutate(novelty_bin = cut(novelty, c(0, 0.01, 0.025, 0.05, 0.1, 0.15, 0
   theme(axis.text.x = element_text(angle = 45, vjust = 0.66), legend.position = "none")
 ggsave2("../figures/portion_mapped-facet.pdf", width = 6.5, height = 3.5)
 
-dfc_s %>% mutate(novelty_bin = cut(novelty, c(0, 0.01, 0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.2, 0.25, 0.33))) %>%
+dfc_s %>% mutate(novelty_bin = cut(novelty, c(0, 0.01, 0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.2, 0.25, 0.33))) %>%
   group_by(novelty_bin, method) %>%
   summarise(
     ratio_mapped_mean=mean(ratio_mapped),
     ratio_g1mapped_mean=mean(ratio_g1mapped)
-  ) %>%
+  ) %>% filter(!is.na(novelty_bin)) %>%
   ggplot() +
   # geom_point(aes(x=novelty, y=ratio_mapped, color=interaction(">0",method))) +
   # geom_point(aes(x=novelty, y=ratio_g1mapped, color=interaction(">1",method))) +
-  geom_segment(
-    aes(x=novelty_bin,xend=novelty_bin, y=ratio_mapped_mean,yend=ratio_g1mapped_mean,color=method),
-    arrow = arrow(length = unit(5, "pt"))
-  ) +
+  # geom_segment(
+  #   aes(x=novelty_bin,xend=novelty_bin, y=ratio_mapped_mean,yend=ratio_g1mapped_mean,color=method),
+  #   arrow = arrow(length = unit(5, "pt"))
+  # ) +
+  geom_ribbon(linewidth = 0.75, alpha = 0.25, aes(fill=method, group = method, x=novelty_bin, ymin=ratio_mapped_mean, ymax=ratio_g1mapped_mean, color=method)) +
   scale_color_brewer(palette = "Set1", direction = -1) +
+  scale_fill_brewer(palette = "Set1", direction = -1) +
   theme_minimal_grid() +
   labs(
     x = "Distance to the closest reference",
@@ -251,7 +257,8 @@ dfs %>%
     fun.ymax = function(x) mean(x) + sd(x), 
     geom = "pointrange",
     color = "darkred",
-  ) + coord_cartesian(xlim=c(0.0, 0.125), ylim=c(0.0, 0.125)) +
+  ) + 
+  coord_cartesian(xlim=c(0.0, 0.125), ylim=c(0.0, 0.125)) +
   geom_abline() +
   labs(x = "Alignment Hamming distance", y = "Maximum likelihood estimation") +
   theme_minimal_grid()
@@ -266,3 +273,35 @@ dfs %>%
   scale_x_continuous(labels = percent) +
   labs(x = "Error (%)", y = "ECDF")
 ggsave2("../figures/alignmentD_versus_maxllhD-percenterr_ecdf.pdf", width = 5, height = 5)
+
+
+dfdc_mash <- vroom(
+  "../misc_data/query_reference_pairs-WoLv2-ge20p/common_distances-mash.tsv",
+  col_names = c("ref_id", "query_id", "mash_dist")
+) 
+dfdc_skani <- vroom(
+  "../misc_data/query_reference_pairs-WoLv2-ge20p/common_distances-skani.tsv",
+  col_names = c("ref_id", "query_id", "skani_dist")
+) 
+dfdc_orthoani <- vroom(
+  "../misc_data/query_reference_pairs-WoLv2-ge20p/common_distances-orthoANI.tsv",
+  col_names = c("ref_id", "query_id", "orthoANI_dist")
+) 
+dfdc <- merge(merge(dfdc_mash, dfdc_skani, by = c("ref_id", "query_id")), dfdc_orthoani, by = c("ref_id", "query_id"))
+dfdc$skani_dist <- 1 - dfdc$skani_dist/100
+dfdc$orthoANI_dist <- 1 - dfdc$orthoANI_dist/100
+
+dfdc %>% ggplot() +
+  aes(x=mash_dist, y=skani_dist) +
+  geom_point(size=0.75, alpha=0.8) + theme_minimal_grid() +
+  coord_cartesian(xlim = c(0, 0.25), ylim = c(0, 0.25)) +
+  labs(x = "Mash distance", y = "skani distance")
+ggsave2("../figures/distance-Mash_vs_skani.pdf", width = 3, height = 3)
+
+
+dfdc %>% ggplot() +
+  aes(x=mash_dist, y=orthoANI_dist) +
+  geom_point(size=0.75, alpha=0.8) + theme_minimal_grid() +
+  coord_cartesian(xlim = c(0, 0.25), ylim = c(0, 0.25)) +
+  labs(x = "Mash distance", y = "orhoANI distance")
+ggsave2("../figures/distance-Mash_vs_orthoANI.pdf", width = 3, height = 3)

@@ -47,19 +47,104 @@ dfm %>% group_by(dist=cut(dist, c(0, 0.025, 0.05, 0.75, 0.1, 0.125, 0.15, 0.175,
   labs(x="Distance to the closest", y="Reads with ≥1 match", color="29-mer")
 ggsave("../figures/match_counts_hamming_dist.pdf")
 
+dfg <- vroom("../results/multitree_heights_info-WoLv2.tsv",
+             col_names = c("Tree", "r", "ix", "h", "nkmers"))
 
-dfg <- vroom("../results/multitree_heights_info.tsv",
-             col_names = c("ix", "h", "nkmers"))
-all_nkmers <- sum(dfg$nkmers) 
-dfg %>%group_by(h) %>% summarise(nkmers = sum(nkmers)) %>% 
+all_nkmers <- sum((dfg %>% filter(Tree == "WoLv2 tree"))$nkmers)
+dfs <- dfg %>% group_by(Tree, h) %>% summarise(nkmers = sum(nkmers))
+
+dfg %>% filter(Tree == "WoLv2 tree") %>% group_by(h) %>% summarise(nkmers = sum(nkmers)) %>% 
   ggplot() +
-  aes(x=h-1, y=nkmers) +
+  aes(x=h, y=nkmers) +
   geom_col() + 
-  # scale_y_continuous(labels = function(x)percent(x/all_nkmers), trans = "log10", breaks = c(0, all_nkmers/100000, all_nkmers/10000, all_nkmers/1000, all_nkmers/100, all_nkmers/10)) +
-  labs(x="Multitree height", y="# of k-mers") +
-  scale_y_continuous(trans = "log10") +
-  # scale_x_continuous(breaks = c(0,5,10,15,20)) +
+  scale_y_continuous(labels = function(x)percent(x/all_nkmers), trans = "log10", breaks = c(0, all_nkmers/100000000, all_nkmers/10000000, all_nkmers/1000000, all_nkmers/100000, all_nkmers/10000, all_nkmers/1000, all_nkmers/100, all_nkmers/10)) +
+  labs(x="Multitree height", y="% of k-mers") +
+  scale_x_continuous(breaks = c(0,10,20,30,40,50)) +
   theme_half_open() +
   background_grid()
-ggsave("../figures/multitree_height.pdf")
+ggsave("../figures/multitree_height-percent.pdf")
 
+dfg %>% filter(Tree == "WoLv2 tree") %>% group_by(h) %>% summarise(nkmers = sum(nkmers)) %>% 
+  ggplot() +
+  aes(x=h, y=nkmers) +
+  geom_col() + 
+  labs(x="Multitree height", y="# of k-mers") +
+  scale_y_continuous(trans = "log10") +
+  scale_x_continuous(breaks = c(0,10,20,30,40,50)) +
+  theme_half_open() +
+  background_grid()
+ggsave("../figures/multitree_height-count.pdf")
+
+dfg %>% group_by(h, Tree) %>% summarise(nkmers = sum(nkmers), count = n()) %>% 
+  ggplot() +
+  aes(x=h, y=nkmers, fill=Tree) +
+  geom_col(position = position_dodge2()) + 
+  # scale_y_continuous(labels = function(x)percent(x/all_nkmers), trans = "pseudo_log", breaks = c(-all_nkmers/100, -all_nkmers/1000, -all_nkmers/10000, -all_nkmers/100000, 0, all_nkmers/100000, all_nkmers/10000, all_nkmers/1000, all_nkmers/100, all_nkmers/10)) +
+  labs(x="Multitree height", y="# of k-mers") +
+  scale_y_continuous(trans = "pseudo_log") +
+  scale_x_continuous(breaks = c(0,10,20,30,40,50)) +
+  coord_cartesian(xlim = c(0, 30)) +
+  theme_half_open() +
+  background_grid()
+
+dfg <- dfg %>% group_by(h, Tree) %>% summarise(nkmers = sum(nkmers), count = n()) %>% 
+  pivot_wider(id_cols = h, names_from = Tree, values_from = c("nkmers", "count"))
+
+dfg %>%
+  ggplot() +
+  aes(x=h, y=`nkmers_Random tree` - `nkmers_WoLv2 tree`) +
+  geom_col() + 
+  # scale_y_continuous(labels = function(x)percent(x/all_nkmers), trans = "pseudo_log", breaks = c(-all_nkmers/100, -all_nkmers/1000, -all_nkmers/10000, -all_nkmers/100000, 0, all_nkmers/100000, all_nkmers/10000, all_nkmers/1000, all_nkmers/100, all_nkmers/10)) +
+  # scale_y_continuous(trans = "pseudo_log") +
+  # scale_x_continuous(breaks = c(0,5,10,15,20)) +
+  coord_cartesian(xlim = c(0, 15), ylim=c(-2.5e8, 2e8)) +
+  labs(x="Multitree height", y="# of k-mers (Random tree - WoLv2 tree)") +
+  theme_half_open() +
+  background_grid()
+ggsave("../figures/multitree_height_diff-count-random_vs_wolv2.pdf")
+
+dfg %>%
+  ggplot() +
+  aes(x=h, y=`nkmers_Ladder tree` - `nkmers_WoLv2 tree`) +
+  geom_col() + 
+  # scale_y_continuous(labels = function(x)percent(x/all_nkmers), trans = "pseudo_log", breaks = c(-all_nkmers/100, -all_nkmers/1000, -all_nkmers/10000, -all_nkmers/100000, 0, all_nkmers/100000, all_nkmers/10000, all_nkmers/1000, all_nkmers/100, all_nkmers/10)) +
+  # scale_y_continuous(trans = "pseudo_log") +
+  # scale_x_continuous(breaks = c(0,5,10,15,20)) +
+  coord_cartesian(xlim = c(0, 15), ylim=c(-2.5e8, 2e8)) +
+  labs(x="Multitree height", y="# of k-mers (Ladder tree - WoLv2 tree)") +
+  theme_half_open() +
+  background_grid()
+ggsave("../figures/multitree_height_diff-count-ladder_vs_wolv2.pdf")
+
+dfg %>% 
+  ggplot() +
+  aes(x=h, y=`count_Random tree` - `count_WoLv2 tree`) +
+  geom_col() + 
+  # scale_y_continuous(labels = function(x)percent(x/all_nkmers), trans = "pseudo_log", breaks = c(-all_nkmers/100, -all_nkmers/1000, -all_nkmers/10000, -all_nkmers/100000, 0, all_nkmers/100000, all_nkmers/10000, all_nkmers/1000, all_nkmers/100, all_nkmers/10)) +
+  # scale_y_continuous(trans = "pseudo_log") +
+  # scale_x_continuous(breaks = c(0,5,10,15,20)) +
+  # coord_cartesian(xlim = c(0, 5)) +
+  labs(x="Multitree height", y="# of colors (Random tree - WoLv2 tree)") +
+  theme_half_open() +
+  background_grid()
+
+dfg %>% 
+  ggplot() +
+  aes(x=h, y=`count_Ladder tree` - `count_WoLv2 tree`) +
+  geom_col() + 
+  # scale_y_continuous(labels = function(x)percent(x/all_nkmers), trans = "pseudo_log", breaks = c(-all_nkmers/100, -all_nkmers/1000, -all_nkmers/10000, -all_nkmers/100000, 0, all_nkmers/100000, all_nkmers/10000, all_nkmers/1000, all_nkmers/100, all_nkmers/10)) +
+  # scale_y_continuous(trans = "pseudo_log") +
+  # scale_x_continuous(breaks = c(0,5,10,15,20)) +
+  # coord_cartesian(xlim = c(0, 5)) +
+  labs(x="Multitree height", y="# of colors (Random tree - WoLv2 tree)") +
+  theme_half_open() +
+  background_grid()
+
+dfg %>%
+  ggplot() +
+  # aes(x=h, y=`Random tree` - `WoL-v2 tree`) +
+  aes(x=h, y=`count_Random tree` - `count_WoLv2 tree`) +
+  geom_col() + 
+  labs(x="Multitree height", y="# of colors (Random tree - WoLv2 tree)") +
+  theme_half_open() +
+  background_grid()

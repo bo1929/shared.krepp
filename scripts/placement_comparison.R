@@ -12,22 +12,18 @@ require(scales)
 dfl <- vroom("../misc_data/queryWoLv2_selected_mindist.tsv", col_names = c("qid", "novelty"))
 dfe <- vroom(
   "../results/ppmetrics-heuristic_comparison.tsv",
-  col_names = c("method", "qid", "rid", "placement", "m1", "m2", "error")
+  col_names = c("method", "qid", "rid", "placement", "dist", "filter", "error")
 )
-dfb <- vroom(
-  "../results/ppmetrics-bowtie-closestpp.tsv",
-  col_names = c("method", "qid", "rid", "placement", "m1", "m2", "error")
-)
-dfe <- rbind(dfe, dfb)
 dfe <- merge(dfe, dfl, by = c("qid"))
 dfe <- dfe %>% mutate(error = ifelse(is.na(error) | is.infinite((error)), NaN, error))
-dfe <- dfe %>% mutate(method = ifelse(method == "krepp-90", "krepp", method))
+dfe <- dfe %>% mutate(method = ifelse(method == "krepp-mavgpp", "krepp", method))
 
-dist_th <- 0.20
+dist_th <- 0.2
+dfe$filter[(dfe$dist < dist_th) & (dfe$method == "bowtie-closest")] <- "True"
 
 dfe %>% filter(!method %in% c("krepp-LCA") & novelty < 12) %>%
   mutate(
-    error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
+    error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
     novelty_bin = cut(novelty,  c(0, 0.5, 1.0, 2.0, 4, 8, 12, Inf))
   ) %>%
   group_by(novelty_bin, method) %>%
@@ -52,7 +48,7 @@ ggsave("../figures/placement_WoLv2-x_percent_placed-y_mean_node_error.pdf", widt
 
 dfe %>% filter(!method %in% c("krepp-LCA") & novelty < 12) %>%
   mutate(
-    error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
+    error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
     novelty_bin = cut(novelty,  c(0, 0.5, 1.0, 2.0, 4,  8, 12, Inf))
   ) %>%
   group_by(novelty_bin, method) %>%
@@ -74,7 +70,7 @@ dfe %>% filter(!method %in% c("krepp-LCA") & novelty < 12) %>%
 
 dfe %>% filter(!method %in% c("krepp-LCA") & novelty < 12) %>%
   mutate(
-    error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
+    error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
     novelty_bin = cut(novelty,  c(0, 0.5, 1.0, 2.0, 4, 8, 12, Inf))
   ) %>%
   ggplot() +
@@ -91,7 +87,7 @@ ggsave("../figures/placement_WoLv2-boxplot.pdf", width = 5.5, height = 4)
 
 dfe %>% filter(method %in% c("krepp", "krepp-LCA") & novelty < 12) %>%
   mutate(
-    error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
+    error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
     novelty_bin = cut(novelty,  c(0, 0.5, 1.0, 2.0, 4, 8, 12, Inf))
   ) %>%
   ggplot() +
@@ -107,7 +103,7 @@ ggsave("../figures/placement_WoLv2-boxplot-LCA_comparison.pdf", width = 5.5, hei
 
 dfe %>% filter(method %in% c("krepp", "krepp-LCA") & novelty < 12) %>%
   mutate(
-    error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
+    error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
     novelty_bin = cut(novelty,  c(0, 0.5, 1.0, 2.0, 4,  8, 12, Inf))
   ) %>%
   group_by(novelty_bin, method) %>%
@@ -130,7 +126,7 @@ dfe %>% filter(method %in% c("krepp", "krepp-LCA") & novelty < 12) %>%
 
 dfe %>% filter(method %in% c("krepp", "krepp-LCA") & novelty < 12) %>%
   mutate(
-    error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
+    error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
     novelty_bin = cut(novelty,  c(0, 0.5, 1.0, 2.0, 4,  8, 12, Inf))
   ) %>%
   group_by(novelty_bin, method) %>%
@@ -167,24 +163,26 @@ ggsave("../figures/placement_WoLv2-ecdf.pdf", width = 4.5, height = 4)
 
 # WoL-v1 16S: comparison with EPA-ng
 dfs_gw <- vroom(
-  "../results/ppmetrics-krepp-16S_genome_wide.tsv",
-  col_names = c("method", "qid", "rid", "placement", "m1", "m2", "error")
+  "../results/ppmetrics_queries16S-all.tsv",
+  col_names = c("method", "qid", "rid", "placement", "dist", "filter", "error")
 )
 dfs_reads <- vroom(
-  "../results/ppmetrics-krepp-16S_reads.tsv",
-  col_names = c("method", "qid", "rid", "placement", "m1", "m2", "error")
+  "../results/ppmetrics_reads16S-all.tsv",
+  col_names = c("method", "qid", "rid", "placement", "dist", "filter", "error")
 )
 dfg <- vroom(
   "../misc_data/errors16S_epang.txt"
 )
 dfg <- separate_wider_delim(dfg, cols = id, delim = "_", names = c("qid", "i1", "i2"))
 dfd <- vroom("../misc_data/queries16S_all_distances.txt", col_names = c("qid", "novelty"))
-dfs_gw <- merge(dfs_gw, dfd, by = c("qid"))
-dfs_reads <- merge(dfs_reads, dfd, by = c("qid"))
+dfs <- merge(dfs_gw, dfd, by = c("qid"))
+# dfs <- merge(dfs_reads, dfd, by = c("qid"))
 dfg <- merge(dfg, dfd, by = c("qid"))
 
 dfm <- rbind(
-  dfs_gw %>% mutate(error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN)) %>% select(qid,error) %>% mutate(method="krepp"),
+  dfs_gw %>% mutate(
+    error = ifelse((placement != "N1" & (filter == "True" & (!is.na(placement)))), error, NaN),
+  ) %>% select(qid,error) %>% mutate(method="krepp"),
   dfg %>% select(qid, error) %>% mutate(method="EPA-ng"))
 dfm <- merge(dfm, dfd, by = c("qid"))
 
@@ -204,8 +202,8 @@ dfs %>%
   stat_ecdf() + coord_cartesian(xlim=c(0, 8)) + theme_cowplot()
 
 dfs %>% mutate(
-      error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
-      novelty_bin = cut(novelty, c(0, 1, 2, 4, 6, 8, Inf))
+  error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
+  novelty_bin = cut(novelty, c(0, 0.5, 1, 2, 4, 6, 8, 10, Inf))
   ) %>% group_by(novelty_bin) %>%
   summarise(median_error = median(error, na.rm = TRUE), mean_error = mean(error, na.rm = TRUE), portion_placed = 1-sum(is.na(error))/n()) %>%
   ggplot() +
@@ -216,12 +214,13 @@ dfs %>% mutate(
   geom_point(aes(color="mean", y=mean_error, group=2), size=3) +
   scale_color_manual(values = c("darkred", "darkblue")) +
   theme_half_open() +
+  theme(axis.text.x = element_text(angle = 90)) +
   background_grid() + labs(y="Node error", x="Novelty bin", color="")
 ggsave("../figures/query_16S-krepp_mean_median_error.pdf", width = 4.5, height = 3.5)
 
 dfs %>% mutate(
-  error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
-  novelty_bin = cut(novelty/100, c(0, 0.5, 1, 2, 4, 6, 8, Inf)/100)
+  error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
+  novelty_bin = cut(novelty, c(0, 0.5, 1, 2, 4, 6, 8, 10, Inf))
 ) %>% group_by(novelty_bin) %>%
   summarise(median_error = median(error, na.rm = TRUE), mean_error = mean(error, na.rm = TRUE), portion_placed = 1-sum(is.na(error))/n()) %>%
   ggplot(aes(y=portion_placed)) +
@@ -234,10 +233,9 @@ dfs %>% mutate(
   theme(axis.text.x = element_text(angle=45, vjust = 0.66))
 ggsave("../figures/query_16S-krepp_percent_placed.pdf", width = 4.5, height = 3.5)
 
-
 dfm %>% filter(novelty <= 11.0030184) %>%
   ggplot() +
-  aes(x=novelty/100) +
+  aes(x=novelty) +
   stat_summary_bin(aes(y=error, color=method), alpha = 0.925) +
   scale_color_manual(values = c("#4daf4a", "#e41a1c")) +
   theme_half_open() +
@@ -265,58 +263,3 @@ dfm %>% filter(novelty <= 11.0030184) %>%
   theme_half_open() +
   background_grid() + labs(y="ECDF", x="Node error", color="Method", linetype="Novelty")
 ggsave("../figures/query_16S-error_ecdf-only_placed_with_filtering.pdf", width = 4.5, height = 3.5)
-
-# WoL-v2: Branch length error
-dfl <- vroom("../misc_data/queryWoLv2_selected_mindist.tsv", col_names = c("qid", "novelty"))
-dfe <- vroom(
-  "../results/ppmetricsw-heuristic_comparison.tsv",
-  col_names = c("method", "qid", "rid", "placement", "m1", "m2", "error")
-)
-dfb <- vroom(
-  "../results/ppmetricsw-bowtie-closestpp.tsv",
-  col_names = c("method", "qid", "rid", "placement", "m1", "m2", "error")
-)
-dfe <- rbind(dfe, dfb)
-dfe <- merge(dfe, dfl, by = c("qid"))
-dfe <- dfe %>% mutate(error = ifelse(is.na(error) | is.infinite((error)), NaN, error))
-dfe <- dfe %>% mutate(method = ifelse(method == "krepp-90", "krepp", method))
-
-dist_th <- 0.20
-
-dfe %>% filter(!method %in% c("krepp-LCA") & novelty < 12) %>%
-  mutate(
-    error = ifelse((placement != "N1" & !is.na(placement)) & m1 < dist_th, error, NaN),
-    novelty_bin = cut(novelty,  c(0, 0.5, 1.0, 2.0, 4,  8, 16, Inf))
-  ) %>%
-  group_by(novelty_bin, method) %>%
-  summarise(
-    median_error = median(error, na.rm = TRUE),
-    mean_error = mean(error, na.rm = TRUE),
-    portion_placed = 1-sum(is.na(error))/n()
-  ) %>%
-  ggplot() +
-  aes(x = portion_placed, color=method,y = mean_error) +
-  geom_line(aes(group=novelty_bin), linetype=1,size=0.5,color="grey20")+
-  geom_point(aes(), alpha=0.85, size=4) +
-  scale_color_manual(values = c("#377eb8", "#e41a1c", "#ff7f00")) +
-  labs(y = "Branch length error", x = "Placed reads", color = "Method") +
-  scale_x_continuous(labels = percent) +
-  theme_minimal_grid() +
-  theme(legend.position = "bottom", legend.direction = "horizontal")
-ggsave("../figures/placement_WoLv2-x_percent_placed-y_mean_blen_error.pdf", width = 5, height = 4)
-
-dfe %>% filter(!method %in% c("krepp-LCA")& novelty <12) %>%
-  mutate(
-    error = ifelse((is.na(placement)) | is.na(error), max(error, na.rm = TRUE), error),
-    novelty_bin = cut(novelty, c(0, 2, 4, 8, 12))
-  ) %>%
-  ggplot() +
-  aes(x = error, color=method, fill=method) + #, linetype = method) + 
-  facet_wrap(~novelty_bin, nrow=2, scale="free") +
-  labs(x = "Error", y = "ECDF", color="") +
-  # scale_linetype_manual(values = c(4,5,6)) +
-  scale_color_manual(values = c("#377eb8", "#e41a1c", "#ff7f00", "#fb9a99")) +
-  stat_ecdf(alpha=0.75, size=0.85) + coord_cartesian(xlim=c(0, 0.1)) +
-  theme_half_open() +
-  background_grid() +
-  theme(legend.position = "bottom", legend.direction = "horizontal")

@@ -1,0 +1,9 @@
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at java.math.BigDecimal.divideAndRound(BigDecimal.java:4171)
+	at java.math.BigDecimal.divide(BigDecimal.java:5248)
+	at java.math.BigDecimal.divide(BigDecimal.java:1578)
+	at java.math.BigDecimal.divide(BigDecimal.java:1608)
+	at oat_core.ProcOrthoAni.listMerge(ProcOrthoAni.java:289)
+	at oat_core.ProcOrthoAni.keyPlayer(ProcOrthoAni.java:208)
+	at oat_core.ProcOrthoAni.execute(ProcOrthoAni.java:152)
+	at OAT_command.main(OAT_command.java:124)
