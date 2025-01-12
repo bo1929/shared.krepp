@@ -14,7 +14,7 @@ dfm <- vroom(
 )
 nreads <- nrow(dfm)
 dfd <- vroom(
-  "../misc_data/dist_to_closest-WoLv2-novel_queries.txt",
+  "../misc_data/data-WoLv2_placement/query_selection/selected_queries_mindist.tsv",
   col_names = c("qid", "rid", "dist")
 )
 dfm <- merge(dfm, dfd, by="qid")

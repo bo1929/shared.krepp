@@ -1,4 +1,0 @@
-[00:00:00.000] (1555554d6b20) INFO   skani dist --min-af 0 ../../expt-WoLv2_16k/reference_genomes/G000526435.fna ../extra_queries_genomes/G003242265.fna
-[00:00:00.812] (1555554d6b20) INFO   Learned ANI mode detected. ANI may be adjusted according to a regression model trained on MAGs.
-[00:00:00.812] (1555554d6b20) INFO   Generating sketch time: 0.794725
-[00:00:00.817] (1555554d6b20) INFO   ANI calculation time: 0.005052344

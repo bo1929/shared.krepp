@@ -9,7 +9,7 @@ require(ggnewscale)
 require(scales)
 
 dfd <- vroom(
-  "../misc_data/query_reference_pairs-WoLv2-ge20p/all_distances-mash.tsv",
+  "../misc_data/data-WoLv2_placement/query_reference_pairs-WoLv2-ge20p/all_distances-mash.tsv",
   col_names = c("ref_id", "query_id", "mash_dist")
   )
 # dfd$mash_dist <- 1 - dfd$mash_dist/100
@@ -276,15 +276,15 @@ ggsave2("../figures/alignmentD_versus_maxllhD-percenterr_ecdf.pdf", width = 5, h
 
 
 dfdc_mash <- vroom(
-  "../misc_data/query_reference_pairs-WoLv2-ge20p/common_distances-mash.tsv",
+  "../misc_data/data-WoLv2_placement/query_reference_pairs-WoLv2-ge20p/common_distances-mash.tsv",
   col_names = c("ref_id", "query_id", "mash_dist")
 ) 
 dfdc_skani <- vroom(
-  "../misc_data/query_reference_pairs-WoLv2-ge20p/common_distances-skani.tsv",
+  "../misc_data//data-WoLv2_placement/query_reference_pairs-WoLv2-ge20p/common_distances-skani.tsv",
   col_names = c("ref_id", "query_id", "skani_dist")
 ) 
 dfdc_orthoani <- vroom(
-  "../misc_data/query_reference_pairs-WoLv2-ge20p/common_distances-orthoANI.tsv",
+  "../misc_data//data-WoLv2_placement/query_reference_pairs-WoLv2-ge20p/common_distances-orthoANI.tsv",
   col_names = c("ref_id", "query_id", "orthoANI_dist")
 ) 
 dfdc <- merge(merge(dfdc_mash, dfdc_skani, by = c("ref_id", "query_id")), dfdc_orthoani, by = c("ref_id", "query_id"))

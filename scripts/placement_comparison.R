@@ -9,7 +9,7 @@ require(ggnewscale)
 require(scales)
 
 # WoL-v2: Node error
-dfl <- vroom("../misc_data/queryWoLv2_selected_mindist.tsv", col_names = c("qid", "novelty"))
+dfl <- vroom("../misc_data/data-WoLv2_placement/query_selection/selected_queries_mindist.tsv", col_names = c("qid", "novelty"))
 dfe <- vroom(
   "../results/ppmetrics-heuristic_comparison.tsv",
   col_names = c("method", "qid", "rid", "placement", "dist", "filter", "error")
@@ -171,10 +171,10 @@ dfs_reads <- vroom(
   col_names = c("method", "qid", "rid", "placement", "dist", "filter", "error")
 )
 dfg <- vroom(
-  "../misc_data/errors16S_epang.txt"
+  "../misc_data/data-WoLv1_placement/errors16S-EPAng.txt"
 )
 dfg <- separate_wider_delim(dfg, cols = id, delim = "_", names = c("qid", "i1", "i2"))
-dfd <- vroom("../misc_data/queries16S_all_distances.txt", col_names = c("qid", "novelty"))
+dfd <- vroom("../misc_data/data-WoLv1_placement/all_mindist.tsv", col_names = c("qid", "novelty"))
 dfs <- merge(dfs_gw, dfd, by = c("qid"))
 # dfs <- merge(dfs_reads, dfd, by = c("qid"))
 dfg <- merge(dfg, dfd, by = c("qid"))
