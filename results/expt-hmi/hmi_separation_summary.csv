@@ -1,0 +1,16 @@
+method,reference,size,approach,type,pseudo_F,p_val
+krepp,RefSeq (CAMI-II),123853,PP + wUniFrac,Body site,80.381769,0.000999
+krepp,RefSeq (CAMI-II),123853,OGU + wUniFrac,Body site,79.950973,0.001
+krepp,RefSeq (CAMI-II) [dedup],50752,PP + wUniFrac,Body site,83.824875,0.001
+krepp,WoL-v2,15953,PP + wUniFrac,Body site,74.518513,0.001
+krepp,RefSeq (CAMI-II) [dedup],50752,OGU + wUniFrac,Body site,83.381635,0.001
+krepp,WoL-v2,15953,OGU + wUniFrac,Body site,73.622099,0.001
+Woltka,WoL-v2,15953,OGU + wUniFrac,Body site,72.40939,0.001
+Bracken,WoL-v2,15953,Taxonomy + Bray-Curtis,Body site,42.357998,0.001
+krepp,RefSeq (CAMI-II),123853,OGU + wUniFrac,Host sex,2.45069,0.058
+krepp,RefSeq (CAMI-II),50752,PP + wUniFrac,Host sex,2.520432,0.051
+krepp,WoL-v2,15953,PP + wUniFrac,Host sex,2.592332,0.039
+krepp,RefSeq (CAMI-II) [dedup],50752,OGU + wUniFrac,Host sex,2.520463,0.062
+krepp,WoL-v2,15953,OGU + wUniFrac,Host sex,2.617338,0.042
+Woltka,WoL-v2,15953,OGU + wUniFrac,Host sex,2.661558,0.036
+Bracken,WoL-v2,15953,Taxonomy + Bray-Curtis,Host sex,1.691569,0.071
