@@ -47,7 +47,7 @@ dfm %>% group_by(dist=cut(dist, c(0, 0.025, 0.05, 0.75, 0.1, 0.125, 0.15, 0.175,
   labs(x="Distance to the closest", y="Reads with ≥1 match", color="29-mer")
 ggsave("../figures/match_counts_hamming_dist.pdf")
 
-dfg <- vroom("../results/multitree_heights_info-WoLv2.tsv",
+dfg <- vroom("../results/algorithmic_evaluation/multitree_heights_info-WoLv2.tsv",
              col_names = c("Tree", "r", "ix", "h", "nkmers"))
 
 all_nkmers <- sum((dfg %>% filter(Tree == "WoLv2 tree"))$nkmers)
@@ -73,7 +73,7 @@ dfg %>% filter(Tree == "WoLv2 tree") %>% group_by(h) %>% summarise(nkmers = sum(
   scale_x_continuous(breaks = c(0,10,20,30,40,50)) +
   theme_half_open() +
   background_grid()
-ggsave("../figures/multitree_height-count.pdf")
+ggsave("../figures/multitree_height-count.pdf", width = 4.5, height = 2.5)
 
 dfg %>% group_by(h, Tree) %>% summarise(nkmers = sum(nkmers), count = n()) %>% 
   ggplot() +
@@ -101,7 +101,7 @@ dfg %>%
   labs(x="Multitree height", y="# of k-mers (Random tree - WoLv2 tree)") +
   theme_half_open() +
   background_grid()
-ggsave("../figures/multitree_height_diff-count-random_vs_wolv2.pdf")
+ggsave("../figures/multitree_height_diff-count-random_vs_wolv2.pdf", width = 4, height = 4)
 
 dfg %>%
   ggplot() +
@@ -114,7 +114,7 @@ dfg %>%
   labs(x="Multitree height", y="# of k-mers (Ladder tree - WoLv2 tree)") +
   theme_half_open() +
   background_grid()
-ggsave("../figures/multitree_height_diff-count-ladder_vs_wolv2.pdf")
+ggsave("../figures/multitree_height_diff-count-ladder_vs_wolv2.pdf", width = 4, height = 4)
 
 dfg %>% 
   ggplot() +

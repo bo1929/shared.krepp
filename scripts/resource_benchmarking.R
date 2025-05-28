@@ -27,7 +27,7 @@ df <- df %>% filter(!(process == "query" & method == "krepp-v000"))
 df$method[df$method != "bowtie2"] <- "krepp"
 
 df %>% filter(process == "query") %>%
-  filter(reference_size > 2000) %>%
+  filter(reference_size > 2000 & reference_size < 50000) %>%
   ggplot() +
   aes(x = size, y = time_sec, color = method, linetype = as.factor(reference_size)) +
   geom_line() +
@@ -37,7 +37,7 @@ df %>% filter(process == "query") %>%
   scale_y_continuous(breaks = c(60, 120, 300, 900), labels=c("1", "5", "10", "15"), transform = "log2") +
   scale_color_brewer(palette = "Set1", direction = -1) +
   theme_minimal_grid()
-# ggsave2("../figures/running_time-x_nreads.pdf", height = 3, width = 3.75)
+ggsave2("../figures/running_time-x_nreads.pdf", height = 3, width = 3.75)
 
 df %>% filter(process == "query") %>%
   # filter(reference_size > 2000 & reference_size < 50000) %>%
@@ -59,20 +59,40 @@ df %>% filter(process == "query") %>%
 # ggsave2("../figures/running_time-x_nreferences.pdf", height = 3, width = 3.75)
 ggsave2("../figures/running_time-x_nreferences-logxy.pdf", height = 3, width = 3.75)
 
-df %>% filter(!is.na(time_sec)) %>% filter(grepl("index", process)) %>% # filter(reference_size < 15000) %>%
+df %>% filter(!is.na(time_sec)) %>% filter(grepl("index", process)) %>% 
+  # filter(reference_size < 16000) %>% 
+  # filter((reference_size < 15000) | grepl("krepp", method)) %>%
   group_by(method, reference_size, size) %>% mutate(time_sec = cumsum(time_sec)/60/60) %>%
   ggplot() +
   aes(x = reference_size, y = time_sec, color = method) +
-  geom_point(size = 1.5, alpha = 0.9) +
-  stat_summary(fun = "max", geom = "point", size=3.5) +
+  geom_point(size = 0.75, alpha = 0.9) +
+  stat_summary(fun = "max", geom = "point", size=2) +
   stat_summary(fun = "max", geom = "line") +
   stat_summary(aes(group=method), fun = "max", geom = "point", color="darkgray", size=1.25) +
   labs(x = "Number of references", y = "Running time (hours)", shape = "Method", color = "Method") +
   # scale_y_continuous(breaks = c(0, 100*60, 200*60, 300*60, 400*60), labels=c("0", "100", "200", "300", "400")) +
   scale_color_brewer(palette = "Set1", direction = -1, guide="none") +
-  scale_x_continuous(transform = "log2") +
+  scale_x_continuous(transform = "log2", breaks = c(4000, 8000, 16000, 32000, 64000, 128000)) +
+  # scale_y_continuous(transform = "log2") +
   # coord_cartesian(ylim = c(0, 450*60)) +
   theme_minimal_grid()
+  ggsave2("../figures/indexing_time-x_nreferences-logx.pdf", height = 3.5, width = 5)
+
+  df %>% filter(!is.na(time_sec)) %>% filter(grepl("index", process)) %>% filter(grepl("krepp", method)) %>%
+    group_by(method, reference_size, size) %>% mutate(time_sec = cumsum(time_sec)/60/60) %>%
+    ggplot() +
+    aes(x = reference_size, y = time_sec, color = method) +
+    geom_point(size = 1.5, alpha = 0.9) +
+    stat_summary(fun = "max", geom = "point", size=3.5) +
+    # stat_summary(fun = "max", geom = "line") +
+    stat_summary(aes(group=method), fun = "max", geom = "point", color="darkgray", size=1.25) +
+    labs(x = "Number of references", y = "Running time (hours)", shape = "Method", color = "Method") +
+    # scale_y_continuous(breaks = c(0, 100*60, 200*60, 300*60, 400*60), labels=c("0", "100", "200", "300", "400")) +
+    scale_color_brewer(palette = "Set1", direction = -1, guide="none") +
+    scale_x_continuous(transform = "log2") +
+    # scale_y_continuous(transform = "log2") +
+    # coord_cartesian(ylim = c(0, 450*60)) +
+    theme_minimal_grid()
 
 df %>% filter(!is.na(time_sec)) %>% filter(grepl("index", process)) %>% filter(reference_size < 15000) %>%
     group_by(method, reference_size, size) %>% mutate(time_sec = (time_sec)/60/60) %>%

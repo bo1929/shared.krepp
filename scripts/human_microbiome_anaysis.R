@@ -37,11 +37,11 @@ df <- wunifrac$data$Vectors %>%
   select(SampleID, PC1, PC2, PC3) %>%
   left_join(metadata)
 
-scene = list(camera = list(eye = list(x = -2, y = -2, z = 1)))
+scene = list(camera = list(eye = list(x = 2, y = -2, z = 1)))
 p <- plot_ly(df, x= ~PC1, y= ~PC2, z= ~PC3, 
         type="scatter3d",
         mode="markers",
-        marker = list(size=4, opacity=.7),
+        marker = list(size=4, opacity=.8),
         color= ~`Body site`,
         # color= ~`empo_3`,
         # symbol=~`empo_4`,
@@ -49,7 +49,7 @@ p <- plot_ly(df, x= ~PC1, y= ~PC2, z= ~PC3,
         colors='Paired'
 ) %>% layout(scene = scene)
 p
-save_image(p, "../figures/pcoa_hmi_sites.svg", width = 1500, height = 900)
+save_image(p, "../figures/pcoa_hmi_sites.pdf", width = 1000, height = 600, scale=3)
 
 df_dsite <- vroom("../results/expt-hmi/hmi-ogu-WoLv2/pairwise_distances-body_site.tsv")
 df_dsex <- vroom("../results/expt-hmi/hmi-ogu-WoLv2/pairwise_distances-host_sex.tsv")
@@ -132,11 +132,15 @@ dfpw %>% # filter(N==max(N)) %>%
   theme_bw()
 
 dfdiff <- dfpw %>% pivot_wider(id_cols = c(SubjectID1, SubjectID2, Group1, Group2, DistanceType, N), names_from = Method, values_from = Distance)
-dfdiff$DistanceDiff <- (dfdiff$krepp_dup - dfdiff$krepp_dedup)/dfdiff$krepp_dup
-dfdiff %>% ggplot() +
-  aes(x=Group1, y=Group2, fill=DistanceDiff) +
-  geom_tile(color="black") +
-  scale_fill_gradient2() +
+dfdiff$DistanceDiff <- (dfdiff$krepp_dedup - dfdiff$krepp_dup )/dfdiff$krepp_dup
+dfdiff %>% group_by(Group1, Group2) %>% 
+  summarise(meanDistanceDiff = mean(DistanceDiff)) %>%
+  ggplot() +
+  aes(x=Group1, y=Group2, fill=meanDistanceDiff) +
+  stat_summary(geom = "tile") + # geom_tile(color="black") +
+  scale_fill_gradient2(labels=percent) +
   coord_fixed() + 
   theme_cowplot() +
+  labs(fill="Deduplication effect") + 
   theme(axis.text.x  = element_text(angle=90, hjust=0.95, vjust=0.2), axis.title.x = element_blank(), axis.title.y = element_blank())
+ggsave("../figures/deduplication_effect_hmidist.pdf",height = 6, width = 7.5)

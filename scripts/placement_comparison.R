@@ -188,6 +188,14 @@ dfs <- merge(dfs_gw, dfd, by = c("qid"))
 # dfs <- merge(dfs_reads, dfd, by = c("qid"))
 dfg <- merge(dfg, dfd, by = c("qid"))
 
+dfg %>%filter(novelty <= 11.0030184) %>% 
+  ggplot() + aes(x=reorder(qid, novelty), y=novelty) +
+  geom_point(size=0.5) +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle=90, size = 4.5)) +
+  labs(y="Distance to the closest reference (path length)", x="Query ID")
+ggsave2("../figures/distance_to_closest-WoLv1.pdf", width = 6, height = 4)
+
 dfm <- rbind(
   dfs_gw %>% mutate(
     error = ifelse((placement != "N1" & (filter == "True" & (!is.na(placement)))), error, NaN),

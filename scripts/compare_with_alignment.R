@@ -309,3 +309,14 @@ dfdc %>% ggplot() +
   coord_cartesian(xlim = c(0, 0.25), ylim = c(0, 0.25)) +
   labs(x = "Mash distance", y = "orhoANI distance")
 ggsave2("../figures/distance-Mash_vs_orthoANI.pdf", width = 3, height = 3)
+
+
+dfdist <- vroom("../results/alignment_comparison/dist_to_closest-final.tsv", col_names = c("Q", "R", "d"))
+dfdist %>% ggplot() +
+  facet_wrap(~cut(d, c(0, 0.16, 0.33)), nrow = 2, scale="free") +
+  aes(x=reorder(Q, d), y=d) +
+  geom_point(size=0.5) +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle=90, size = 3)) +
+  labs(y="Distance to the closest reference (Mash)", x="Query ID")
+ggsave2("../figures/distance_to_closest-WoLv2.pdf", width = 7.5, height = 5)
