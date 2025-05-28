@@ -1,0 +1,647 @@
+TAXID	Tool	filtered	index	length_gs	name	precision_bp	precision_seq	rank	recall_bp	recall_seq	seq_counts_gs	total_length	total_seq_counts	tp_length	tp_seq_counts	sample_id
+2	Gold standard	False	0	1451338733	Bacteria	1.0	1.0	superkingdom	1.0	1.0	35319	1451338733	35319	1451338733	35319	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1239	Gold standard	False	1	516233816	Firmicutes	1.0	1.0	phylum	1.0	1.0	20635	516233816	20635	516233816	20635	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1224	Gold standard	False	2	899911682	Proteobacteria	1.0	1.0	phylum	1.0	1.0	13991	899911682	13991	899911682	13991	strmgCAMI2_short_read_pooled_gold_standard_assembly
+976	Gold standard	False	3	32644661	Bacteroidetes	1.0	1.0	phylum	1.0	1.0	683	32644661	683	32644661	683	strmgCAMI2_short_read_pooled_gold_standard_assembly
+201174	Gold standard	False	4	2548574	Actinobacteria	1.0	1.0	phylum	1.0	1.0	10	2548574	10	2548574	10	strmgCAMI2_short_read_pooled_gold_standard_assembly
+91061	Gold standard	False	5	510871134	Bacilli	1.0	1.0	class	1.0	1.0	20427	510871134	20427	510871134	20427	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1236	Gold standard	False	6	899911682	Gammaproteobacteria	1.0	1.0	class	1.0	1.0	13991	899911682	13991	899911682	13991	strmgCAMI2_short_read_pooled_gold_standard_assembly
+200643	Gold standard	False	7	32644661	Bacteroidia	1.0	1.0	class	1.0	1.0	683	32644661	683	32644661	683	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1760	Gold standard	False	8	2548574	Actinobacteria	1.0	1.0	class	1.0	1.0	10	2548574	10	2548574	10	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186801	Gold standard	False	9	5362682	Clostridia	1.0	1.0	class	1.0	1.0	208	5362682	208	5362682	208	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186826	Gold standard	False	10	444963793	Lactobacillales	1.0	1.0	order	1.0	1.0	19810	444963793	19810	444963793	19810	strmgCAMI2_short_read_pooled_gold_standard_assembly
+91347	Gold standard	False	11	899911682	Enterobacterales	1.0	1.0	order	1.0	1.0	13991	899911682	13991	899911682	13991	strmgCAMI2_short_read_pooled_gold_standard_assembly
+171549	Gold standard	False	12	32644661	Bacteroidales	1.0	1.0	order	1.0	1.0	683	32644661	683	32644661	683	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1385	Gold standard	False	13	65907341	Bacillales	1.0	1.0	order	1.0	1.0	617	65907341	617	65907341	617	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85009	Gold standard	False	14	2548574	Propionibacteriales	1.0	1.0	order	1.0	1.0	10	2548574	10	2548574	10	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186802	Gold standard	False	15	5362682	Clostridiales	1.0	1.0	order	1.0	1.0	208	5362682	208	5362682	208	strmgCAMI2_short_read_pooled_gold_standard_assembly
+81852	Gold standard	False	16	67260662	Enterococcaceae	1.0	1.0	family	1.0	1.0	3489	67260662	3489	67260662	3489	strmgCAMI2_short_read_pooled_gold_standard_assembly
+543	Gold standard	False	17	899911682	Enterobacteriaceae	1.0	1.0	family	1.0	1.0	13991	899911682	13991	899911682	13991	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1300	Gold standard	False	18	369567717	Streptococcaceae	1.0	1.0	family	1.0	1.0	16141	369567717	16141	369567717	16141	strmgCAMI2_short_read_pooled_gold_standard_assembly
+815	Gold standard	False	19	20591498	Bacteroidaceae	1.0	1.0	family	1.0	1.0	544	20591498	544	20591498	544	strmgCAMI2_short_read_pooled_gold_standard_assembly
+90964	Gold standard	False	20	58700669	Staphylococcaceae	1.0	1.0	family	1.0	1.0	591	58700669	591	58700669	591	strmgCAMI2_short_read_pooled_gold_standard_assembly
+31957	Gold standard	False	21	2548574	Propionibacteriaceae	1.0	1.0	family	1.0	1.0	10	2548574	10	2548574	10	strmgCAMI2_short_read_pooled_gold_standard_assembly
+33958	Gold standard	False	22	8135414	Lactobacillaceae	1.0	1.0	family	1.0	1.0	180	8135414	180	8135414	180	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2005525	Gold standard	False	23	12053163	Tannerellaceae	1.0	1.0	family	1.0	1.0	139	12053163	139	12053163	139	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186822	Gold standard	False	24	7206672	Paenibacillaceae	1.0	1.0	family	1.0	1.0	26	7206672	26	7206672	26	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1350	Gold standard	False	25	67260662	Enterococcus	1.0	1.0	genus	1.0	1.0	3489	67260662	3489	67260662	3489	strmgCAMI2_short_read_pooled_gold_standard_assembly
+561	Gold standard	False	26	500886313	Escherichia	1.0	1.0	genus	1.0	1.0	8751	500886313	8751	500886313	8751	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1301	Gold standard	False	27	367315866	Streptococcus	1.0	1.0	genus	1.0	1.0	16069	367315866	16069	367315866	16069	strmgCAMI2_short_read_pooled_gold_standard_assembly
+570	Gold standard	False	28	265384654	Klebsiella	1.0	1.0	genus	1.0	1.0	3191	265384654	3191	265384654	3191	strmgCAMI2_short_read_pooled_gold_standard_assembly
+816	Gold standard	False	29	20591498	Bacteroides	1.0	1.0	genus	1.0	1.0	544	20591498	544	20591498	544	strmgCAMI2_short_read_pooled_gold_standard_assembly
+544	Gold standard	False	30	15780530	Citrobacter	1.0	1.0	genus	1.0	1.0	314	15780530	314	15780530	314	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1279	Gold standard	False	31	58700669	Staphylococcus	1.0	1.0	genus	1.0	1.0	591	58700669	591	58700669	591	strmgCAMI2_short_read_pooled_gold_standard_assembly
+547	Gold standard	False	32	9522767	Enterobacter	1.0	1.0	genus	1.0	1.0	124	9522767	124	9522767	124	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1578	Gold standard	False	33	8135414	Lactobacillus	1.0	1.0	genus	1.0	1.0	180	8135414	180	8135414	180	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1357	Gold standard	False	34	2251851	Lactococcus	1.0	1.0	genus	1.0	1.0	72	2251851	72	2251851	72	strmgCAMI2_short_read_pooled_gold_standard_assembly
+375288	Gold standard	False	35	12053163	Parabacteroides	1.0	1.0	genus	1.0	1.0	139	12053163	139	12053163	139	strmgCAMI2_short_read_pooled_gold_standard_assembly
+44249	Gold standard	False	36	7206672	Paenibacillus	1.0	1.0	genus	1.0	1.0	26	7206672	26	7206672	26	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1352	Gold standard	False	37	64260902	Enterococcus faecium	1.0	1.0	species	1.0	1.0	3446	64260902	3446	64260902	3446	strmgCAMI2_short_read_pooled_gold_standard_assembly
+562	Gold standard	False	38	500886313	Escherichia coli	1.0	1.0	species	1.0	1.0	8751	500886313	8751	500886313	8751	strmgCAMI2_short_read_pooled_gold_standard_assembly
+550	Gold standard	False	39	4595527	Enterobacter cloacae	1.0	1.0	species	1.0	1.0	42	4595527	42	4595527	42	strmgCAMI2_short_read_pooled_gold_standard_assembly
+481743	Gold standard	False	40	7206672	Paenibacillus sp.	1.0	1.0	species	1.0	1.0	26	7206672	26	7206672	26	strmgCAMI2_short_read_pooled_gold_standard_assembly
+548	Gold standard	False	41	5120124	Klebsiella aerogenes	1.0	1.0	species	1.0	1.0	22	5120124	22	5120124	22	strmgCAMI2_short_read_pooled_gold_standard_assembly
+97137	Gold standard	False	42	4078664	Lactobacillus sp.	1.0	1.0	species	1.0	1.0	49	4078664	49	4078664	49	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1235803	Gold standard	False	43	6804298	Parabacteroides sp.	1.0	1.0	species	1.0	1.0	96	6804298	96	6804298	96	strmgCAMI2_short_read_pooled_gold_standard_assembly
+823	Gold standard	False	44	5248865	Parabacteroides distasonis	1.0	1.0	species	1.0	1.0	43	5248865	43	5248865	43	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1351	Gold standard	False	45	2999760	Enterococcus faecalis	1.0	1.0	species	1.0	1.0	43	2999760	43	2999760	43	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1598	Gold standard	False	46	2092134	Lactobacillus reuteri	1.0	1.0	species	1.0	1.0	100	2092134	100	2092134	100	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1363	Gold standard	False	47	2251851	Lactococcus garvieae	1.0	1.0	species	1.0	1.0	72	2251851	72	2251851	72	strmgCAMI2_short_read_pooled_gold_standard_assembly
+508451	Gold standard	False	48	1964616	Lactobacillus taiwanensis	1.0	1.0	species	1.0	1.0	31	1964616	31	1964616	31	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28037	Gold standard	False	49	2134590	Streptococcus mitis	1.0	1.0	species	1.0	1.0	90	2134590	90	2134590	90	strmgCAMI2_short_read_pooled_gold_standard_assembly
+257758	Gold standard	False	50	6659352	Streptococcus pseudopneumoniae	1.0	1.0	species	1.0	1.0	307	6659352	307	6659352	307	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1280	Gold standard	False	51	58700669	Staphylococcus aureus	1.0	1.0	species	1.0	1.0	591	58700669	591	58700669	591	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1639133	Gold standard	False	52	15780530	Citrobacter portucalensis	1.0	1.0	species	1.0	1.0	314	15780530	314	15780530	314	strmgCAMI2_short_read_pooled_gold_standard_assembly
+671267	Gold standard	False	53	16103610	Bacteroides sartorii	1.0	1.0	species	1.0	1.0	393	16103610	393	16103610	393	strmgCAMI2_short_read_pooled_gold_standard_assembly
+573	Gold standard	False	54	260264530	Klebsiella pneumoniae	1.0	1.0	species	1.0	1.0	3169	260264530	3169	260264530	3169	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1313	Gold standard	False	55	354630258	Streptococcus pneumoniae	1.0	1.0	species	1.0	1.0	15566	354630258	15566	354630258	15566	strmgCAMI2_short_read_pooled_gold_standard_assembly
+68892	Gold standard	False	56	1689680	Streptococcus infantis	1.0	1.0	species	1.0	1.0	13	1689680	13	1689680	13	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2	krepp-minLCA-dup v0.4.2	False	0	1451338733	Bacteria	1.0	1.0	superkingdom	0.9995136242257238	0.9984144511452759	35319	1450632837	35263	1450632837	35263	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1224	krepp-minLCA-dup v0.4.2	False	1	899911682	Proteobacteria	0.996680879407056	0.990470605483067	phylum	0.998988160707086	0.9657637052390823	13991	901994946	13642	899001116	13512	strmgCAMI2_short_read_pooled_gold_standard_assembly
+201174	krepp-minLCA-dup v0.4.2	True	2	2548574	Actinobacteria	0.9641199197340441	0.45	phylum	0.9978478160728314	0.9	10	2637731	20	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+976	krepp-minLCA-dup v0.4.2	False	3	32644661	Bacteroidetes	0.9998819003365763	0.9970282317979198	phylum	0.9894239673678952	0.9824304538799414	683	32303225	673	32299410	671	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1239	krepp-minLCA-dup v0.4.2	False	4	516233816	Firmicutes	0.9999400728106305	0.9993485342019544	phylum	0.9849282035410094	0.966416283014296	20635	508483717	19955	508453245	19942	strmgCAMI2_short_read_pooled_gold_standard_assembly
+204428	krepp-minLCA-dup v0.4.2	True	5	0	Chlamydiae	0.0	0.0	phylum			0	5191	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1236	krepp-minLCA-dup v0.4.2	False	6	899911682	Gammaproteobacteria	0.9966794278781885	0.9903874593315587	class	0.9985500166004068	0.9573297119576871	13991	901600655	13524	898606825	13394	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1760	krepp-minLCA-dup v0.4.2	True	7	2548574	Actinobacteria	0.9943900844439509	0.5	class	0.9978478160728314	0.9	10	2557436	18	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+91061	krepp-minLCA-dup v0.4.2	False	8	510871134	Bacilli	0.9999209902991342	0.9995963876696433	class	0.99155336891671	0.9699417437704998	20427	506596020	19821	506555994	19813	strmgCAMI2_short_read_pooled_gold_standard_assembly
+200643	krepp-minLCA-dup v0.4.2	False	9	32644661	Bacteroidia	0.9998817338505713	0.9969742813918305	class	0.988030967759169	0.9648609077598829	683	32257751	661	32253936	659	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186801	krepp-minLCA-dup v0.4.2	True	10	5362682	Clostridia	0.9791348774903036	0.9568965517241379	class	0.29304124316899643	0.5336538461538461	208	1604975	116	1571487	111	strmgCAMI2_short_read_pooled_gold_standard_assembly
+84998	krepp-minLCA-dup v0.4.2	True	11	0	Coriobacteriia	0.0	0.0	class			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28216	krepp-minLCA-dup v0.4.2	True	12	0	Betaproteobacteria	0.0	0.0	class			0	79872	10	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+204429	krepp-minLCA-dup v0.4.2	True	13	0	Chlamydiia	0.0	0.0	class			0	5191	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28211	krepp-minLCA-dup v0.4.2	True	14	0	Alphaproteobacteria	0.0	0.0	class			0	7254	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+117743	krepp-minLCA-dup v0.4.2	True	15	0	Flavobacteriia	0.0	0.0	class			0	1414	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1737404	krepp-minLCA-dup v0.4.2	True	16	0	Tissierellia	0.0	0.0	class			0	6618	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+526524	krepp-minLCA-dup v0.4.2	True	17	0	Erysipelotrichia	0.0	0.0	class			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85009	krepp-minLCA-dup v0.4.2	True	18	2548574	Propionibacteriales	1.0	1.0	order	0.9978478160728314	0.9	10	2543089	9	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+91347	krepp-minLCA-dup v0.4.2	False	19	899911682	Enterobacterales	0.9966881954069207	0.9903546745652009	order	0.9971391159249336	0.9320277321135015	13991	900318819	13167	897337139	13040	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1385	krepp-minLCA-dup v0.4.2	False	20	65907341	Bacillales	0.9996787925166705	0.9888268156424581	order	0.9969904111288604	0.8606158833063209	617	65730100	537	65708987	531	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186826	krepp-minLCA-dup v0.4.2	False	21	444963793	Lactobacillales	0.999878973397099	0.9996882145084182	order	0.9904198946811836	0.9711256940938919	19810	440754336	19244	440700993	19238	strmgCAMI2_short_read_pooled_gold_standard_assembly
+171549	krepp-minLCA-dup v0.4.2	False	22	32644661	Bacteroidales	0.9998817338505713	0.9969742813918305	order	0.988030967759169	0.9648609077598829	683	32257751	661	32253936	659	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186802	krepp-minLCA-dup v0.4.2	True	23	5362682	Clostridiales	0.9797624235713525	0.9652173913043478	order	0.29304124316899643	0.5336538461538461	208	1603947	115	1571487	111	strmgCAMI2_short_read_pooled_gold_standard_assembly
+84999	krepp-minLCA-dup v0.4.2	True	24	0	Coriobacteriales	0.0	0.0	order			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135625	krepp-minLCA-dup v0.4.2	True	25	0	Pasteurellales	0.0	0.0	order			0	6174	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+80840	krepp-minLCA-dup v0.4.2	True	26	0	Burkholderiales	0.0	0.0	order			0	74171	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+206351	krepp-minLCA-dup v0.4.2	True	27	0	Neisseriales	0.0	0.0	order			0	5701	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135622	krepp-minLCA-dup v0.4.2	True	28	0	Alteromonadales	0.0	0.0	order			0	2646	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135623	krepp-minLCA-dup v0.4.2	True	29	0	Vibrionales	0.0	0.0	order			0	14040	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+72274	krepp-minLCA-dup v0.4.2	True	30	0	Pseudomonadales	0.0	0.0	order			0	16208	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+51291	krepp-minLCA-dup v0.4.2	True	31	0	Chlamydiales	0.0	0.0	order			0	5191	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85011	krepp-minLCA-dup v0.4.2	True	32	0	Streptomycetales	0.0	0.0	order			0	7824	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+72273	krepp-minLCA-dup v0.4.2	True	33	0	Thiotrichales	0.0	0.0	order			0	2002	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+204455	krepp-minLCA-dup v0.4.2	True	34	0	Rhodobacterales	0.0	0.0	order			0	3504	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85004	krepp-minLCA-dup v0.4.2	True	35	0	Bifidobacteriales	0.0	0.0	order			0	5398	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+204457	krepp-minLCA-dup v0.4.2	True	36	0	Sphingomonadales	0.0	0.0	order			0	3750	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+200644	krepp-minLCA-dup v0.4.2	True	37	0	Flavobacteriales	0.0	0.0	order			0	1414	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1737405	krepp-minLCA-dup v0.4.2	True	38	0	Tissierellales	0.0	0.0	order			0	6618	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85007	krepp-minLCA-dup v0.4.2	True	39	0	Corynebacteriales	0.0	0.0	order			0	1125	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135614	krepp-minLCA-dup v0.4.2	True	40	0	Xanthomonadales	0.0	0.0	order			0	6195	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+526525	krepp-minLCA-dup v0.4.2	True	41	0	Erysipelotrichales	0.0	0.0	order			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1240482	krepp-minLCA-dup v0.4.2	True	42	0	Orbales	0.0	0.0	order			0	1485	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+68295	krepp-minLCA-dup v0.4.2	True	43	0	Thermoanaerobacterales	0.0	0.0	order			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1300	krepp-minLCA-dup v0.4.2	False	44	369567717	Streptococcaceae	0.999974086872852	0.9996270975761342	family	0.9996968322858135	0.9964686202837495	16141	369465250	16090	369455676	16084	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186822	krepp-minLCA-dup v0.4.2	True	45	7206672	Paenibacillaceae	1.0	1.0	family	0.9986358474480315	0.8846153846153846	26	7196841	23	7196841	23	strmgCAMI2_short_read_pooled_gold_standard_assembly
+31957	krepp-minLCA-dup v0.4.2	True	46	2548574	Propionibacteriaceae	1.0	1.0	family	0.9978478160728314	0.9	10	2543089	9	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+90964	krepp-minLCA-dup v0.4.2	False	47	58700669	Staphylococcaceae	0.999877230331313	0.9921722113502935	family	0.9967330696009614	0.8578680203045685	591	58516082	511	58508898	507	strmgCAMI2_short_read_pooled_gold_standard_assembly
+33958	krepp-minLCA-dup v0.4.2	False	48	8135414	Lactobacillaceae	1.0	1.0	family	0.9965336736397189	0.95	180	8107214	171	8107214	171	strmgCAMI2_short_read_pooled_gold_standard_assembly
+543	krepp-minLCA-dup v0.4.2	False	49	899911682	Enterobacteriaceae	0.9967245201035729	0.9923327137546468	family	0.9961484520433195	0.9158030162247159	13991	899391568	12912	896445629	12813	strmgCAMI2_short_read_pooled_gold_standard_assembly
+815	krepp-minLCA-dup v0.4.2	False	50	20591498	Bacteroidaceae	0.9674016063805021	0.9855072463768116	family	0.951720316802595	0.875	544	20257716	483	19597347	476	strmgCAMI2_short_read_pooled_gold_standard_assembly
+81852	krepp-minLCA-dup v0.4.2	False	51	67260662	Enterococcaceae	0.999534946631908	0.9993290841999329	family	0.9386039049095294	0.8538263112639725	3489	63160493	2981	63131120	2979	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2005525	krepp-minLCA-dup v0.4.2	False	52	12053163	Tannerellaceae	0.9620426842739389	0.8152866242038217	family	0.9303015316394543	0.920863309352518	139	11655487	157	11213076	128	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1903411	krepp-minLCA-dup v0.4.2	True	53	0	Yersiniaceae	0.0	0.0	family			0	79480	34	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1643824	krepp-minLCA-dup v0.4.2	True	54	0	Atopobiaceae	0.0	0.0	family			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2005473	krepp-minLCA-dup v0.4.2	True	55	0	Muribaculaceae	0.0	0.0	family			0	103582	9	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+712	krepp-minLCA-dup v0.4.2	True	56	0	Pasteurellaceae	0.0	0.0	family			0	6174	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+171552	krepp-minLCA-dup v0.4.2	True	57	0	Prevotellaceae	0.0	0.0	family			0	52101	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+481	krepp-minLCA-dup v0.4.2	True	58	0	Neisseriaceae	0.0	0.0	family			0	5701	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+267890	krepp-minLCA-dup v0.4.2	True	59	0	Shewanellaceae	0.0	0.0	family			0	2646	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+641	krepp-minLCA-dup v0.4.2	True	60	0	Vibrionaceae	0.0	0.0	family			0	14040	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135621	krepp-minLCA-dup v0.4.2	True	61	0	Pseudomonadaceae	0.0	0.0	family			0	1825	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186804	krepp-minLCA-dup v0.4.2	True	62	0	Peptostreptococcaceae	0.0	0.0	family			0	3120	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+119060	krepp-minLCA-dup v0.4.2	True	63	0	Burkholderiaceae	0.0	0.0	family			0	2268	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+506	krepp-minLCA-dup v0.4.2	True	64	0	Alcaligenaceae	0.0	0.0	family			0	4188	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+809	krepp-minLCA-dup v0.4.2	True	65	0	Chlamydiaceae	0.0	0.0	family			0	5191	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2062	krepp-minLCA-dup v0.4.2	True	66	0	Streptomycetaceae	0.0	0.0	family			0	7824	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+34064	krepp-minLCA-dup v0.4.2	True	67	0	Francisellaceae	0.0	0.0	family			0	2002	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186803	krepp-minLCA-dup v0.4.2	True	68	0	Lachnospiraceae	0.0	0.0	family			0	1101	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+31989	krepp-minLCA-dup v0.4.2	True	69	0	Rhodobacteraceae	0.0	0.0	family			0	3504	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+31979	krepp-minLCA-dup v0.4.2	True	70	0	Clostridiaceae	0.0	0.0	family			0	28239	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1903414	krepp-minLCA-dup v0.4.2	True	71	0	Morganellaceae	0.0	0.0	family			0	100062	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+468	krepp-minLCA-dup v0.4.2	True	72	0	Moraxellaceae	0.0	0.0	family			0	14383	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+31953	krepp-minLCA-dup v0.4.2	True	73	0	Bifidobacteriaceae	0.0	0.0	family			0	5398	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186820	krepp-minLCA-dup v0.4.2	True	74	0	Listeriaceae	0.0	0.0	family			0	5457	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+41297	krepp-minLCA-dup v0.4.2	True	75	0	Sphingomonadaceae	0.0	0.0	family			0	3750	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+49546	krepp-minLCA-dup v0.4.2	True	76	0	Flavobacteriaceae	0.0	0.0	family			0	1414	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1853231	krepp-minLCA-dup v0.4.2	True	77	0	Odoribacteraceae	0.0	0.0	family			0	174889	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186817	krepp-minLCA-dup v0.4.2	True	78	0	Bacillaceae	0.0	0.0	family			0	11720	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+32033	krepp-minLCA-dup v0.4.2	True	79	0	Xanthomonadaceae	0.0	0.0	family			0	6195	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+128827	krepp-minLCA-dup v0.4.2	True	80	0	Erysipelotrichaceae	0.0	0.0	family			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+171550	krepp-minLCA-dup v0.4.2	True	81	0	Rikenellaceae	0.0	0.0	family			0	8600	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1240483	krepp-minLCA-dup v0.4.2	True	82	0	Orbaceae	0.0	0.0	family			0	1485	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186814	krepp-minLCA-dup v0.4.2	True	83	0	Thermoanaerobacteraceae	0.0	0.0	family			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+80864	krepp-minLCA-dup v0.4.2	True	84	0	Comamonadaceae	0.0	0.0	family			0	64374	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1301	krepp-minLCA-dup v0.4.2	False	85	367315866	Streptococcus	0.9998331590710198	0.9993759360958562	genus	0.9997137286740563	0.9965772605638186	16069	367271990	16024	367210714	16014	strmgCAMI2_short_read_pooled_gold_standard_assembly
+44249	krepp-minLCA-dup v0.4.2	False	86	7206672	Paenibacillus	1.0	1.0	genus	0.9986358474480315	0.8846153846153846	26	7196841	23	7196841	23	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1279	krepp-minLCA-dup v0.4.2	False	87	58700669	Staphylococcus	0.999877230331313	0.9921722113502935	genus	0.9967330696009614	0.8578680203045685	591	58516082	511	58508898	507	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1578	krepp-minLCA-dup v0.4.2	False	88	8135414	Lactobacillus	1.0	1.0	genus	0.9965336736397189	0.95	180	8107214	171	8107214	171	strmgCAMI2_short_read_pooled_gold_standard_assembly
+547	krepp-minLCA-dup v0.4.2	False	89	9522767	Enterobacter	0.9299222887618769	0.7412587412587412	genus	0.9914508041622776	0.8548387096774194	124	10152843	143	9441355	106	strmgCAMI2_short_read_pooled_gold_standard_assembly
+570	krepp-minLCA-dup v0.4.2	False	90	265384654	Klebsiella	0.9793280237025569	0.9123365146694945	genus	0.9894728803723519	0.8088373550611093	3191	268133773	2829	262590918	2581	strmgCAMI2_short_read_pooled_gold_standard_assembly
+561	krepp-minLCA-dup v0.4.2	False	91	500886313	Escherichia	0.9896872658634315	0.9885746133481956	genus	0.9759961718099492	0.8107644840589647	8751	493957173	7177	488863124	7095	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1357	krepp-minLCA-dup v0.4.2	True	92	2251851	Lactococcus	1.0	1.0	genus	0.9739809605520081	0.9166666666666666	72	2193260	66	2193260	66	strmgCAMI2_short_read_pooled_gold_standard_assembly
+816	krepp-minLCA-dup v0.4.2	False	93	20591498	Bacteroides	0.9674016063805021	0.9855072463768116	genus	0.951720316802595	0.875	544	20257716	483	19597347	476	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1350	krepp-minLCA-dup v0.4.2	False	94	67260662	Enterococcus	0.999534946631908	0.9993290841999329	genus	0.9386039049095294	0.8538263112639725	3489	63160493	2981	63131120	2979	strmgCAMI2_short_read_pooled_gold_standard_assembly
+375288	krepp-minLCA-dup v0.4.2	False	95	12053163	Parabacteroides	0.9620426842739389	0.8152866242038217	genus	0.9303015316394543	0.920863309352518	139	11655487	157	11213076	128	strmgCAMI2_short_read_pooled_gold_standard_assembly
+544	krepp-minLCA-dup v0.4.2	False	96	15780530	Citrobacter	0.9948874398190637	0.9789473684210527	genus	0.673629783030101	0.5923566878980892	314	10684862	190	10630235	186	strmgCAMI2_short_read_pooled_gold_standard_assembly
+613	krepp-minLCA-dup v0.4.2	True	97	0	Serratia	0.0	0.0	genus			0	46953	31	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+590	krepp-minLCA-dup v0.4.2	True	98	0	Salmonella	0.0	0.0	genus			0	1932718	57	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+620	krepp-minLCA-dup v0.4.2	True	99	0	Shigella	0.0	0.0	genus			0	2695154	70	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1380	krepp-minLCA-dup v0.4.2	True	100	0	Atopobium	0.0	0.0	genus			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+908284	krepp-minLCA-dup v0.4.2	True	101	0	Necropsobacter	0.0	0.0	genus			0	1911	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+36862	krepp-minLCA-dup v0.4.2	True	102	0	Ideonella	0.0	0.0	genus			0	3341	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+579	krepp-minLCA-dup v0.4.2	True	103	0	Kluyvera	0.0	0.0	genus			0	2387	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+838	krepp-minLCA-dup v0.4.2	True	104	0	Prevotella	0.0	0.0	genus			0	52101	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+482	krepp-minLCA-dup v0.4.2	True	105	0	Neisseria	0.0	0.0	genus			0	5701	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+22	krepp-minLCA-dup v0.4.2	True	106	0	Shewanella	0.0	0.0	genus			0	2646	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+662	krepp-minLCA-dup v0.4.2	True	107	0	Vibrio	0.0	0.0	genus			0	12548	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+286	krepp-minLCA-dup v0.4.2	True	108	0	Pseudomonas	0.0	0.0	genus			0	1825	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+629	krepp-minLCA-dup v0.4.2	True	109	0	Yersinia	0.0	0.0	genus			0	32527	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1870884	krepp-minLCA-dup v0.4.2	True	110	0	Clostridioides	0.0	0.0	genus			0	3120	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+106589	krepp-minLCA-dup v0.4.2	True	111	0	Cupriavidus	0.0	0.0	genus			0	1217	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+517	krepp-minLCA-dup v0.4.2	True	112	0	Bordetella	0.0	0.0	genus			0	4188	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+810	krepp-minLCA-dup v0.4.2	True	113	0	Chlamydia	0.0	0.0	genus			0	5191	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1883	krepp-minLCA-dup v0.4.2	True	114	0	Streptomyces	0.0	0.0	genus			0	7824	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+262	krepp-minLCA-dup v0.4.2	True	115	0	Francisella	0.0	0.0	genus			0	2002	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1649279	krepp-minLCA-dup v0.4.2	True	116	0	Epibacterium	0.0	0.0	genus			0	1508	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1485	krepp-minLCA-dup v0.4.2	True	117	0	Clostridium	0.0	0.0	genus			0	28239	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+583	krepp-minLCA-dup v0.4.2	True	118	0	Proteus	0.0	0.0	genus			0	100062	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+160674	krepp-minLCA-dup v0.4.2	True	119	0	Raoultella	0.0	0.0	genus			0	21142	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+469	krepp-minLCA-dup v0.4.2	True	120	0	Acinetobacter	0.0	0.0	genus			0	14383	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1678	krepp-minLCA-dup v0.4.2	True	121	0	Bifidobacterium	0.0	0.0	genus			0	5398	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1637	krepp-minLCA-dup v0.4.2	True	122	0	Listeria	0.0	0.0	genus			0	5457	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+165696	krepp-minLCA-dup v0.4.2	True	123	0	Novosphingobium	0.0	0.0	genus			0	3750	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28250	krepp-minLCA-dup v0.4.2	True	124	0	Ornithobacterium	0.0	0.0	genus			0	1414	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+165812	krepp-minLCA-dup v0.4.2	True	125	0	Sporanaerobacter	0.0	0.0	genus			0	6618	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+283168	krepp-minLCA-dup v0.4.2	True	126	0	Odoribacter	0.0	0.0	genus			0	6154	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+83654	krepp-minLCA-dup v0.4.2	True	127	0	Leclercia	0.0	0.0	genus			0	26495	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+182709	krepp-minLCA-dup v0.4.2	True	128	0	Oceanobacillus	0.0	0.0	genus			0	11720	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1330546	krepp-minLCA-dup v0.4.2	True	129	0	Pluralibacter	0.0	0.0	genus			0	19609	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+574697	krepp-minLCA-dup v0.4.2	True	130	0	Butyricimonas	0.0	0.0	genus			0	168735	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+338	krepp-minLCA-dup v0.4.2	True	131	0	Xanthomonas	0.0	0.0	genus			0	6195	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1924110	krepp-minLCA-dup v0.4.2	True	132	0	Massiliomicrobiota	0.0	0.0	genus			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+413496	krepp-minLCA-dup v0.4.2	True	133	0	Cronobacter	0.0	0.0	genus			0	1862	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+239759	krepp-minLCA-dup v0.4.2	True	134	0	Alistipes	0.0	0.0	genus			0	8600	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+335927	krepp-minLCA-dup v0.4.2	True	135	0	Thalassobius	0.0	0.0	genus			0	1996	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+724	krepp-minLCA-dup v0.4.2	True	136	0	Haemophilus	0.0	0.0	genus			0	4263	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1193503	krepp-minLCA-dup v0.4.2	True	137	0	Gilliamella	0.0	0.0	genus			0	1485	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+32008	krepp-minLCA-dup v0.4.2	True	138	0	Burkholderia	0.0	0.0	genus			0	1051	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+44260	krepp-minLCA-dup v0.4.2	True	139	0	Moorella	0.0	0.0	genus			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+12916	krepp-minLCA-dup v0.4.2	True	140	0	Acidovorax	0.0	0.0	genus			0	64374	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1313	krepp-minLCA-dup v0.4.2	False	141	354630258	Streptococcus pneumoniae	0.9954515056587568	0.9955015744489428	species	0.9995784257078255	0.9951818065013491	15566	356100476	15561	354480755	15491	strmgCAMI2_short_read_pooled_gold_standard_assembly
+548	krepp-minLCA-dup v0.4.2	False	142	5120124	Klebsiella aerogenes	0.9883737302236467	0.8	species	0.999465833249351	0.9090909090909091	22	5177585	25	5117389	20	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1598	krepp-minLCA-dup v0.4.2	False	143	2092134	Lactobacillus reuteri	1.0	1.0	species	0.9973825768330327	0.99	100	2086658	99	2086658	99	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1351	krepp-minLCA-dup v0.4.2	False	144	2999760	Enterococcus faecalis	0.949077329134878	0.7843137254901961	species	0.996726404779049	0.9302325581395349	43	3150365	51	2989940	40	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1280	krepp-minLCA-dup v0.4.2	False	145	58700669	Staphylococcus aureus	0.9998770975112862	0.9919839679358717	species	0.9956557735313034	0.8375634517766497	591	58452844	499	58445660	495	strmgCAMI2_short_read_pooled_gold_standard_assembly
+573	krepp-minLCA-dup v0.4.2	False	146	260264530	Klebsiella pneumoniae	0.9818239008744828	0.9149828440716736	species	0.9847536658183887	0.757336699274219	3169	261041160	2623	256296450	2400	strmgCAMI2_short_read_pooled_gold_standard_assembly
+562	krepp-minLCA-dup v0.4.2	False	147	500886313	Escherichia coli	0.9896188250374081	0.9885560892907601	species	0.9692934252727325	0.7995657639126957	8751	490598802	7078	485505810	6997	strmgCAMI2_short_read_pooled_gold_standard_assembly
+508451	krepp-minLCA-dup v0.4.2	False	148	1964616	Lactobacillus taiwanensis	1.0	1.0	species	0.9429837688382869	0.6451612903225806	31	1852601	20	1852601	20	strmgCAMI2_short_read_pooled_gold_standard_assembly
+97137	krepp-minLCA-dup v0.4.2	False	149	4078664	Lactobacillus sp.	1.0	1.0	species	0.8992371031298484	0.8367346938775511	49	3667686	41	3667686	41	strmgCAMI2_short_read_pooled_gold_standard_assembly
+671267	krepp-minLCA-dup v0.4.2	False	150	16103610	Bacteroides sartorii	1.0	1.0	species	0.8923234603918003	0.712468193384224	393	14369629	280	14369629	280	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1352	krepp-minLCA-dup v0.4.2	False	151	64260902	Enterococcus faecium	1.0	1.0	species	0.8719551119901803	0.692106790481718	3446	56032622	2385	56032622	2385	strmgCAMI2_short_read_pooled_gold_standard_assembly
+68892	krepp-minLCA-dup v0.4.2	False	152	1689680	Streptococcus infantis	1.0	1.0	species	0.8406420150561053	0.6153846153846154	13	1420416	8	1420416	8	strmgCAMI2_short_read_pooled_gold_standard_assembly
+257758	krepp-minLCA-dup v0.4.2	False	153	6659352	Streptococcus pseudopneumoniae	0.9176327269409366	0.9261992619926199	species	0.8381716419255206	0.8175895765472313	307	6082695	271	5581680	251	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1363	krepp-minLCA-dup v0.4.2	False	154	2251851	Lactococcus garvieae	1.0	1.0	species	0.78595786310906	0.75	72	1769860	54	1769860	54	strmgCAMI2_short_read_pooled_gold_standard_assembly
+823	krepp-minLCA-dup v0.4.2	False	155	5248865	Parabacteroides distasonis	0.9989300720440762	0.9655172413793104	species	0.7296436467693492	0.6511627906976745	43	3833903	29	3829801	28	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1235803	krepp-minLCA-dup v0.4.2	False	156	6804298	Parabacteroides sp.	1.0	1.0	species	0.3334063264130995	0.21875	96	2268596	21	2268596	21	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28037	krepp-minLCA-dup v0.4.2	True	157	2134590	Streptococcus mitis	0.9898125067735992	0.875	species	0.05134288083425857	0.07777777777777778	90	110724	8	109596	7	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1639133	krepp-minLCA-dup v0.4.2	True	158	15780530	Citrobacter portucalensis	1.0	1.0	species	0.00044345785597822127	0.0031847133757961785	314	6998	1	6998	1	strmgCAMI2_short_read_pooled_gold_standard_assembly
+550	krepp-minLCA-dup v0.4.2	True	159	4595527	Enterobacter cloacae	0.0	0.0	species	0.0	0.0	42	38481	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+481743	krepp-minLCA-dup v0.4.2	True	160	7206672	Paenibacillus sp.			species	0.0	0.0	26	0	0	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+615	krepp-minLCA-dup v0.4.2	True	161	0	Serratia marcescens	0.0	0.0	species			0	46953	31	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+328812	krepp-minLCA-dup v0.4.2	False	162	0	Parabacteroides goldsteinii	0.0	0.0	species			0	4555083	74	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28901	krepp-minLCA-dup v0.4.2	False	163	0	Salmonella enterica	0.0	0.0	species			0	1932718	57	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+821	krepp-minLCA-dup v0.4.2	True	164	0	Bacteroides vulgatus	0.0	0.0	species			0	233696	11	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+546	krepp-minLCA-dup v0.4.2	False	165	0	Citrobacter freundii	0.0	0.0	species			0	9498966	157	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+624	krepp-minLCA-dup v0.4.2	True	166	0	Shigella sonnei	0.0	0.0	species			0	1003499	39	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1381	krepp-minLCA-dup v0.4.2	True	167	0	Atopobium minutum	0.0	0.0	species			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+817	krepp-minLCA-dup v0.4.2	True	168	0	Bacteroides fragilis	0.0	0.0	species			0	67295	12	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715072	krepp-minLCA-dup v0.4.2	True	169	0	Enterococcus sp.	0.0	0.0	species			0	226751	12	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+818	krepp-minLCA-dup v0.4.2	True	170	0	Bacteroides thetaiotaomicron	0.0	0.0	species			0	131554	12	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1463165	krepp-minLCA-dup v0.4.2	True	171	0	Klebsiella quasipneumoniae	0.0	0.0	species			0	15791	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+151781	krepp-minLCA-dup v0.4.2	True	172	0	Lactobacillus intestinalis	0.0	0.0	species			0	400020	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+820	krepp-minLCA-dup v0.4.2	True	173	0	Bacteroides uniformis	0.0	0.0	species			0	126055	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+469589	krepp-minLCA-dup v0.4.2	True	174	0	Bacteroides sp.	0.0	0.0	species			0	600156	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+621	krepp-minLCA-dup v0.4.2	False	175	0	Shigella boydii	0.0	0.0	species			0	1626478	24	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1282	krepp-minLCA-dup v0.4.2	True	176	0	Staphylococcus epidermidis	0.0	0.0	species			0	7681	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739425	krepp-minLCA-dup v0.4.2	True	177	0	Enterococcus sp.	0.0	0.0	species			0	696314	11	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+908285	krepp-minLCA-dup v0.4.2	True	178	0	Necropsobacter rosorum	0.0	0.0	species			0	1911	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2293120	krepp-minLCA-dup v0.4.2	True	179	0	Parabacteroides sp.	0.0	0.0	species			0	35313	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28116	krepp-minLCA-dup v0.4.2	True	180	0	Bacteroides ovatus	0.0	0.0	species			0	24214	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739273	krepp-minLCA-dup v0.4.2	True	181	0	Enterococcus sp.	0.0	0.0	species			0	25895	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1940789	krepp-minLCA-dup v0.4.2	True	182	0	Lactococcus petauri	0.0	0.0	species			0	222838	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+33959	krepp-minLCA-dup v0.4.2	True	183	0	Lactobacillus johnsonii	0.0	0.0	species			0	88697	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+71452	krepp-minLCA-dup v0.4.2	True	184	0	Enterococcus raffinosus	0.0	0.0	species			0	9658	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2320086	krepp-minLCA-dup v0.4.2	True	185	0	Parabacteroides sp.	0.0	0.0	species			0	404713	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1307	krepp-minLCA-dup v0.4.2	True	186	0	Streptococcus suis	0.0	0.0	species			0	4715	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715147	krepp-minLCA-dup v0.4.2	True	187	0	Enterococcus sp.	0.0	0.0	species			0	25170	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1212820	krepp-minLCA-dup v0.4.2	True	188	0	Citrobacter sp.	0.0	0.0	species			0	105336	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739258	krepp-minLCA-dup v0.4.2	True	189	0	Enterococcus sp.	0.0	0.0	species			0	52843	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+47678	krepp-minLCA-dup v0.4.2	True	190	0	Bacteroides caccae	0.0	0.0	species			0	370287	8	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739313	krepp-minLCA-dup v0.4.2	True	191	0	Enterococcus sp.	0.0	0.0	species			0	346254	12	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2250596	krepp-minLCA-dup v0.4.2	True	192	0	Streptococcus sp.	0.0	0.0	species			0	1192058	43	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1547922	krepp-minLCA-dup v0.4.2	True	193	0	Ideonella sakaiensis	0.0	0.0	species			0	3341	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+571	krepp-minLCA-dup v0.4.2	True	194	0	Klebsiella oxytoca	0.0	0.0	species			0	641695	10	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2066051	krepp-minLCA-dup v0.4.2	True	195	0	Enterobacteriaceae bacterium	0.0	0.0	species			0	85129	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+623	krepp-minLCA-dup v0.4.2	True	196	0	Shigella flexneri	0.0	0.0	species			0	25746	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1401	krepp-minLCA-dup v0.4.2	False	197	0	Paenibacillus lautus	0.0	0.0	species			0	7153471	21	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+386414	krepp-minLCA-dup v0.4.2	True	198	0	Prevotella timonensis	0.0	0.0	species			0	2121	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+67827	krepp-minLCA-dup v0.4.2	True	199	0	Citrobacter werkmanii	0.0	0.0	species			0	46047	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+310297	krepp-minLCA-dup v0.4.2	True	200	0	Bacteroides plebeius	0.0	0.0	species			0	5841	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+485	krepp-minLCA-dup v0.4.2	True	201	0	Neisseria gonorrhoeae	0.0	0.0	species			0	5701	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+332186	krepp-minLCA-dup v0.4.2	True	202	0	Shewanella xiamenensis	0.0	0.0	species			0	2646	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1686378	krepp-minLCA-dup v0.4.2	True	203	0	Citrobacter sp.	0.0	0.0	species			0	440013	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739297	krepp-minLCA-dup v0.4.2	True	204	0	Enterococcus sp.	0.0	0.0	species			0	60024	11	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+158836	krepp-minLCA-dup v0.4.2	False	205	0	Enterobacter hormaechei	0.0	0.0	species			0	5059649	60	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715038	krepp-minLCA-dup v0.4.2	True	206	0	Enterococcus sp.	0.0	0.0	species			0	344027	20	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+666	krepp-minLCA-dup v0.4.2	True	207	0	Vibrio cholerae	0.0	0.0	species			0	10077	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+244366	krepp-minLCA-dup v0.4.2	True	208	0	Klebsiella variicola	0.0	0.0	species			0	193202	13	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+754332	krepp-minLCA-dup v0.4.2	True	209	0	Escherichia sp.	0.0	0.0	species			0	183761	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+53408	krepp-minLCA-dup v0.4.2	True	210	0	Pseudomonas citronellolis	0.0	0.0	species			0	1825	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739320	krepp-minLCA-dup v0.4.2	True	211	0	Enterococcus sp.	0.0	0.0	species			0	182085	9	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1796613	krepp-minLCA-dup v0.4.2	True	212	0	Bacteroides caecimuris	0.0	0.0	species			0	126541	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715073	krepp-minLCA-dup v0.4.2	True	213	0	Enterococcus sp.	0.0	0.0	species			0	9577	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+29486	krepp-minLCA-dup v0.4.2	True	214	0	Yersinia ruckeri	0.0	0.0	species			0	4350	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2293122	krepp-minLCA-dup v0.4.2	True	215	0	Parabacteroides sp.	0.0	0.0	species			0	80273	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1329838	krepp-minLCA-dup v0.4.2	True	216	0	Enterobacter sp.	0.0	0.0	species			0	54160	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1134687	krepp-minLCA-dup v0.4.2	True	217	0	Klebsiella michiganensis	0.0	0.0	species			0	193680	9	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1496	krepp-minLCA-dup v0.4.2	True	218	0	Clostridioides difficile	0.0	0.0	species			0	3120	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+291645	krepp-minLCA-dup v0.4.2	True	219	0	Bacteroides nordii	0.0	0.0	species			0	25508	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2080669	krepp-minLCA-dup v0.4.2	True	220	0	Citrobacter freundii	0.0	0.0	species			0	3521	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+164546	krepp-minLCA-dup v0.4.2	True	221	0	Cupriavidus taiwanensis	0.0	0.0	species			0	1217	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+564	krepp-minLCA-dup v0.4.2	True	222	0	Escherichia fergusonii	0.0	0.0	species			0	6054	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2093900	krepp-minLCA-dup v0.4.2	True	223	0	Escherichia sp.	0.0	0.0	species			0	1537	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2486473	krepp-minLCA-dup v0.4.2	True	224	0	Muribaculaceae bacterium	0.0	0.0	species			0	1290	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715144	krepp-minLCA-dup v0.4.2	True	225	0	Enterococcus sp.	0.0	0.0	species			0	206960	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+46506	krepp-minLCA-dup v0.4.2	True	226	0	Bacteroides stercoris	0.0	0.0	species			0	8462	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+357276	krepp-minLCA-dup v0.4.2	True	227	0	Bacteroides dorei	0.0	0.0	species			0	8096	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2080752	krepp-minLCA-dup v0.4.2	True	228	0	Citrobacter freundii	0.0	0.0	species			0	65137	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+35814	krepp-minLCA-dup v0.4.2	True	229	0	Bordetella holmesii	0.0	0.0	species			0	4188	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+672	krepp-minLCA-dup v0.4.2	True	230	0	Vibrio vulnificus	0.0	0.0	species			0	2471	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082621	krepp-minLCA-dup v0.4.2	False	231	0	Escherichia sp.	0.0	0.0	species			0	2326241	12	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+83554	krepp-minLCA-dup v0.4.2	True	232	0	Chlamydia psittaci	0.0	0.0	species			0	3780	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1559982	krepp-minLCA-dup v0.4.2	True	233	0	Streptomyces sp.	0.0	0.0	species			0	4011	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1714265	krepp-minLCA-dup v0.4.2	True	234	0	Klebsiella sp.	0.0	0.0	species			0	394285	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1779184	krepp-minLCA-dup v0.4.2	True	235	0	Citrobacter sp.	0.0	0.0	species			0	380904	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+263	krepp-minLCA-dup v0.4.2	True	236	0	Francisella tularensis	0.0	0.0	species			0	2002	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1353	krepp-minLCA-dup v0.4.2	True	237	0	Enterococcus gallinarum	0.0	0.0	species			0	9065	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+338188	krepp-minLCA-dup v0.4.2	True	238	0	Bacteroides finegoldii	0.0	0.0	species			0	39345	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+630	krepp-minLCA-dup v0.4.2	True	239	0	Yersinia enterocolitica	0.0	0.0	species			0	28177	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+397291	krepp-minLCA-dup v0.4.2	True	240	0	Lachnospiraceae bacterium	0.0	0.0	species			0	1101	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+197614	krepp-minLCA-dup v0.4.2	True	241	0	Streptococcus pasteurianus	0.0	0.0	species			0	2625	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+928856	krepp-minLCA-dup v0.4.2	True	242	0	Epibacterium multivorans	0.0	0.0	species			0	1508	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1542	krepp-minLCA-dup v0.4.2	True	243	0	Clostridium novyi	0.0	0.0	species			0	28239	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+584	krepp-minLCA-dup v0.4.2	True	244	0	Proteus mirabilis	0.0	0.0	species			0	99053	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+54291	krepp-minLCA-dup v0.4.2	True	245	0	Raoultella ornithinolytica	0.0	0.0	species			0	21142	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082632	krepp-minLCA-dup v0.4.2	True	246	0	Escherichia sp.	0.0	0.0	species			0	362828	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+470	krepp-minLCA-dup v0.4.2	True	247	0	Acinetobacter baumannii	0.0	0.0	species			0	4704	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1499973	krepp-minLCA-dup v0.4.2	True	248	0	Escherichia marmotae	0.0	0.0	species			0	20290	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+61645	krepp-minLCA-dup v0.4.2	True	249	0	Enterobacter asburiae	0.0	0.0	species			0	37808	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28111	krepp-minLCA-dup v0.4.2	True	250	0	Bacteroides eggerthii	0.0	0.0	species			0	20868	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2494701	krepp-minLCA-dup v0.4.2	True	251	0	Enterobacter chengduensis	0.0	0.0	species			0	3325	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1329411	krepp-minLCA-dup v0.4.2	True	252	0	Bifidobacterium aesculapii	0.0	0.0	species			0	3705	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1633200	krepp-minLCA-dup v0.4.2	True	253	0	Bacteroidales bacterium	0.0	0.0	species			0	2307	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85831	krepp-minLCA-dup v0.4.2	True	254	0	Bacteroides acidifaciens	0.0	0.0	species			0	3226	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715070	krepp-minLCA-dup v0.4.2	True	255	0	Enterococcus sp.	0.0	0.0	species			0	19897	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+622	krepp-minLCA-dup v0.4.2	True	256	0	Shigella dysenteriae	0.0	0.0	species			0	37243	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082630	krepp-minLCA-dup v0.4.2	True	257	0	Escherichia sp.	0.0	0.0	species			0	154239	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+457400	krepp-minLCA-dup v0.4.2	True	258	0	Escherichia sp.	0.0	0.0	species			0	34291	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1354	krepp-minLCA-dup v0.4.2	True	259	0	Enterococcus hirae	0.0	0.0	species			0	23645	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715127	krepp-minLCA-dup v0.4.2	True	260	0	Enterococcus sp.	0.0	0.0	species			0	15713	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1639	krepp-minLCA-dup v0.4.2	True	261	0	Listeria monocytogenes	0.0	0.0	species			0	5457	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739468	krepp-minLCA-dup v0.4.2	True	262	0	Enterococcus sp.	0.0	0.0	species			0	4131	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2293116	krepp-minLCA-dup v0.4.2	True	263	0	Parabacteroides sp.	0.0	0.0	species			0	172365	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1892847	krepp-minLCA-dup v0.4.2	True	264	0	Novosphingobium sp.	0.0	0.0	species			0	3750	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+585	krepp-minLCA-dup v0.4.2	True	265	0	Proteus vulgaris	0.0	0.0	species			0	1009	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28251	krepp-minLCA-dup v0.4.2	True	266	0	Ornithobacterium rhinotracheale	0.0	0.0	species			0	1414	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739477	krepp-minLCA-dup v0.4.2	True	267	0	Enterococcus sp.	0.0	0.0	species			0	40226	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1891289	krepp-minLCA-dup v0.4.2	True	268	0	Sporanaerobacter sp.	0.0	0.0	species			0	6618	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+96565	krepp-minLCA-dup v0.4.2	True	269	0	Lactobacillus hamsteri	0.0	0.0	species			0	11552	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+471	krepp-minLCA-dup v0.4.2	True	270	0	Acinetobacter calcoaceticus	0.0	0.0	species			0	9679	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1920115	krepp-minLCA-dup v0.4.2	True	271	0	Leclercia sp.	0.0	0.0	species			0	19008	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2027919	krepp-minLCA-dup v0.4.2	True	272	0	Enterobacter cloacae	0.0	0.0	species			0	36905	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+329854	krepp-minLCA-dup v0.4.2	True	273	0	Bacteroides intestinalis	0.0	0.0	species			0	4302	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1776443	krepp-minLCA-dup v0.4.2	True	274	0	Lactococcus sp.	0.0	0.0	species			0	200562	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1563222	krepp-minLCA-dup v0.4.2	True	275	0	Citrobacter pasteurii	0.0	0.0	species			0	8287	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2093876	krepp-minLCA-dup v0.4.2	True	276	0	Escherichia sp.	0.0	0.0	species			0	2220	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+372463	krepp-minLCA-dup v0.4.2	True	277	0	Oceanobacillus profundus	0.0	0.0	species			0	11720	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739331	krepp-minLCA-dup v0.4.2	True	278	0	Enterococcus sp.	0.0	0.0	species			0	91748	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+35703	krepp-minLCA-dup v0.4.2	True	279	0	Citrobacter amalonaticus	0.0	0.0	species			0	25187	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+61647	krepp-minLCA-dup v0.4.2	True	280	0	Pluralibacter gergoviae	0.0	0.0	species			0	19609	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+208224	krepp-minLCA-dup v0.4.2	True	281	0	Enterobacter kobei	0.0	0.0	species			0	59858	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1302	krepp-minLCA-dup v0.4.2	True	282	0	Streptococcus gordonii	0.0	0.0	species			0	14648	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+457390	krepp-minLCA-dup v0.4.2	True	283	0	Bacteroides sp.	0.0	0.0	species			0	4397	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082626	krepp-minLCA-dup v0.4.2	True	284	0	Escherichia sp.	0.0	0.0	species			0	89088	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715071	krepp-minLCA-dup v0.4.2	True	285	0	Enterococcus sp.	0.0	0.0	species			0	36924	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28130	krepp-minLCA-dup v0.4.2	True	286	0	Prevotella disiens	0.0	0.0	species			0	10357	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+83555	krepp-minLCA-dup v0.4.2	True	287	0	Chlamydia abortus	0.0	0.0	species			0	1411	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+544645	krepp-minLCA-dup v0.4.2	True	288	0	Butyricimonas virosa	0.0	0.0	species			0	167199	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1977292	krepp-minLCA-dup v0.4.2	True	289	0	Paenibacillus xerothermodurans	0.0	0.0	species			0	42053	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+57706	krepp-minLCA-dup v0.4.2	True	290	0	Citrobacter braakii	0.0	0.0	species			0	8559	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025877	krepp-minLCA-dup v0.4.2	True	291	0	Parabacteroides sp.	0.0	0.0	species			0	1556	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2077149	krepp-minLCA-dup v0.4.2	True	292	0	Citrobacter freundii	0.0	0.0	species			0	16248	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1686384	krepp-minLCA-dup v0.4.2	True	293	0	Citrobacter sp.	0.0	0.0	species			0	1556	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+346	krepp-minLCA-dup v0.4.2	True	294	0	Xanthomonas citri	0.0	0.0	species			0	3235	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2292919	krepp-minLCA-dup v0.4.2	True	295	0	Bacteroides sp.	0.0	0.0	species			0	21836	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715036	krepp-minLCA-dup v0.4.2	True	296	0	Enterococcus sp.	0.0	0.0	species			0	27819	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1603886	krepp-minLCA-dup v0.4.2	True	297	0	Bifidobacterium lemurum	0.0	0.0	species			0	1693	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1169349	krepp-minLCA-dup v0.4.2	True	298	0	Escherichia sp.	0.0	0.0	species			0	9536	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1965658	krepp-minLCA-dup v0.4.2	True	299	0	Massiliomicrobiota sp.	0.0	0.0	species			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1303	krepp-minLCA-dup v0.4.2	True	300	0	Streptococcus oralis	0.0	0.0	species			0	24763	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28141	krepp-minLCA-dup v0.4.2	True	301	0	Cronobacter sakazakii	0.0	0.0	species			0	1862	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1622071	krepp-minLCA-dup v0.4.2	True	302	0	Alistipes sp.	0.0	0.0	species			0	8600	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2035004	krepp-minLCA-dup v0.4.2	True	303	0	Enterococcus sp.	0.0	0.0	species			0	7992	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715691	krepp-minLCA-dup v0.4.2	True	304	0	Thalassobius activus	0.0	0.0	species			0	1996	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2203201	krepp-minLCA-dup v0.4.2	True	305	0	Streptomyces sp.	0.0	0.0	species			0	1321	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2486472	krepp-minLCA-dup v0.4.2	True	306	0	Muribaculaceae bacterium	0.0	0.0	species			0	2540	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2292954	krepp-minLCA-dup v0.4.2	True	307	0	Bacteroides sp.	0.0	0.0	species			0	4674	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+376806	krepp-minLCA-dup v0.4.2	True	308	0	Bacteroides gallinarum	0.0	0.0	species			0	11335	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1920118	krepp-minLCA-dup v0.4.2	True	309	0	Leclercia sp.	0.0	0.0	species			0	2883	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+559104	krepp-minLCA-dup v0.4.2	True	310	0	Enterobacter sp.	0.0	0.0	species			0	14001	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+83655	krepp-minLCA-dup v0.4.2	True	311	0	Leclercia adecarboxylata	0.0	0.0	species			0	4604	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+727	krepp-minLCA-dup v0.4.2	True	312	0	Haemophilus influenzae	0.0	0.0	species			0	4263	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1581146	krepp-minLCA-dup v0.4.2	True	313	0	Klebsiella sp.	0.0	0.0	species			0	11088	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2069308	krepp-minLCA-dup v0.4.2	True	314	0	Streptococcus sp.	0.0	0.0	species			0	4399	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1908521	krepp-minLCA-dup v0.4.2	True	315	0	Gilliamella bombi	0.0	0.0	species			0	1485	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1080071	krepp-minLCA-dup v0.4.2	True	316	0	Streptococcus orisasini	0.0	0.0	species			0	1025	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1335308	krepp-minLCA-dup v0.4.2	True	317	0	Burkholderia sp.	0.0	0.0	species			0	1051	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1309	krepp-minLCA-dup v0.4.2	True	318	0	Streptococcus mutans	0.0	0.0	species			0	1483	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1304	krepp-minLCA-dup v0.4.2	True	319	0	Streptococcus salivarius	0.0	0.0	species			0	60493	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+55779	krepp-minLCA-dup v0.4.2	True	320	0	Moorella glycerini	0.0	0.0	species			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1608856	krepp-minLCA-dup v0.4.2	True	321	0	Streptococcus sp.	0.0	0.0	species			0	2078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1761877	krepp-minLCA-dup v0.4.2	True	322	0	Paenibacillus sp.	0.0	0.0	species			0	1317	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+48664	krepp-minLCA-dup v0.4.2	True	323	0	Xanthomonas fragariae	0.0	0.0	species			0	2960	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1897621	krepp-minLCA-dup v0.4.2	True	324	0	Streptomyces sp.	0.0	0.0	species			0	2492	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1177982	krepp-minLCA-dup v0.4.2	True	325	0	Acidovorax wautersii	0.0	0.0	species			0	64374	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+133448	krepp-minLCA-dup v0.4.2	True	326	0	Citrobacter youngae	0.0	0.0	species			0	11329	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1944636	krepp-minLCA-dup v0.4.2	True	327	0	Parabacteroides sp.	0.0	0.0	species			0	3377	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1686379	krepp-minLCA-dup v0.4.2	True	328	0	Citrobacter sp.	0.0	0.0	species			0	5067	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1439319	krepp-minLCA-dup v0.4.2	True	329	0	Citrobacter sp.	0.0	0.0	species			0	28461	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2	krepp-algpp-dup v0.4.2	False	0	1451338733	Bacteria	1.0	1.0	superkingdom	0.9995859319493542	0.999207225572638	35319	1450737780	35291	1450737780	35291	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1224	krepp-algpp-dup v0.4.2	False	1	899911682	Proteobacteria	0.9974527235549191	0.9916276429686391	phylum	0.9999687035955157	0.9989278822099922	13991	902181624	14094	899883518	13976	strmgCAMI2_short_read_pooled_gold_standard_assembly
+201174	krepp-algpp-dup v0.4.2	True	2	2548574	Actinobacteria	0.9681452159386987	0.6428571428571429	phylum	0.9978478160728314	0.9	10	2626764	14	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+976	krepp-algpp-dup v0.4.2	False	3	32644661	Bacteroidetes	0.9999533140203631	0.9985119047619048	phylum	0.9894239673678952	0.9824304538799414	683	32300918	672	32299410	671	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1239	krepp-algpp-dup v0.4.2	False	4	516233816	Firmicutes	0.9999637899297716	0.9996575677526661	phylum	0.9890582719982063	0.9903077295856555	20635	510603815	20442	510585326	20435	strmgCAMI2_short_read_pooled_gold_standard_assembly
+204428	krepp-algpp-dup v0.4.2	True	5	0	Chlamydiae	0.0	0.0	phylum			0	8737	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+32066	krepp-algpp-dup v0.4.2	True	6	0	Fusobacteria	0.0	0.0	phylum			0	1230	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1236	krepp-algpp-dup v0.4.2	False	7	899911682	Gammaproteobacteria	0.9974539144504769	0.9916927009372337	class	0.9999496128332291	0.9982846115359875	13991	902163323	14084	899866338	13967	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1760	krepp-algpp-dup v0.4.2	True	8	2548574	Actinobacteria	0.9986726718448172	0.75	class	0.9978478160728314	0.9	10	2546469	12	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+91061	krepp-algpp-dup v0.4.2	False	9	510871134	Bacilli	0.9999307955478113	0.9997537673594011	class	0.9953332066712542	0.9938316933470407	20427	508522196	20306	508487004	20301	strmgCAMI2_short_read_pooled_gold_standard_assembly
+200643	krepp-algpp-dup v0.4.2	False	10	32644661	Bacteroidia	0.9999531682734432	0.9984709480122325	class	0.9863445970537111	0.9560761346998536	683	32200393	654	32198885	653	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186801	krepp-algpp-dup v0.4.2	True	11	5362682	Clostridia	0.978825640708868	0.9323308270676691	class	0.33685681903196946	0.5961538461538461	208	1845534	133	1806456	124	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28216	krepp-algpp-dup v0.4.2	True	12	0	Betaproteobacteria	0.0	0.0	class			0	17180	9	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+84998	krepp-algpp-dup v0.4.2	True	13	0	Coriobacteriia	0.0	0.0	class			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+117743	krepp-algpp-dup v0.4.2	True	14	0	Flavobacteriia	0.0	0.0	class			0	100525	18	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+204429	krepp-algpp-dup v0.4.2	True	15	0	Chlamydiia	0.0	0.0	class			0	8737	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+29547	krepp-algpp-dup v0.4.2	True	16	0	Epsilonproteobacteria	0.0	0.0	class			0	1121	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+526524	krepp-algpp-dup v0.4.2	True	17	0	Erysipelotrichia	0.0	0.0	class			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+203490	krepp-algpp-dup v0.4.2	True	18	0	Fusobacteriia	0.0	0.0	class			0	1230	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+91347	krepp-algpp-dup v0.4.2	False	19	899911682	Enterobacterales	0.9975555211391215	0.9930620127315642	order	0.9997394066499072	0.9923522264312773	13991	901881802	13981	899677171	13884	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1385	krepp-algpp-dup v0.4.2	False	20	65907341	Bacillales	0.9994571589737593	0.9781144781144782	order	0.9988088125114924	0.9416531604538088	617	65864587	594	65828833	581	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85009	krepp-algpp-dup v0.4.2	True	21	2548574	Propionibacteriales	1.0	1.0	order	0.9978478160728314	0.9	10	2543089	9	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186826	krepp-algpp-dup v0.4.2	False	22	444963793	Lactobacillales	0.9998462671857065	0.9996448863636364	order	0.9946642063076804	0.9946996466431095	19810	442657609	19712	442589558	19705	strmgCAMI2_short_read_pooled_gold_standard_assembly
+171549	krepp-algpp-dup v0.4.2	False	23	32644661	Bacteroidales	0.9999531682734432	0.9984709480122325	order	0.9863445970537111	0.9560761346998536	683	32200393	654	32198885	653	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186802	krepp-algpp-dup v0.4.2	True	24	5362682	Clostridiales	0.9793711703838318	0.9393939393939394	order	0.33685681903196946	0.5961538461538461	208	1844506	132	1806456	124	strmgCAMI2_short_read_pooled_gold_standard_assembly
+80840	krepp-algpp-dup v0.4.2	True	25	0	Burkholderiales	0.0	0.0	order			0	12388	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+72274	krepp-algpp-dup v0.4.2	True	26	0	Pseudomonadales	0.0	0.0	order			0	75240	24	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+84999	krepp-algpp-dup v0.4.2	True	27	0	Coriobacteriales	0.0	0.0	order			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+206351	krepp-algpp-dup v0.4.2	True	28	0	Neisseriales	0.0	0.0	order			0	4792	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135614	krepp-algpp-dup v0.4.2	True	29	0	Xanthomonadales	0.0	0.0	order			0	199202	75	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+200644	krepp-algpp-dup v0.4.2	True	30	0	Flavobacteriales	0.0	0.0	order			0	100525	18	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85007	krepp-algpp-dup v0.4.2	True	31	0	Corynebacteriales	0.0	0.0	order			0	2059	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135623	krepp-algpp-dup v0.4.2	True	32	0	Vibrionales	0.0	0.0	order			0	3884	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+51291	krepp-algpp-dup v0.4.2	True	33	0	Chlamydiales	0.0	0.0	order			0	8737	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+213849	krepp-algpp-dup v0.4.2	True	34	0	Campylobacterales	0.0	0.0	order			0	1121	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+526525	krepp-algpp-dup v0.4.2	True	35	0	Erysipelotrichales	0.0	0.0	order			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+203491	krepp-algpp-dup v0.4.2	True	36	0	Fusobacteriales	0.0	0.0	order			0	1230	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135625	krepp-algpp-dup v0.4.2	True	37	0	Pasteurellales	0.0	0.0	order			0	3195	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85011	krepp-algpp-dup v0.4.2	True	38	0	Streptomycetales	0.0	0.0	order			0	1321	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+68295	krepp-algpp-dup v0.4.2	True	39	0	Thermoanaerobacterales	0.0	0.0	order			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1300	krepp-algpp-dup v0.4.2	False	40	369567717	Streptococcaceae	0.9999084391735753	0.9993187589025825	family	0.9998810880983958	0.9996902298494517	16141	369557608	16147	369523771	16136	strmgCAMI2_short_read_pooled_gold_standard_assembly
+543	krepp-algpp-dup v0.4.2	False	41	899911682	Enterobacteriaceae	0.9975946430558547	0.9950512802122929	family	0.9995676964664628	0.9916374812379387	13991	901691537	13943	899522647	13874	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186822	krepp-algpp-dup v0.4.2	True	42	7206672	Paenibacillaceae	1.0	1.0	family	0.9990865409165285	0.9230769230769231	26	7200089	24	7200089	24	strmgCAMI2_short_read_pooled_gold_standard_assembly
+90964	krepp-algpp-dup v0.4.2	False	43	58700669	Staphylococcaceae	0.9993905342887277	0.9771929824561404	family	0.9987747158384175	0.9424703891708968	591	58664498	570	58628744	557	strmgCAMI2_short_read_pooled_gold_standard_assembly
+31957	krepp-algpp-dup v0.4.2	True	44	2548574	Propionibacteriaceae	1.0	1.0	family	0.9978478160728314	0.9	10	2543089	9	2543089	9	strmgCAMI2_short_read_pooled_gold_standard_assembly
+33958	krepp-algpp-dup v0.4.2	False	45	8135414	Lactobacillaceae	1.0	1.0	family	0.9965336736397189	0.95	180	8107214	171	8107214	171	strmgCAMI2_short_read_pooled_gold_standard_assembly
+81852	krepp-algpp-dup v0.4.2	False	46	67260662	Enterococcaceae	0.9994615257567486	0.9988211022693781	family	0.9654600336820949	0.9713384924047005	3489	64972467	3393	64937481	3389	strmgCAMI2_short_read_pooled_gold_standard_assembly
+815	krepp-algpp-dup v0.4.2	False	47	20591498	Bacteroidaceae	0.9711933666820339	0.9894736842105263	family	0.9475562681258061	0.8639705882352942	544	20090338	475	19511603	470	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2005525	krepp-algpp-dup v0.4.2	False	48	12053163	Tannerellaceae	0.9585612930763089	0.81875	family	0.9372038692250325	0.9424460431654677	139	11784610	160	11296271	131	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1903411	krepp-algpp-dup v0.4.2	True	49	0	Yersiniaceae	0.0	0.0	family			0	90592	34	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186804	krepp-algpp-dup v0.4.2	True	50	0	Peptostreptococcaceae	0.0	0.0	family			0	7218	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+119060	krepp-algpp-dup v0.4.2	True	51	0	Burkholderiaceae	0.0	0.0	family			0	7571	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2005473	krepp-algpp-dup v0.4.2	True	52	0	Muribaculaceae	0.0	0.0	family			0	103582	9	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+135621	krepp-algpp-dup v0.4.2	True	53	0	Pseudomonadaceae	0.0	0.0	family			0	41010	11	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1643824	krepp-algpp-dup v0.4.2	True	54	0	Atopobiaceae	0.0	0.0	family			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+481	krepp-algpp-dup v0.4.2	True	55	0	Neisseriaceae	0.0	0.0	family			0	4792	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+171552	krepp-algpp-dup v0.4.2	True	56	0	Prevotellaceae	0.0	0.0	family			0	47002	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+468	krepp-algpp-dup v0.4.2	True	57	0	Moraxellaceae	0.0	0.0	family			0	33105	12	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+32033	krepp-algpp-dup v0.4.2	True	58	0	Xanthomonadaceae	0.0	0.0	family			0	193719	74	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+49546	krepp-algpp-dup v0.4.2	True	59	0	Flavobacteriaceae	0.0	0.0	family			0	100525	18	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1762	krepp-algpp-dup v0.4.2	True	60	0	Mycobacteriaceae	0.0	0.0	family			0	2059	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+641	krepp-algpp-dup v0.4.2	True	61	0	Vibrionaceae	0.0	0.0	family			0	3884	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+809	krepp-algpp-dup v0.4.2	True	62	0	Chlamydiaceae	0.0	0.0	family			0	8737	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1903414	krepp-algpp-dup v0.4.2	True	63	0	Morganellaceae	0.0	0.0	family			0	99673	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186803	krepp-algpp-dup v0.4.2	True	64	0	Lachnospiraceae	0.0	0.0	family			0	1101	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+31979	krepp-algpp-dup v0.4.2	True	65	0	Clostridiaceae	0.0	0.0	family			0	29731	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1853231	krepp-algpp-dup v0.4.2	True	66	0	Odoribacteraceae	0.0	0.0	family			0	173353	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+506	krepp-algpp-dup v0.4.2	True	67	0	Alcaligenaceae	0.0	0.0	family			0	1476	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+128827	krepp-algpp-dup v0.4.2	True	68	0	Erysipelotrichaceae	0.0	0.0	family			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1129771	krepp-algpp-dup v0.4.2	True	69	0	Leptotrichiaceae	0.0	0.0	family			0	1230	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+712	krepp-algpp-dup v0.4.2	True	70	0	Pasteurellaceae	0.0	0.0	family			0	3195	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2062	krepp-algpp-dup v0.4.2	True	71	0	Streptomycetaceae	0.0	0.0	family			0	1321	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+186814	krepp-algpp-dup v0.4.2	True	72	0	Thermoanaerobacteraceae	0.0	0.0	family			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1301	krepp-algpp-dup v0.4.2	False	73	367315866	Streptococcus	0.9997707063853998	0.9991293532338309	genus	0.9998991140774736	0.9998133051216628	16069	367363043	16080	367278809	16066	strmgCAMI2_short_read_pooled_gold_standard_assembly
+44249	krepp-algpp-dup v0.4.2	False	74	7206672	Paenibacillus	1.0	1.0	genus	0.9990865409165285	0.9230769230769231	26	7200089	24	7200089	24	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1279	krepp-algpp-dup v0.4.2	False	75	58700669	Staphylococcus	0.9993905342887277	0.9771929824561404	genus	0.9987747158384175	0.9424703891708968	591	58664498	570	58628744	557	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1578	krepp-algpp-dup v0.4.2	False	76	8135414	Lactobacillus	1.0	1.0	genus	0.9965336736397189	0.95	180	8107214	171	8107214	171	strmgCAMI2_short_read_pooled_gold_standard_assembly
+570	krepp-algpp-dup v0.4.2	False	77	265384654	Klebsiella	0.9815824709849583	0.8768558951965065	genus	0.9947195816379043	0.9439047320589157	3191	268936457	3435	263983312	3012	strmgCAMI2_short_read_pooled_gold_standard_assembly
+547	krepp-algpp-dup v0.4.2	False	78	9522767	Enterobacter	0.909549206813251	0.632768361581921	genus	0.9931989305209294	0.9032258064516129	124	10398560	177	9458002	112	strmgCAMI2_short_read_pooled_gold_standard_assembly
+561	krepp-algpp-dup v0.4.2	False	79	500886313	Escherichia	0.9919685873073957	0.9821855571496891	genus	0.9874825407736785	0.9387498571591818	8751	498621121	8364	494616489	8215	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1357	krepp-algpp-dup v0.4.2	True	80	2251851	Lactococcus	1.0	1.0	genus	0.9745604837975514	0.9305555555555556	72	2194565	67	2194565	67	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1350	krepp-algpp-dup v0.4.2	False	81	67260662	Enterococcus	0.9994615257567486	0.9988211022693781	genus	0.9654600336820949	0.9713384924047005	3489	64972467	3393	64937481	3389	strmgCAMI2_short_read_pooled_gold_standard_assembly
+816	krepp-algpp-dup v0.4.2	False	82	20591498	Bacteroides	0.9711933666820339	0.9894736842105263	genus	0.9475562681258061	0.8639705882352942	544	20090338	475	19511603	470	strmgCAMI2_short_read_pooled_gold_standard_assembly
+375288	krepp-algpp-dup v0.4.2	False	83	12053163	Parabacteroides	0.9585612930763089	0.81875	genus	0.9372038692250325	0.9424460431654677	139	11784610	160	11296271	131	strmgCAMI2_short_read_pooled_gold_standard_assembly
+544	krepp-algpp-dup v0.4.2	False	84	15780530	Citrobacter	0.9950523769532509	0.9772727272727273	genus	0.7653924171114659	0.6847133757961783	314	12138354	220	12078298	215	strmgCAMI2_short_read_pooled_gold_standard_assembly
+620	krepp-algpp-dup v0.4.2	True	85	0	Shigella	0.0	0.0	genus			0	1332105	56	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+590	krepp-algpp-dup v0.4.2	True	86	0	Salmonella	0.0	0.0	genus			0	1845585	83	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+613	krepp-algpp-dup v0.4.2	True	87	0	Serratia	0.0	0.0	genus			0	57208	31	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1870884	krepp-algpp-dup v0.4.2	True	88	0	Clostridioides	0.0	0.0	genus			0	7218	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+48736	krepp-algpp-dup v0.4.2	True	89	0	Ralstonia	0.0	0.0	genus			0	4441	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+286	krepp-algpp-dup v0.4.2	True	90	0	Pseudomonas	0.0	0.0	genus			0	41010	11	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1380	krepp-algpp-dup v0.4.2	True	91	0	Atopobium	0.0	0.0	genus			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+482	krepp-algpp-dup v0.4.2	True	92	0	Neisseria	0.0	0.0	genus			0	4792	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+838	krepp-algpp-dup v0.4.2	True	93	0	Prevotella	0.0	0.0	genus			0	47002	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+36862	krepp-algpp-dup v0.4.2	True	94	0	Ideonella	0.0	0.0	genus			0	3341	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+469	krepp-algpp-dup v0.4.2	True	95	0	Acinetobacter	0.0	0.0	genus			0	30764	10	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+338	krepp-algpp-dup v0.4.2	True	96	0	Xanthomonas	0.0	0.0	genus			0	170795	68	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+629	krepp-algpp-dup v0.4.2	True	97	0	Yersinia	0.0	0.0	genus			0	33384	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28250	krepp-algpp-dup v0.4.2	True	98	0	Ornithobacterium	0.0	0.0	genus			0	100525	18	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+670516	krepp-algpp-dup v0.4.2	True	99	0	Mycobacteroides	0.0	0.0	genus			0	1031	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+662	krepp-algpp-dup v0.4.2	True	100	0	Vibrio	0.0	0.0	genus			0	3884	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+810	krepp-algpp-dup v0.4.2	True	101	0	Chlamydia	0.0	0.0	genus			0	8737	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+583	krepp-algpp-dup v0.4.2	True	102	0	Proteus	0.0	0.0	genus			0	99673	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1485	krepp-algpp-dup v0.4.2	True	103	0	Clostridium	0.0	0.0	genus			0	28239	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+580596	krepp-algpp-dup v0.4.2	True	104	0	Butyricicoccus	0.0	0.0	genus			0	1492	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+160674	krepp-algpp-dup v0.4.2	True	105	0	Raoultella	0.0	0.0	genus			0	15680	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+413496	krepp-algpp-dup v0.4.2	True	106	0	Cronobacter	0.0	0.0	genus			0	11920	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+283168	krepp-algpp-dup v0.4.2	True	107	0	Odoribacter	0.0	0.0	genus			0	6154	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+517	krepp-algpp-dup v0.4.2	True	108	0	Bordetella	0.0	0.0	genus			0	1476	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1330546	krepp-algpp-dup v0.4.2	True	109	0	Pluralibacter	0.0	0.0	genus			0	19609	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+574697	krepp-algpp-dup v0.4.2	True	110	0	Butyricimonas	0.0	0.0	genus			0	167199	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1924110	krepp-algpp-dup v0.4.2	True	111	0	Massiliomicrobiota	0.0	0.0	genus			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1792239	krepp-algpp-dup v0.4.2	True	112	0	Caviibacter	0.0	0.0	genus			0	1230	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+106589	krepp-algpp-dup v0.4.2	True	113	0	Cupriavidus	0.0	0.0	genus			0	3130	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1763	krepp-algpp-dup v0.4.2	True	114	0	Mycobacterium	0.0	0.0	genus			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1883	krepp-algpp-dup v0.4.2	True	115	0	Streptomyces	0.0	0.0	genus			0	1321	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+44260	krepp-algpp-dup v0.4.2	True	116	0	Moorella	0.0	0.0	genus			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1313	krepp-algpp-dup v0.4.2	False	117	354630258	Streptococcus pneumoniae	0.9952036489832237	0.9944405393315867	species	0.9999018329676764	0.999743029680072	15566	356304406	15649	354595445	15562	strmgCAMI2_short_read_pooled_gold_standard_assembly
+548	krepp-algpp-dup v0.4.2	False	118	5120124	Klebsiella aerogenes	1.0	1.0	species	0.9997232488900659	0.9545454545454546	22	5118707	21	5118707	21	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1280	krepp-algpp-dup v0.4.2	False	119	58700669	Staphylococcus aureus	0.9993904544803377	0.977112676056338	species	0.9986438655409532	0.9390862944162437	591	58656817	568	58621063	555	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1351	krepp-algpp-dup v0.4.2	False	120	2999760	Enterococcus faecalis	0.9361158275592233	0.5675675675675675	species	0.9981718537482999	0.9767441860465116	43	3198617	74	2994276	42	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1598	krepp-algpp-dup v0.4.2	False	121	2092134	Lactobacillus reuteri	1.0	1.0	species	0.9973825768330327	0.99	100	2086658	99	2086658	99	strmgCAMI2_short_read_pooled_gold_standard_assembly
+573	krepp-algpp-dup v0.4.2	False	122	260264530	Klebsiella pneumoniae	0.9823436721383277	0.8779982232750962	species	0.9928368456508461	0.9356263805616913	3169	263044617	3377	258400215	2965	strmgCAMI2_short_read_pooled_gold_standard_assembly
+562	krepp-algpp-dup v0.4.2	False	123	500886313	Escherichia coli	0.9919538579323733	0.9829613630909527	species	0.9817526457346021	0.9361215861044452	8751	495735219	8334	491746463	8192	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1363	krepp-algpp-dup v0.4.2	False	124	2251851	Lactococcus garvieae	1.0	1.0	species	0.9570899673202179	0.875	72	2155224	63	2155224	63	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1352	krepp-algpp-dup v0.4.2	False	125	64260902	Enterococcus faecium	1.0	1.0	species	0.9503014134473244	0.9515380150899594	3446	61067226	3279	61067226	3279	strmgCAMI2_short_read_pooled_gold_standard_assembly
+508451	krepp-algpp-dup v0.4.2	False	126	1964616	Lactobacillus taiwanensis	1.0	1.0	species	0.9436643089540144	0.6774193548387096	31	1853938	21	1853938	21	strmgCAMI2_short_read_pooled_gold_standard_assembly
+97137	krepp-algpp-dup v0.4.2	False	127	4078664	Lactobacillus sp.	1.0	1.0	species	0.8992371031298484	0.8367346938775511	49	3667686	41	3667686	41	strmgCAMI2_short_read_pooled_gold_standard_assembly
+671267	krepp-algpp-dup v0.4.2	False	128	16103610	Bacteroides sartorii	1.0	1.0	species	0.8923234603918003	0.712468193384224	393	14369629	280	14369629	280	strmgCAMI2_short_read_pooled_gold_standard_assembly
+68892	krepp-algpp-dup v0.4.2	True	129	1689680	Streptococcus infantis	1.0	1.0	species	0.8406420150561053	0.6153846153846154	13	1420416	8	1420416	8	strmgCAMI2_short_read_pooled_gold_standard_assembly
+257758	krepp-algpp-dup v0.4.2	False	130	6659352	Streptococcus pseudopneumoniae	0.9199348234879872	0.9259259259259259	species	0.8364405425633005	0.8143322475570033	307	6054942	270	5570152	250	strmgCAMI2_short_read_pooled_gold_standard_assembly
+823	krepp-algpp-dup v0.4.2	False	131	5248865	Parabacteroides distasonis	0.9989438769191793	0.967741935483871	species	0.7391912346764491	0.6976744186046512	43	3884017	31	3879915	30	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1235803	krepp-algpp-dup v0.4.2	False	132	6804298	Parabacteroides sp.	1.0	1.0	species	0.4672248334802503	0.3020833333333333	96	3179137	29	3179137	29	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28037	krepp-algpp-dup v0.4.2	True	133	2134590	Streptococcus mitis	0.9731486414491209	0.7777777777777778	species	0.05134288083425857	0.07777777777777778	90	112620	9	109596	7	strmgCAMI2_short_read_pooled_gold_standard_assembly
+550	krepp-algpp-dup v0.4.2	True	134	4595527	Enterobacter cloacae	0.02859655187963144	0.125	species	0.0008279790326550143	0.023809523809523808	42	133058	8	3805	1	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1639133	krepp-algpp-dup v0.4.2	True	135	15780530	Citrobacter portucalensis	1.0	1.0	species	0.00044345785597822127	0.0031847133757961785	314	6998	1	6998	1	strmgCAMI2_short_read_pooled_gold_standard_assembly
+481743	krepp-algpp-dup v0.4.2	True	136	7206672	Paenibacillus sp.			species	0.0	0.0	26	0	0	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+328812	krepp-algpp-dup v0.4.2	False	137	0	Parabacteroides goldsteinii	0.0	0.0	species			0	3652059	68	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+624	krepp-algpp-dup v0.4.2	True	138	0	Shigella sonnei	0.0	0.0	species			0	764507	43	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28901	krepp-algpp-dup v0.4.2	True	139	0	Salmonella enterica	0.0	0.0	species			0	1845585	83	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+817	krepp-algpp-dup v0.4.2	True	140	0	Bacteroides fragilis	0.0	0.0	species			0	79681	18	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1307	krepp-algpp-dup v0.4.2	True	141	0	Streptococcus suis	0.0	0.0	species			0	13020	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2320086	krepp-algpp-dup v0.4.2	True	142	0	Parabacteroides sp.	0.0	0.0	species			0	404713	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+821	krepp-algpp-dup v0.4.2	True	143	0	Bacteroides vulgatus	0.0	0.0	species			0	247333	14	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+818	krepp-algpp-dup v0.4.2	True	144	0	Bacteroides thetaiotaomicron	0.0	0.0	species			0	131554	12	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+615	krepp-algpp-dup v0.4.2	True	145	0	Serratia marcescens	0.0	0.0	species			0	57208	31	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+158836	krepp-algpp-dup v0.4.2	False	146	0	Enterobacter hormaechei	0.0	0.0	species			0	5308784	88	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+469591	krepp-algpp-dup v0.4.2	True	147	0	Parabacteroides sp.	0.0	0.0	species			0	35313	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+151781	krepp-algpp-dup v0.4.2	True	148	0	Lactobacillus intestinalis	0.0	0.0	species			0	400020	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1496	krepp-algpp-dup v0.4.2	True	149	0	Clostridioides difficile	0.0	0.0	species			0	3444	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1812935	krepp-algpp-dup v0.4.2	True	150	0	Enterobacter roggenkampii	0.0	0.0	species			0	2196	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+305	krepp-algpp-dup v0.4.2	True	151	0	Ralstonia solanacearum	0.0	0.0	species			0	1408	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+546	krepp-algpp-dup v0.4.2	False	152	0	Citrobacter freundii	0.0	0.0	species			0	11392299	196	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+61645	krepp-algpp-dup v0.4.2	True	153	0	Enterobacter asburiae	0.0	0.0	species			0	18440	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+287	krepp-algpp-dup v0.4.2	True	154	0	Pseudomonas aeruginosa	0.0	0.0	species			0	36560	8	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28116	krepp-algpp-dup v0.4.2	True	155	0	Bacteroides ovatus	0.0	0.0	species			0	24443	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+208224	krepp-algpp-dup v0.4.2	True	156	0	Enterobacter kobei	0.0	0.0	species			0	14645	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1381	krepp-algpp-dup v0.4.2	True	157	0	Atopobium minutum	0.0	0.0	species			0	80295	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+820	krepp-algpp-dup v0.4.2	True	158	0	Bacteroides uniformis	0.0	0.0	species			0	122538	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1686376	krepp-algpp-dup v0.4.2	True	159	0	Citrobacter sp.	0.0	0.0	species			0	167634	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1686378	krepp-algpp-dup v0.4.2	True	160	0	Citrobacter sp.	0.0	0.0	species			0	261871	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1401	krepp-algpp-dup v0.4.2	False	161	0	Paenibacillus lautus	0.0	0.0	species			0	7156719	22	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1282	krepp-algpp-dup v0.4.2	True	162	0	Staphylococcus epidermidis	0.0	0.0	species			0	7681	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1463165	krepp-algpp-dup v0.4.2	True	163	0	Klebsiella quasipneumoniae	0.0	0.0	species			0	278921	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+469589	krepp-algpp-dup v0.4.2	True	164	0	Bacteroides sp.	0.0	0.0	species			0	518522	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+485	krepp-algpp-dup v0.4.2	True	165	0	Neisseria gonorrhoeae	0.0	0.0	species			0	4792	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2066051	krepp-algpp-dup v0.4.2	True	166	0	Enterobacteriaceae bacterium	0.0	0.0	species			0	57703	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+244366	krepp-algpp-dup v0.4.2	True	167	0	Klebsiella variicola	0.0	0.0	species			0	171231	9	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1940789	krepp-algpp-dup v0.4.2	True	168	0	Lactococcus petauri	0.0	0.0	species			0	36946	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+33959	krepp-algpp-dup v0.4.2	True	169	0	Lactobacillus johnsonii	0.0	0.0	species			0	87360	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082626	krepp-algpp-dup v0.4.2	True	170	0	Escherichia sp.	0.0	0.0	species			0	178679	7	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1134687	krepp-algpp-dup v0.4.2	True	171	0	Klebsiella michiganensis	0.0	0.0	species			0	173845	8	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2250596	krepp-algpp-dup v0.4.2	True	172	0	Streptococcus sp.	0.0	0.0	species			0	1165811	43	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+386414	krepp-algpp-dup v0.4.2	True	173	0	Prevotella timonensis	0.0	0.0	species			0	5795	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+47678	krepp-algpp-dup v0.4.2	True	174	0	Bacteroides caccae	0.0	0.0	species			0	370287	8	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1547922	krepp-algpp-dup v0.4.2	True	175	0	Ideonella sakaiensis	0.0	0.0	species			0	3341	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+48296	krepp-algpp-dup v0.4.2	True	176	0	Acinetobacter pittii	0.0	0.0	species			0	6827	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+621	krepp-algpp-dup v0.4.2	True	177	0	Shigella boydii	0.0	0.0	species			0	528922	9	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2293122	krepp-algpp-dup v0.4.2	True	178	0	Parabacteroides sp.	0.0	0.0	species			0	80273	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+623	krepp-algpp-dup v0.4.2	True	179	0	Shigella flexneri	0.0	0.0	species			0	17742	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1796613	krepp-algpp-dup v0.4.2	True	180	0	Bacteroides caecimuris	0.0	0.0	species			0	124831	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+67827	krepp-algpp-dup v0.4.2	True	181	0	Citrobacter werkmanii	0.0	0.0	species			0	46047	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+626931	krepp-algpp-dup v0.4.2	True	182	0	Bacteroides oleiciplenus	0.0	0.0	species			0	5841	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+571	krepp-algpp-dup v0.4.2	True	183	0	Klebsiella oxytoca	0.0	0.0	species			0	84155	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739297	krepp-algpp-dup v0.4.2	True	184	0	Enterococcus sp.	0.0	0.0	species			0	60024	11	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739320	krepp-algpp-dup v0.4.2	True	185	0	Enterococcus sp.	0.0	0.0	species			0	132383	5	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1329838	krepp-algpp-dup v0.4.2	True	186	0	Enterobacter sp.	0.0	0.0	species			0	54160	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+53408	krepp-algpp-dup v0.4.2	True	187	0	Pseudomonas citronellolis	0.0	0.0	species			0	3405	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+29486	krepp-algpp-dup v0.4.2	True	188	0	Yersinia ruckeri	0.0	0.0	species			0	3346	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715073	krepp-algpp-dup v0.4.2	True	189	0	Enterococcus sp.	0.0	0.0	species			0	9577	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+357276	krepp-algpp-dup v0.4.2	True	190	0	Bacteroides dorei	0.0	0.0	species			0	8096	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+36809	krepp-algpp-dup v0.4.2	True	191	0	Mycobacteroides abscessus	0.0	0.0	species			0	1031	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2486473	krepp-algpp-dup v0.4.2	True	192	0	Muribaculaceae bacterium	0.0	0.0	species			0	1290	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739425	krepp-algpp-dup v0.4.2	True	193	0	Enterococcus sp.	0.0	0.0	species			0	210798	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715144	krepp-algpp-dup v0.4.2	True	194	0	Enterococcus sp.	0.0	0.0	species			0	168861	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+672	krepp-algpp-dup v0.4.2	True	195	0	Vibrio vulnificus	0.0	0.0	species			0	2471	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+69218	krepp-algpp-dup v0.4.2	True	196	0	Enterobacter cancerogenus	0.0	0.0	species			0	1477	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+83554	krepp-algpp-dup v0.4.2	True	197	0	Chlamydia psittaci	0.0	0.0	species			0	7326	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+584	krepp-algpp-dup v0.4.2	True	198	0	Proteus mirabilis	0.0	0.0	species			0	99673	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715072	krepp-algpp-dup v0.4.2	True	199	0	Enterococcus sp.	0.0	0.0	species			0	28569	4	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082621	krepp-algpp-dup v0.4.2	False	200	0	Escherichia sp.	0.0	0.0	species			0	2224937	10	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+85831	krepp-algpp-dup v0.4.2	True	201	0	Bacteroides acidifaciens	0.0	0.0	species			0	3226	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025877	krepp-algpp-dup v0.4.2	True	202	0	Parabacteroides sp.	0.0	0.0	species			0	33076	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1353	krepp-algpp-dup v0.4.2	True	203	0	Enterococcus gallinarum	0.0	0.0	species			0	9065	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1779184	krepp-algpp-dup v0.4.2	True	204	0	Citrobacter sp.	0.0	0.0	species			0	145462	6	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+397291	krepp-algpp-dup v0.4.2	True	205	0	Lachnospiraceae bacterium	0.0	0.0	species			0	1101	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+630	krepp-algpp-dup v0.4.2	True	206	0	Yersinia enterocolitica	0.0	0.0	species			0	28177	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1542	krepp-algpp-dup v0.4.2	True	207	0	Clostridium novyi	0.0	0.0	species			0	28239	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+338188	krepp-algpp-dup v0.4.2	True	208	0	Bacteroides finegoldii	0.0	0.0	species			0	39345	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+501571	krepp-algpp-dup v0.4.2	True	209	0	Butyricicoccus pullicaecorum	0.0	0.0	species			0	1492	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1499973	krepp-algpp-dup v0.4.2	True	210	0	Escherichia marmotae	0.0	0.0	species			0	15553	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+54291	krepp-algpp-dup v0.4.2	True	211	0	Raoultella ornithinolytica	0.0	0.0	species			0	15680	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28111	krepp-algpp-dup v0.4.2	True	212	0	Bacteroides eggerthii	0.0	0.0	species			0	20868	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1581146	krepp-algpp-dup v0.4.2	True	213	0	Klebsiella sp.	0.0	0.0	species			0	12297	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2494701	krepp-algpp-dup v0.4.2	True	214	0	Enterobacter chengduensis	0.0	0.0	species			0	3325	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082630	krepp-algpp-dup v0.4.2	True	215	0	Escherichia sp.	0.0	0.0	species			0	154239	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+622	krepp-algpp-dup v0.4.2	True	216	0	Shigella dysenteriae	0.0	0.0	species			0	20934	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+28141	krepp-algpp-dup v0.4.2	True	217	0	Cronobacter sakazakii	0.0	0.0	species			0	11920	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1715127	krepp-algpp-dup v0.4.2	True	218	0	Enterococcus sp.	0.0	0.0	species			0	7275	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2293116	krepp-algpp-dup v0.4.2	True	219	0	Parabacteroides sp.	0.0	0.0	species			0	172365	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+329	krepp-algpp-dup v0.4.2	True	220	0	Ralstonia pickettii	0.0	0.0	species			0	3033	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+754332	krepp-algpp-dup v0.4.2	True	221	0	Escherichia sp.	0.0	0.0	species			0	1475	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+96565	krepp-algpp-dup v0.4.2	True	222	0	Lactobacillus hamsteri	0.0	0.0	species			0	11552	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+470	krepp-algpp-dup v0.4.2	True	223	0	Acinetobacter baumannii	0.0	0.0	species			0	23937	8	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1714265	krepp-algpp-dup v0.4.2	True	224	0	Klebsiella sp.	0.0	0.0	species			0	28730	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+564	krepp-algpp-dup v0.4.2	True	225	0	Escherichia fergusonii	0.0	0.0	species			0	6054	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+518	krepp-algpp-dup v0.4.2	True	226	0	Bordetella bronchiseptica	0.0	0.0	species			0	1476	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1739331	krepp-algpp-dup v0.4.2	True	227	0	Enterococcus sp.	0.0	0.0	species			0	72080	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+35703	krepp-algpp-dup v0.4.2	True	228	0	Citrobacter amalonaticus	0.0	0.0	species			0	25187	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1358	krepp-algpp-dup v0.4.2	True	229	0	Lactococcus lactis	0.0	0.0	species			0	1090	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1563222	krepp-algpp-dup v0.4.2	True	230	0	Citrobacter pasteurii	0.0	0.0	species			0	8287	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+61647	krepp-algpp-dup v0.4.2	True	231	0	Pluralibacter gergoviae	0.0	0.0	species			0	19609	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2026240	krepp-algpp-dup v0.4.2	True	232	0	Klebsiella quasivariicola	0.0	0.0	species			0	7946	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082632	krepp-algpp-dup v0.4.2	True	233	0	Escherichia sp.	0.0	0.0	species			0	176778	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1977292	krepp-algpp-dup v0.4.2	True	234	0	Paenibacillus xerothermodurans	0.0	0.0	species			0	42053	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+666	krepp-algpp-dup v0.4.2	True	235	0	Vibrio cholerae	0.0	0.0	species			0	1413	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+544645	krepp-algpp-dup v0.4.2	True	236	0	Butyricimonas virosa	0.0	0.0	species			0	167199	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+83555	krepp-algpp-dup v0.4.2	True	237	0	Chlamydia abortus	0.0	0.0	species			0	1411	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2082627	krepp-algpp-dup v0.4.2	True	238	0	Escherichia sp.	0.0	0.0	species			0	113508	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1965658	krepp-algpp-dup v0.4.2	True	239	0	Massiliomicrobiota sp.	0.0	0.0	species			0	3078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2077149	krepp-algpp-dup v0.4.2	True	240	0	Citrobacter freundii	0.0	0.0	species			0	1948	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1686384	krepp-algpp-dup v0.4.2	True	241	0	Citrobacter sp.	0.0	0.0	species			0	20082	3	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2292919	krepp-algpp-dup v0.4.2	True	242	0	Bacteroides sp.	0.0	0.0	species			0	14624	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+291645	krepp-algpp-dup v0.4.2	True	243	0	Bacteroides nordii	0.0	0.0	species			0	16577	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1311	krepp-algpp-dup v0.4.2	True	244	0	Streptococcus agalactiae	0.0	0.0	species			0	24763	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+632	krepp-algpp-dup v0.4.2	True	245	0	Yersinia pestis	0.0	0.0	species			0	1861	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1309	krepp-algpp-dup v0.4.2	True	246	0	Streptococcus mutans	0.0	0.0	species			0	1483	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2035004	krepp-algpp-dup v0.4.2	True	247	0	Enterococcus sp.	0.0	0.0	species			0	7992	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+164546	krepp-algpp-dup v0.4.2	True	248	0	Cupriavidus taiwanensis	0.0	0.0	species			0	3130	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1764	krepp-algpp-dup v0.4.2	True	249	0	Mycobacterium avium	0.0	0.0	species			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2203201	krepp-algpp-dup v0.4.2	True	250	0	Streptomyces sp.	0.0	0.0	species			0	1321	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+2486472	krepp-algpp-dup v0.4.2	True	251	0	Muribaculaceae bacterium	0.0	0.0	species			0	2540	2	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+376806	krepp-algpp-dup v0.4.2	True	252	0	Bacteroides gallinarum	0.0	0.0	species			0	11335	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1080071	krepp-algpp-dup v0.4.2	True	253	0	Streptococcus orisasini	0.0	0.0	species			0	1025	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+55779	krepp-algpp-dup v0.4.2	True	254	0	Moorella glycerini	0.0	0.0	species			0	1028	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1608856	krepp-algpp-dup v0.4.2	True	255	0	Streptococcus sp.	0.0	0.0	species			0	2078	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1439319	krepp-algpp-dup v0.4.2	True	256	0	Citrobacter sp.	0.0	0.0	species			0	28461	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1227351	krepp-algpp-dup v0.4.2	True	257	0	Paenibacillus sp.	0.0	0.0	species			0	1317	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly
+1304	krepp-algpp-dup v0.4.2	True	258	0	Streptococcus salivarius	0.0	0.0	species			0	60493	1	0	0	strmgCAMI2_short_read_pooled_gold_standard_assembly

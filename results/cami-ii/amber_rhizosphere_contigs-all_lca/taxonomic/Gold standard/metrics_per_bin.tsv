@@ -1,0 +1,929 @@
+sample_id	Taxon ID	Scientific name	Taxonomic rank	Purity (bp)	Completeness (bp)	Bin size (bp)	True positives (bp)	True size (bp)	Purity (seq)	Completeness (seq)	Bin size (seq)	True positives (seq)	True size (seq)	Filtered
+rhimgCAMI2_short_read_pooled_gsa	2759	Eukaryota	superkingdom	1.0	1.0	1509741951	1509741951	1509741951	1.0	1.0	2255681	2255681	2255681	False
+rhimgCAMI2_short_read_pooled_gsa	2	Bacteria	superkingdom	1.0	1.0	1041509857	1041509857	1041509857	1.0	1.0	1169619	1169619	1169619	False
+rhimgCAMI2_short_read_pooled_gsa	2157	Archaea	superkingdom	1.0	1.0	1317428	1317428	1317428	1.0	1.0	5251	5251	5251	False
+rhimgCAMI2_short_read_pooled_gsa	10239	Viruses	superkingdom	1.0	1.0	478642	478642	478642	1.0	1.0	865	865	865	False
+rhimgCAMI2_short_read_pooled_gsa	5204	Basidiomycota	phylum	1.0	1.0	49946458	49946458	49946458	1.0	1.0	78550	78550	78550	False
+rhimgCAMI2_short_read_pooled_gsa	1224	Proteobacteria	phylum	1.0	1.0	729265958	729265958	729265958	1.0	1.0	600985	600985	600985	False
+rhimgCAMI2_short_read_pooled_gsa	204428	Chlamydiae	phylum	1.0	1.0	174691	174691	174691	1.0	1.0	672	672	672	False
+rhimgCAMI2_short_read_pooled_gsa	67819	Armatimonadetes	phylum	1.0	1.0	300579	300579	300579	1.0	1.0	1213	1213	1213	False
+rhimgCAMI2_short_read_pooled_gsa	28890	Euryarchaeota	phylum	1.0	1.0	882187	882187	882187	1.0	1.0	3490	3490	3490	False
+rhimgCAMI2_short_read_pooled_gsa	200795	Chloroflexi	phylum	1.0	1.0	713899	713899	713899	1.0	1.0	2929	2929	2929	False
+rhimgCAMI2_short_read_pooled_gsa	28889	Crenarchaeota	phylum	1.0	1.0	181266	181266	181266	1.0	1.0	721	721	721	False
+rhimgCAMI2_short_read_pooled_gsa	57723	Acidobacteria	phylum	1.0	1.0	2853343	2853343	2853343	1.0	1.0	10377	10377	10377	False
+rhimgCAMI2_short_read_pooled_gsa	508458	Synergistetes	phylum	1.0	1.0	694188	694188	694188	1.0	1.0	2273	2273	2273	False
+rhimgCAMI2_short_read_pooled_gsa	35493	Streptophyta	phylum	1.0	1.0	118685162	118685162	118685162	1.0	1.0	16474	16474	16474	False
+rhimgCAMI2_short_read_pooled_gsa	1297	Deinococcus-Thermus	phylum	1.0	1.0	7105577	7105577	7105577	1.0	1.0	21339	21339	21339	False
+rhimgCAMI2_short_read_pooled_gsa	74201	Verrucomicrobia	phylum	1.0	1.0	1479226	1479226	1479226	1.0	1.0	5913	5913	5913	False
+rhimgCAMI2_short_read_pooled_gsa	1117	Cyanobacteria	phylum	1.0	1.0	1494655	1494655	1494655	1.0	1.0	6049	6049	6049	False
+rhimgCAMI2_short_read_pooled_gsa	142182	Gemmatimonadetes	phylum	1.0	1.0	1112779	1112779	1112779	1.0	1.0	4122	4122	4122	False
+rhimgCAMI2_short_read_pooled_gsa	1239	Firmicutes	phylum	1.0	1.0	47622809	47622809	47622809	1.0	1.0	114075	114075	114075	False
+rhimgCAMI2_short_read_pooled_gsa	976	Bacteroidetes	phylum	1.0	1.0	56900553	56900553	56900553	1.0	1.0	71512	71512	71512	False
+rhimgCAMI2_short_read_pooled_gsa	1913637	Mucoromycota	phylum	1.0	1.0	1226509	1226509	1226509	1.0	1.0	4970	4970	4970	False
+rhimgCAMI2_short_read_pooled_gsa	201174	Actinobacteria	phylum	1.0	1.0	191791600	191791600	191791600	1.0	1.0	328160	328160	328160	False
+rhimgCAMI2_short_read_pooled_gsa	4890	Ascomycota	phylum	1.0	1.0	1339883822	1339883822	1339883822	1.0	1.0	2155687	2155687	2155687	False
+rhimgCAMI2_short_read_pooled_gsa	651137	Thaumarchaeota	phylum	1.0	1.0	253975	253975	253975	1.0	1.0	1040	1040	1040	False
+rhimgCAMI2_short_read_pooled_gsa	162480	Agaricostilbomycetes	class	1.0	1.0	49946458	49946458	49946458	1.0	1.0	78550	78550	78550	False
+rhimgCAMI2_short_read_pooled_gsa	388447	Ktedonobacteria	class	1.0	1.0	713899	713899	713899	1.0	1.0	2929	2929	2929	False
+rhimgCAMI2_short_read_pooled_gsa	1737404	Tissierellia	class	1.0	1.0	219360	219360	219360	1.0	1.0	882	882	882	False
+rhimgCAMI2_short_read_pooled_gsa	649775	Synergistia	class	1.0	1.0	694188	694188	694188	1.0	1.0	2273	2273	2273	False
+rhimgCAMI2_short_read_pooled_gsa	204432	Acidobacteriia	class	1.0	1.0	2311265	2311265	2311265	1.0	1.0	8144	8144	8144	False
+rhimgCAMI2_short_read_pooled_gsa	134549	Spartobacteria	class	1.0	1.0	724187	724187	724187	1.0	1.0	2916	2916	2916	False
+rhimgCAMI2_short_read_pooled_gsa	183924	Thermoprotei	class	1.0	1.0	181266	181266	181266	1.0	1.0	721	721	721	False
+rhimgCAMI2_short_read_pooled_gsa	307596	Gloeobacteria	class	1.0	1.0	344453	344453	344453	1.0	1.0	1392	1392	1392	False
+rhimgCAMI2_short_read_pooled_gsa	332159	Solibacteres	class	1.0	1.0	542078	542078	542078	1.0	1.0	2233	2233	2233	False
+rhimgCAMI2_short_read_pooled_gsa	224756	Methanomicrobia	class	1.0	1.0	607997	607997	607997	1.0	1.0	2383	2383	2383	False
+rhimgCAMI2_short_read_pooled_gsa	28211	Alphaproteobacteria	class	1.0	1.0	209611819	209611819	209611819	1.0	1.0	216569	216569	216569	False
+rhimgCAMI2_short_read_pooled_gsa	200643	Bacteroidia	class	1.0	1.0	380934	380934	380934	1.0	1.0	1500	1500	1500	False
+rhimgCAMI2_short_read_pooled_gsa	29547	Epsilonproteobacteria	class	1.0	1.0	172606	172606	172606	1.0	1.0	713	713	713	False
+rhimgCAMI2_short_read_pooled_gsa	1077257	Chthonomonadetes	class	1.0	1.0	300579	300579	300579	1.0	1.0	1213	1213	1213	False
+rhimgCAMI2_short_read_pooled_gsa	204429	Chlamydiia	class	1.0	1.0	174691	174691	174691	1.0	1.0	672	672	672	False
+rhimgCAMI2_short_read_pooled_gsa	909932	Negativicutes	class	1.0	1.0	384873	384873	384873	1.0	1.0	1539	1539	1539	False
+rhimgCAMI2_short_read_pooled_gsa	183968	Thermococci	class	1.0	1.0	128239	128239	128239	1.0	1.0	522	522	522	False
+rhimgCAMI2_short_read_pooled_gsa	1643678	Nitrososphaeria	class	1.0	1.0	158810	158810	158810	1.0	1.0	650	650	650	False
+rhimgCAMI2_short_read_pooled_gsa	1853228	Chitinophagia	class	1.0	1.0	3215181	3215181	3215181	1.0	1.0	10695	10695	10695	False
+rhimgCAMI2_short_read_pooled_gsa	768503	Cytophagia	class	1.0	1.0	13147406	13147406	13147406	1.0	1.0	10306	10306	10306	False
+rhimgCAMI2_short_read_pooled_gsa	188787	Deinococci	class	1.0	1.0	7105577	7105577	7105577	1.0	1.0	21339	21339	21339	False
+rhimgCAMI2_short_read_pooled_gsa	186801	Clostridia	class	1.0	1.0	8453970	8453970	8453970	1.0	1.0	16307	16307	16307	False
+rhimgCAMI2_short_read_pooled_gsa	147541	Dothideomycetes	class	1.0	1.0	358216247	358216247	358216247	1.0	1.0	490709	490709	490709	False
+rhimgCAMI2_short_read_pooled_gsa	1236	Gammaproteobacteria	class	1.0	1.0	139036120	139036120	139036120	1.0	1.0	156242	156242	156242	False
+rhimgCAMI2_short_read_pooled_gsa	1760	Actinobacteria	class	1.0	1.0	186542319	186542319	186542319	1.0	1.0	315691	315691	315691	False
+rhimgCAMI2_short_read_pooled_gsa	147550	Sordariomycetes	class	1.0	1.0	759526262	759526262	759526262	1.0	1.0	1222630	1222630	1222630	False
+rhimgCAMI2_short_read_pooled_gsa	1497346	Thermoleophilia	class	1.0	1.0	5249281	5249281	5249281	1.0	1.0	12469	12469	12469	False
+rhimgCAMI2_short_read_pooled_gsa	147548	Leotiomycetes	class	1.0	1.0	146366643	146366643	146366643	1.0	1.0	288522	288522	288522	False
+rhimgCAMI2_short_read_pooled_gsa	147545	Eurotiomycetes	class	1.0	1.0	75774670	75774670	75774670	1.0	1.0	153826	153826	153826	False
+rhimgCAMI2_short_read_pooled_gsa	28216	Betaproteobacteria	class	1.0	1.0	340956438	340956438	340956438	1.0	1.0	175520	175520	175520	False
+rhimgCAMI2_short_read_pooled_gsa	28221	Deltaproteobacteria	class	1.0	1.0	39488975	39488975	39488975	1.0	1.0	51941	51941	51941	False
+rhimgCAMI2_short_read_pooled_gsa	2212704	Umbelopsidomycetes	class	1.0	1.0	1226509	1226509	1226509	1.0	1.0	4970	4970	4970	False
+rhimgCAMI2_short_read_pooled_gsa	117743	Flavobacteriia	class	1.0	1.0	33390407	33390407	33390407	1.0	1.0	37211	37211	37211	False
+rhimgCAMI2_short_read_pooled_gsa	91061	Bacilli	class	1.0	1.0	38564606	38564606	38564606	1.0	1.0	95347	95347	95347	False
+rhimgCAMI2_short_read_pooled_gsa	117747	Sphingobacteriia	class	1.0	1.0	6766625	6766625	6766625	1.0	1.0	11800	11800	11800	False
+rhimgCAMI2_short_read_pooled_gsa	219685	Gemmatimonadetes	class	1.0	1.0	1112779	1112779	1112779	1.0	1.0	4122	4122	4122	False
+rhimgCAMI2_short_read_pooled_gsa	203494	Verrucomicrobiae	class	1.0	1.0	755039	755039	755039	1.0	1.0	2997	2997	2997	False
+rhimgCAMI2_short_read_pooled_gsa	183963	Halobacteria	class	1.0	1.0	145951	145951	145951	1.0	1.0	585	585	585	False
+rhimgCAMI2_short_read_pooled_gsa	48846	Agaricostilbales	order	1.0	1.0	49946458	49946458	49946458	1.0	1.0	78550	78550	78550	False
+rhimgCAMI2_short_read_pooled_gsa	213115	Desulfovibrionales	order	1.0	1.0	446593	446593	446593	1.0	1.0	1749	1749	1749	False
+rhimgCAMI2_short_read_pooled_gsa	213118	Desulfobacterales	order	1.0	1.0	686909	686909	686909	1.0	1.0	2661	2661	2661	False
+rhimgCAMI2_short_read_pooled_gsa	135624	Aeromonadales	order	1.0	1.0	419766	419766	419766	1.0	1.0	1688	1688	1688	False
+rhimgCAMI2_short_read_pooled_gsa	307595	Gloeobacterales	order	1.0	1.0	344453	344453	344453	1.0	1.0	1392	1392	1392	False
+rhimgCAMI2_short_read_pooled_gsa	2266	Thermoproteales	order	1.0	1.0	181266	181266	181266	1.0	1.0	721	721	721	False
+rhimgCAMI2_short_read_pooled_gsa	91347	Enterobacterales	order	1.0	1.0	1159224	1159224	1159224	1.0	1.0	4727	4727	4727	False
+rhimgCAMI2_short_read_pooled_gsa	1836787	Chthoniobacterales	order	1.0	1.0	724187	724187	724187	1.0	1.0	2916	2916	2916	False
+rhimgCAMI2_short_read_pooled_gsa	204433	Acidobacteriales	order	1.0	1.0	2311265	2311265	2311265	1.0	1.0	8144	8144	8144	False
+rhimgCAMI2_short_read_pooled_gsa	649776	Synergistales	order	1.0	1.0	694188	694188	694188	1.0	1.0	2273	2273	2273	False
+rhimgCAMI2_short_read_pooled_gsa	118964	Deinococcales	order	1.0	1.0	6517974	6517974	6517974	1.0	1.0	19113	19113	19113	False
+rhimgCAMI2_short_read_pooled_gsa	1737405	Tissierellales	order	1.0	1.0	219360	219360	219360	1.0	1.0	882	882	882	False
+rhimgCAMI2_short_read_pooled_gsa	1853229	Chitinophagales	order	1.0	1.0	3215181	3215181	3215181	1.0	1.0	10695	10695	10695	False
+rhimgCAMI2_short_read_pooled_gsa	1217098	Jiangellales	order	1.0	1.0	616791	616791	616791	1.0	1.0	2473	2473	2473	False
+rhimgCAMI2_short_read_pooled_gsa	85009	Propionibacteriales	order	1.0	1.0	9553015	9553015	9553015	1.0	1.0	23686	23686	23686	False
+rhimgCAMI2_short_read_pooled_gsa	206389	Rhodocyclales	order	1.0	1.0	910495	910495	910495	1.0	1.0	3393	3393	3393	False
+rhimgCAMI2_short_read_pooled_gsa	204441	Rhodospirillales	order	1.0	1.0	7816661	7816661	7816661	1.0	1.0	5248	5248	5248	False
+rhimgCAMI2_short_read_pooled_gsa	3699	Brassicales	order	1.0	1.0	118685162	118685162	118685162	1.0	1.0	16474	16474	16474	False
+rhimgCAMI2_short_read_pooled_gsa	85014	Glycomycetales	order	1.0	1.0	690676	690676	690676	1.0	1.0	2757	2757	2757	False
+rhimgCAMI2_short_read_pooled_gsa	332160	Solibacterales	order	1.0	1.0	542078	542078	542078	1.0	1.0	2233	2233	2233	False
+rhimgCAMI2_short_read_pooled_gsa	388448	Ktedonobacterales	order	1.0	1.0	713899	713899	713899	1.0	1.0	2929	2929	2929	False
+rhimgCAMI2_short_read_pooled_gsa	570264	Methanocellales	order	1.0	1.0	369969	369969	369969	1.0	1.0	1421	1421	1421	False
+rhimgCAMI2_short_read_pooled_gsa	2235	Halobacteriales	order	1.0	1.0	145951	145951	145951	1.0	1.0	585	585	585	False
+rhimgCAMI2_short_read_pooled_gsa	1033996	Nitrososphaerales	order	1.0	1.0	158810	158810	158810	1.0	1.0	650	650	650	False
+rhimgCAMI2_short_read_pooled_gsa	2258	Thermococcales	order	1.0	1.0	128239	128239	128239	1.0	1.0	522	522	522	False
+rhimgCAMI2_short_read_pooled_gsa	909929	Selenomonadales	order	1.0	1.0	384873	384873	384873	1.0	1.0	1539	1539	1539	False
+rhimgCAMI2_short_read_pooled_gsa	622450	Actinopolysporales	order	1.0	1.0	279788	279788	279788	1.0	1.0	1151	1151	1151	False
+rhimgCAMI2_short_read_pooled_gsa	51291	Chlamydiales	order	1.0	1.0	174691	174691	174691	1.0	1.0	672	672	672	False
+rhimgCAMI2_short_read_pooled_gsa	1077263	Chthonomonadales	order	1.0	1.0	300579	300579	300579	1.0	1.0	1213	1213	1213	False
+rhimgCAMI2_short_read_pooled_gsa	213849	Campylobacterales	order	1.0	1.0	172606	172606	172606	1.0	1.0	713	713	713	False
+rhimgCAMI2_short_read_pooled_gsa	32003	Nitrosomonadales	order	1.0	1.0	432690	432690	432690	1.0	1.0	1679	1679	1679	False
+rhimgCAMI2_short_read_pooled_gsa	186826	Lactobacillales	order	1.0	1.0	542146	542146	542146	1.0	1.0	2217	2217	2217	False
+rhimgCAMI2_short_read_pooled_gsa	135618	Methylococcales	order	1.0	1.0	566134	566134	566134	1.0	1.0	2237	2237	2237	False
+rhimgCAMI2_short_read_pooled_gsa	68933	Thermales	order	1.0	1.0	587603	587603	587603	1.0	1.0	2226	2226	2226	False
+rhimgCAMI2_short_read_pooled_gsa	1643682	Geodermatophilales	order	1.0	1.0	866445	866445	866445	1.0	1.0	3341	3341	3341	False
+rhimgCAMI2_short_read_pooled_gsa	171549	Bacteroidales	order	1.0	1.0	380934	380934	380934	1.0	1.0	1500	1500	1500	False
+rhimgCAMI2_short_read_pooled_gsa	2191	Methanomicrobiales	order	1.0	1.0	238028	238028	238028	1.0	1.0	962	962	962	False
+rhimgCAMI2_short_read_pooled_gsa	768507	Cytophagales	order	1.0	1.0	13147406	13147406	13147406	1.0	1.0	10306	10306	10306	False
+rhimgCAMI2_short_read_pooled_gsa	29	Myxococcales	order	1.0	1.0	34653054	34653054	34653054	1.0	1.0	36706	36706	36706	False
+rhimgCAMI2_short_read_pooled_gsa	356	Rhizobiales	order	1.0	1.0	163726975	163726975	163726975	1.0	1.0	157037	157037	157037	False
+rhimgCAMI2_short_read_pooled_gsa	5178	Helotiales	order	1.0	1.0	146366643	146366643	146366643	1.0	1.0	288522	288522	288522	False
+rhimgCAMI2_short_read_pooled_gsa	134362	Capnodiales	order	1.0	1.0	30087501	30087501	30087501	1.0	1.0	34871	34871	34871	False
+rhimgCAMI2_short_read_pooled_gsa	5114	Diaporthales	order	1.0	1.0	74186775	74186775	74186775	1.0	1.0	161829	161829	161829	False
+rhimgCAMI2_short_read_pooled_gsa	69541	Desulfuromonadales	order	1.0	1.0	3702419	3702419	3702419	1.0	1.0	10825	10825	10825	False
+rhimgCAMI2_short_read_pooled_gsa	80840	Burkholderiales	order	1.0	1.0	339613253	339613253	339613253	1.0	1.0	170448	170448	170448	False
+rhimgCAMI2_short_read_pooled_gsa	5042	Eurotiales	order	1.0	1.0	75774670	75774670	75774670	1.0	1.0	153826	153826	153826	False
+rhimgCAMI2_short_read_pooled_gsa	1028384	Glomerellales	order	1.0	1.0	94675017	94675017	94675017	1.0	1.0	144792	144792	144792	False
+rhimgCAMI2_short_read_pooled_gsa	85008	Micromonosporales	order	1.0	1.0	37911579	37911579	37911579	1.0	1.0	30785	30785	30785	False
+rhimgCAMI2_short_read_pooled_gsa	85011	Streptomycetales	order	1.0	1.0	41481998	41481998	41481998	1.0	1.0	64788	64788	64788	False
+rhimgCAMI2_short_read_pooled_gsa	186802	Clostridiales	order	1.0	1.0	8453970	8453970	8453970	1.0	1.0	16307	16307	16307	False
+rhimgCAMI2_short_read_pooled_gsa	85010	Pseudonocardiales	order	1.0	1.0	41416800	41416800	41416800	1.0	1.0	58381	58381	58381	False
+rhimgCAMI2_short_read_pooled_gsa	588673	Solirubrobacterales	order	1.0	1.0	5249281	5249281	5249281	1.0	1.0	12469	12469	12469	False
+rhimgCAMI2_short_read_pooled_gsa	5125	Hypocreales	order	1.0	1.0	536765382	536765382	536765382	1.0	1.0	870337	870337	870337	False
+rhimgCAMI2_short_read_pooled_gsa	414714	Catenulisporales	order	1.0	1.0	3662580	3662580	3662580	1.0	1.0	12241	12241	12241	False
+rhimgCAMI2_short_read_pooled_gsa	92860	Pleosporales	order	1.0	1.0	269241983	269241983	269241983	1.0	1.0	424427	424427	424427	False
+rhimgCAMI2_short_read_pooled_gsa	72274	Pseudomonadales	order	1.0	1.0	74187091	74187091	74187091	1.0	1.0	82334	82334	82334	False
+rhimgCAMI2_short_read_pooled_gsa	451869	Botryosphaeriales	order	1.0	1.0	53029457	53029457	53029457	1.0	1.0	9008	9008	9008	False
+rhimgCAMI2_short_read_pooled_gsa	204458	Caulobacterales	order	1.0	1.0	25171684	25171684	25171684	1.0	1.0	27803	27803	27803	False
+rhimgCAMI2_short_read_pooled_gsa	1913639	Umbelopsidales	order	1.0	1.0	1226509	1226509	1226509	1.0	1.0	4970	4970	4970	False
+rhimgCAMI2_short_read_pooled_gsa	200644	Flavobacteriales	order	1.0	1.0	33390407	33390407	33390407	1.0	1.0	37211	37211	37211	False
+rhimgCAMI2_short_read_pooled_gsa	85006	Micrococcales	order	1.0	1.0	20805361	20805361	20805361	1.0	1.0	40467	40467	40467	False
+rhimgCAMI2_short_read_pooled_gsa	204455	Rhodobacterales	order	1.0	1.0	1956521	1956521	1956521	1.0	1.0	6599	6599	6599	False
+rhimgCAMI2_short_read_pooled_gsa	85007	Corynebacteriales	order	1.0	1.0	13182167	13182167	13182167	1.0	1.0	26893	26893	26893	False
+rhimgCAMI2_short_read_pooled_gsa	1643684	Nakamurellales	order	1.0	1.0	563216	563216	563216	1.0	1.0	2252	2252	2252	False
+rhimgCAMI2_short_read_pooled_gsa	85012	Streptosporangiales	order	1.0	1.0	8825619	8825619	8825619	1.0	1.0	19785	19785	19785	False
+rhimgCAMI2_short_read_pooled_gsa	1111111	Venturiales	order	1.0	1.0	5857306	5857306	5857306	1.0	1.0	22403	22403	22403	False
+rhimgCAMI2_short_read_pooled_gsa	204457	Sphingomonadales	order	1.0	1.0	10939978	10939978	10939978	1.0	1.0	19882	19882	19882	False
+rhimgCAMI2_short_read_pooled_gsa	135619	Oceanospirillales	order	1.0	1.0	3883222	3883222	3883222	1.0	1.0	11575	11575	11575	False
+rhimgCAMI2_short_read_pooled_gsa	1775403	Nevskiales	order	1.0	1.0	3430325	3430325	3430325	1.0	1.0	5395	5395	5395	False
+rhimgCAMI2_short_read_pooled_gsa	48461	Verrucomicrobiales	order	1.0	1.0	755039	755039	755039	1.0	1.0	2997	2997	2997	False
+rhimgCAMI2_short_read_pooled_gsa	1150	Oscillatoriales	order	1.0	1.0	1150202	1150202	1150202	1.0	1.0	4657	4657	4657	False
+rhimgCAMI2_short_read_pooled_gsa	219686	Gemmatimonadales	order	1.0	1.0	1112779	1112779	1112779	1.0	1.0	4122	4122	4122	False
+rhimgCAMI2_short_read_pooled_gsa	37989	Xylariales	order	1.0	1.0	53899088	53899088	53899088	1.0	1.0	45672	45672	45672	False
+rhimgCAMI2_short_read_pooled_gsa	135614	Xanthomonadales	order	1.0	1.0	50813789	50813789	50813789	1.0	1.0	48285	48285	48285	False
+rhimgCAMI2_short_read_pooled_gsa	200666	Sphingobacteriales	order	1.0	1.0	6766625	6766625	6766625	1.0	1.0	11800	11800	11800	False
+rhimgCAMI2_short_read_pooled_gsa	1385	Bacillales	order	1.0	1.0	38022460	38022460	38022460	1.0	1.0	93130	93130	93130	False
+rhimgCAMI2_short_read_pooled_gsa	1706369	Cellvibrionales	order	1.0	1.0	4576569	4576569	4576569	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	54740	Chionosphaeraceae	family	1.0	1.0	49946458	49946458	49946458	1.0	1.0	78550	78550	78550	False
+rhimgCAMI2_short_read_pooled_gsa	1903411	Yersiniaceae	family	1.0	1.0	319793	319793	319793	1.0	1.0	1300	1300	1300	False
+rhimgCAMI2_short_read_pooled_gsa	1524215	Anaeromyxobacteraceae	family	1.0	1.0	1847292	1847292	1847292	1.0	1.0	6771	6771	6771	False
+rhimgCAMI2_short_read_pooled_gsa	332161	Solibacteraceae	family	1.0	1.0	542078	542078	542078	1.0	1.0	2233	2233	2233	False
+rhimgCAMI2_short_read_pooled_gsa	31979	Clostridiaceae	family	1.0	1.0	1515702	1515702	1515702	1.0	1.0	6087	6087	6087	False
+rhimgCAMI2_short_read_pooled_gsa	85034	Glycomycetaceae	family	1.0	1.0	690676	690676	690676	1.0	1.0	2757	2757	2757	False
+rhimgCAMI2_short_read_pooled_gsa	213119	Desulfobacteraceae	family	1.0	1.0	686909	686909	686909	1.0	1.0	2661	2661	2661	False
+rhimgCAMI2_short_read_pooled_gsa	84642	Aeromonadaceae	family	1.0	1.0	419766	419766	419766	1.0	1.0	1688	1688	1688	False
+rhimgCAMI2_short_read_pooled_gsa	41295	Rhodospirillaceae	family	1.0	1.0	6506479	6506479	6506479	1.0	1.0	56	56	56	False
+rhimgCAMI2_short_read_pooled_gsa	1890422	Gloeobacteraceae	family	1.0	1.0	344453	344453	344453	1.0	1.0	1392	1392	1392	False
+rhimgCAMI2_short_read_pooled_gsa	186823	Alicyclobacillaceae	family	1.0	1.0	2743655	2743655	2743655	1.0	1.0	6519	6519	6519	False
+rhimgCAMI2_short_read_pooled_gsa	114378	Thermofilaceae	family	1.0	1.0	181266	181266	181266	1.0	1.0	721	721	721	False
+rhimgCAMI2_short_read_pooled_gsa	85023	Microbacteriaceae	family	1.0	1.0	893456	893456	893456	1.0	1.0	3197	3197	3197	False
+rhimgCAMI2_short_read_pooled_gsa	118882	Brucellaceae	family	1.0	1.0	964895	964895	964895	1.0	1.0	3856	3856	3856	False
+rhimgCAMI2_short_read_pooled_gsa	468	Moraxellaceae	family	1.0	1.0	774599	774599	774599	1.0	1.0	3165	3165	3165	False
+rhimgCAMI2_short_read_pooled_gsa	49	Polyangiaceae	family	1.0	1.0	25841039	25841039	25841039	1.0	1.0	16768	16768	16768	False
+rhimgCAMI2_short_read_pooled_gsa	69277	Phyllobacteriaceae	family	1.0	1.0	25586252	25586252	25586252	1.0	1.0	32209	32209	32209	False
+rhimgCAMI2_short_read_pooled_gsa	1836792	Chthoniobacteraceae	family	1.0	1.0	724187	724187	724187	1.0	1.0	2916	2916	2916	False
+rhimgCAMI2_short_read_pooled_gsa	85025	Nocardiaceae	family	1.0	1.0	1548820	1548820	1548820	1.0	1.0	5691	5691	5691	False
+rhimgCAMI2_short_read_pooled_gsa	204434	Acidobacteriaceae	family	1.0	1.0	2311265	2311265	2311265	1.0	1.0	8144	8144	8144	False
+rhimgCAMI2_short_read_pooled_gsa	506	Alcaligenaceae	family	1.0	1.0	3932030	3932030	3932030	1.0	1.0	13932	13932	13932	False
+rhimgCAMI2_short_read_pooled_gsa	213116	Desulfomicrobiaceae	family	1.0	1.0	446593	446593	446593	1.0	1.0	1749	1749	1749	False
+rhimgCAMI2_short_read_pooled_gsa	83676	Nocardiopsaceae	family	1.0	1.0	3670708	3670708	3670708	1.0	1.0	9022	9022	9022	False
+rhimgCAMI2_short_read_pooled_gsa	649777	Synergistaceae	family	1.0	1.0	694188	694188	694188	1.0	1.0	2273	2273	2273	False
+rhimgCAMI2_short_read_pooled_gsa	2042895	Gottschalkiaceae	family	1.0	1.0	219360	219360	219360	1.0	1.0	882	882	882	False
+rhimgCAMI2_short_read_pooled_gsa	563835	Chitinophagaceae	family	1.0	1.0	3215181	3215181	3215181	1.0	1.0	10695	10695	10695	False
+rhimgCAMI2_short_read_pooled_gsa	1217100	Jiangellaceae	family	1.0	1.0	616791	616791	616791	1.0	1.0	2473	2473	2473	False
+rhimgCAMI2_short_read_pooled_gsa	85015	Nocardioidaceae	family	1.0	1.0	9553015	9553015	9553015	1.0	1.0	23686	23686	23686	False
+rhimgCAMI2_short_read_pooled_gsa	715496	Morosphaeriaceae	family	1.0	1.0	6398448	6398448	6398448	1.0	1.0	25137	25137	25137	False
+rhimgCAMI2_short_read_pooled_gsa	75787	Rhodocyclaceae	family	1.0	1.0	910495	910495	910495	1.0	1.0	3393	3393	3393	False
+rhimgCAMI2_short_read_pooled_gsa	388449	Ktedonobacteraceae	family	1.0	1.0	713899	713899	713899	1.0	1.0	2929	2929	2929	False
+rhimgCAMI2_short_read_pooled_gsa	570265	Methanocellaceae	family	1.0	1.0	369969	369969	369969	1.0	1.0	1421	1421	1421	False
+rhimgCAMI2_short_read_pooled_gsa	1198451	Methanoregulaceae	family	1.0	1.0	238028	238028	238028	1.0	1.0	962	962	962	False
+rhimgCAMI2_short_read_pooled_gsa	186807	Peptococcaceae	family	1.0	1.0	464328	464328	464328	1.0	1.0	1831	1831	1831	False
+rhimgCAMI2_short_read_pooled_gsa	1963268	Haloarculaceae	family	1.0	1.0	145951	145951	145951	1.0	1.0	585	585	585	False
+rhimgCAMI2_short_read_pooled_gsa	1033997	Nitrososphaeraceae	family	1.0	1.0	158810	158810	158810	1.0	1.0	650	650	650	False
+rhimgCAMI2_short_read_pooled_gsa	543349	Symbiobacteriaceae	family	1.0	1.0	124805	124805	124805	1.0	1.0	500	500	500	False
+rhimgCAMI2_short_read_pooled_gsa	2004	Streptosporangiaceae	family	1.0	1.0	221195	221195	221195	1.0	1.0	921	921	921	False
+rhimgCAMI2_short_read_pooled_gsa	563798	Cyclobacteriaceae	family	1.0	1.0	5778651	5778651	5778651	1.0	1.0	66	66	66	False
+rhimgCAMI2_short_read_pooled_gsa	145357	Dermacoccaceae	family	1.0	1.0	558993	558993	558993	1.0	1.0	2119	2119	2119	False
+rhimgCAMI2_short_read_pooled_gsa	33958	Lactobacillaceae	family	1.0	1.0	252627	252627	252627	1.0	1.0	1051	1051	1051	False
+rhimgCAMI2_short_read_pooled_gsa	2259	Thermococcaceae	family	1.0	1.0	128239	128239	128239	1.0	1.0	522	522	522	False
+rhimgCAMI2_short_read_pooled_gsa	1843490	Sporomusaceae	family	1.0	1.0	384873	384873	384873	1.0	1.0	1539	1539	1539	False
+rhimgCAMI2_short_read_pooled_gsa	85028	Tsukamurellaceae	family	1.0	1.0	270068	270068	270068	1.0	1.0	1105	1105	1105	False
+rhimgCAMI2_short_read_pooled_gsa	1903409	Erwiniaceae	family	1.0	1.0	535268	535268	535268	1.0	1.0	2167	2167	2167	False
+rhimgCAMI2_short_read_pooled_gsa	622451	Actinopolysporaceae	family	1.0	1.0	279788	279788	279788	1.0	1.0	1151	1151	1151	False
+rhimgCAMI2_short_read_pooled_gsa	85017	Promicromonosporaceae	family	1.0	1.0	885781	885781	885781	1.0	1.0	3574	3574	3574	False
+rhimgCAMI2_short_read_pooled_gsa	809	Chlamydiaceae	family	1.0	1.0	174691	174691	174691	1.0	1.0	672	672	672	False
+rhimgCAMI2_short_read_pooled_gsa	85026	Gordoniaceae	family	1.0	1.0	519852	519852	519852	1.0	1.0	2066	2066	2066	False
+rhimgCAMI2_short_read_pooled_gsa	1077264	Chthonomonadaceae	family	1.0	1.0	300579	300579	300579	1.0	1.0	1213	1213	1213	False
+rhimgCAMI2_short_read_pooled_gsa	72294	Campylobacteraceae	family	1.0	1.0	172606	172606	172606	1.0	1.0	713	713	713	False
+rhimgCAMI2_short_read_pooled_gsa	206379	Nitrosomonadaceae	family	1.0	1.0	432690	432690	432690	1.0	1.0	1679	1679	1679	False
+rhimgCAMI2_short_read_pooled_gsa	81852	Enterococcaceae	family	1.0	1.0	289519	289519	289519	1.0	1.0	1166	1166	1166	False
+rhimgCAMI2_short_read_pooled_gsa	403	Methylococcaceae	family	1.0	1.0	566134	566134	566134	1.0	1.0	2237	2237	2237	False
+rhimgCAMI2_short_read_pooled_gsa	1775411	Rhodanobacteraceae	family	1.0	1.0	377155	377155	377155	1.0	1.0	1551	1551	1551	False
+rhimgCAMI2_short_read_pooled_gsa	200667	Flammeovirgaceae	family	1.0	1.0	4628695	4628695	4628695	1.0	1.0	2336	2336	2336	False
+rhimgCAMI2_short_read_pooled_gsa	186804	Peptostreptococcaceae	family	1.0	1.0	5255133	5255133	5255133	1.0	1.0	3520	3520	3520	False
+rhimgCAMI2_short_read_pooled_gsa	188786	Thermaceae	family	1.0	1.0	587603	587603	587603	1.0	1.0	2226	2226	2226	False
+rhimgCAMI2_short_read_pooled_gsa	85030	Geodermatophilaceae	family	1.0	1.0	866445	866445	866445	1.0	1.0	3341	3341	3341	False
+rhimgCAMI2_short_read_pooled_gsa	2005523	Paludibacteraceae	family	1.0	1.0	380934	380934	380934	1.0	1.0	1500	1500	1500	False
+rhimgCAMI2_short_read_pooled_gsa	45404	Beijerinckiaceae	family	1.0	1.0	4193549	4193549	4193549	1.0	1.0	1695	1695	1695	False
+rhimgCAMI2_short_read_pooled_gsa	186803	Lachnospiraceae	family	1.0	1.0	613598	613598	613598	1.0	1.0	2399	2399	2399	False
+rhimgCAMI2_short_read_pooled_gsa	433	Acetobacteraceae	family	1.0	1.0	735712	735712	735712	1.0	1.0	2860	2860	2860	False
+rhimgCAMI2_short_read_pooled_gsa	361606	Patulibacteraceae	family	1.0	1.0	592410	592410	592410	1.0	1.0	2340	2340	2340	False
+rhimgCAMI2_short_read_pooled_gsa	32033	Xanthomonadaceae	family	1.0	1.0	50191311	50191311	50191311	1.0	1.0	45737	45737	45737	False
+rhimgCAMI2_short_read_pooled_gsa	84566	Sphingobacteriaceae	family	1.0	1.0	6766625	6766625	6766625	1.0	1.0	11800	11800	11800	False
+rhimgCAMI2_short_read_pooled_gsa	186822	Paenibacillaceae	family	1.0	1.0	20341036	20341036	20341036	1.0	1.0	47545	47545	47545	False
+rhimgCAMI2_short_read_pooled_gsa	85016	Cellulomonadaceae	family	1.0	1.0	1152079	1152079	1152079	1.0	1.0	4510	4510	4510	False
+rhimgCAMI2_short_read_pooled_gsa	49546	Flavobacteriaceae	family	1.0	1.0	33390407	33390407	33390407	1.0	1.0	37211	37211	37211	False
+rhimgCAMI2_short_read_pooled_gsa	1403793	Umbelopsidaceae	family	1.0	1.0	1226509	1226509	1226509	1.0	1.0	4970	4970	4970	False
+rhimgCAMI2_short_read_pooled_gsa	76892	Caulobacteraceae	family	1.0	1.0	25171684	25171684	25171684	1.0	1.0	27803	27803	27803	False
+rhimgCAMI2_short_read_pooled_gsa	452563	Cladosporiaceae	family	1.0	1.0	30087501	30087501	30087501	1.0	1.0	34871	34871	34871	False
+rhimgCAMI2_short_read_pooled_gsa	767018	Diaporthaceae	family	1.0	1.0	74186775	74186775	74186775	1.0	1.0	161829	161829	161829	False
+rhimgCAMI2_short_read_pooled_gsa	5129	Hypocreaceae	family	1.0	1.0	33020369	33020369	33020369	1.0	1.0	47191	47191	47191	False
+rhimgCAMI2_short_read_pooled_gsa	213422	Geobacteraceae	family	1.0	1.0	3702419	3702419	3702419	1.0	1.0	10825	10825	10825	False
+rhimgCAMI2_short_read_pooled_gsa	80864	Comamonadaceae	family	1.0	1.0	170315220	170315220	170315220	1.0	1.0	91637	91637	91637	False
+rhimgCAMI2_short_read_pooled_gsa	1131492	Aspergillaceae	family	1.0	1.0	60847767	60847767	60847767	1.0	1.0	108215	108215	108215	False
+rhimgCAMI2_short_read_pooled_gsa	5020	Phaeosphaeriaceae	family	1.0	1.0	94435211	94435211	94435211	1.0	1.0	121119	121119	121119	False
+rhimgCAMI2_short_read_pooled_gsa	1033978	Plectosphaerellaceae	family	1.0	1.0	94675017	94675017	94675017	1.0	1.0	144792	144792	144792	False
+rhimgCAMI2_short_read_pooled_gsa	2078570	Pseudopyrenochaetaceae	family	1.0	1.0	29919392	29919392	29919392	1.0	1.0	81877	81877	81877	False
+rhimgCAMI2_short_read_pooled_gsa	28056	Micromonosporaceae	family	1.0	1.0	37911579	37911579	37911579	1.0	1.0	30785	30785	30785	False
+rhimgCAMI2_short_read_pooled_gsa	76657	Dermateaceae	family	1.0	1.0	34824998	34824998	34824998	1.0	1.0	97111	97111	97111	False
+rhimgCAMI2_short_read_pooled_gsa	1667166	Stachybotryaceae	family	1.0	1.0	12044905	12044905	12044905	1.0	1.0	43018	43018	43018	False
+rhimgCAMI2_short_read_pooled_gsa	2062	Streptomycetaceae	family	1.0	1.0	41481998	41481998	41481998	1.0	1.0	64788	64788	64788	False
+rhimgCAMI2_short_read_pooled_gsa	28556	Pleosporaceae	family	1.0	1.0	66866953	66866953	66866953	1.0	1.0	60209	60209	60209	False
+rhimgCAMI2_short_read_pooled_gsa	2070	Pseudonocardiaceae	family	1.0	1.0	41416800	41416800	41416800	1.0	1.0	58381	58381	58381	False
+rhimgCAMI2_short_read_pooled_gsa	320583	Conexibacteraceae	family	1.0	1.0	4656871	4656871	4656871	1.0	1.0	10129	10129	10129	False
+rhimgCAMI2_short_read_pooled_gsa	110618	Nectriaceae	family	1.0	1.0	439794099	439794099	439794099	1.0	1.0	688011	688011	688011	False
+rhimgCAMI2_short_read_pooled_gsa	414877	Catenulisporaceae	family	1.0	1.0	3662580	3662580	3662580	1.0	1.0	12241	12241	12241	False
+rhimgCAMI2_short_read_pooled_gsa	683158	Didymellaceae	family	1.0	1.0	71621979	71621979	71621979	1.0	1.0	136085	136085	136085	False
+rhimgCAMI2_short_read_pooled_gsa	135621	Pseudomonadaceae	family	1.0	1.0	73412492	73412492	73412492	1.0	1.0	79169	79169	79169	False
+rhimgCAMI2_short_read_pooled_gsa	45131	Botryosphaeriaceae	family	1.0	1.0	53029457	53029457	53029457	1.0	1.0	9008	9008	9008	False
+rhimgCAMI2_short_read_pooled_gsa	34397	Clavicipitaceae	family	1.0	1.0	38902706	38902706	38902706	1.0	1.0	45498	45498	45498	False
+rhimgCAMI2_short_read_pooled_gsa	186817	Bacillaceae	family	1.0	1.0	12496226	12496226	12496226	1.0	1.0	31245	31245	31245	False
+rhimgCAMI2_short_read_pooled_gsa	125316	Beutenbergiaceae	family	1.0	1.0	769932	769932	769932	1.0	1.0	2964	2964	2964	False
+rhimgCAMI2_short_read_pooled_gsa	28568	Trichocomaceae	family	1.0	1.0	14926903	14926903	14926903	1.0	1.0	45611	45611	45611	False
+rhimgCAMI2_short_read_pooled_gsa	3700	Brassicaceae	family	1.0	1.0	118685162	118685162	118685162	1.0	1.0	16474	16474	16474	False
+rhimgCAMI2_short_read_pooled_gsa	89373	Cytophagaceae	family	1.0	1.0	2740060	2740060	2740060	1.0	1.0	7904	7904	7904	False
+rhimgCAMI2_short_read_pooled_gsa	183710	Deinococcaceae	family	1.0	1.0	6517974	6517974	6517974	1.0	1.0	19113	19113	19113	False
+rhimgCAMI2_short_read_pooled_gsa	41294	Bradyrhizobiaceae	family	1.0	1.0	48814447	48814447	48814447	1.0	1.0	60019	60019	60019	False
+rhimgCAMI2_short_read_pooled_gsa	1268	Micrococcaceae	family	1.0	1.0	15729889	15729889	15729889	1.0	1.0	21091	21091	21091	False
+rhimgCAMI2_short_read_pooled_gsa	31	Myxococcaceae	family	1.0	1.0	6964723	6964723	6964723	1.0	1.0	13167	13167	13167	False
+rhimgCAMI2_short_read_pooled_gsa	2304686	Hungateiclostridiaceae	family	1.0	1.0	480404	480404	480404	1.0	1.0	1970	1970	1970	False
+rhimgCAMI2_short_read_pooled_gsa	45401	Hyphomicrobiaceae	family	1.0	1.0	24625019	24625019	24625019	1.0	1.0	2139	2139	2139	False
+rhimgCAMI2_short_read_pooled_gsa	1653	Corynebacteriaceae	family	1.0	1.0	1295054	1295054	1295054	1.0	1.0	5131	5131	5131	False
+rhimgCAMI2_short_read_pooled_gsa	31989	Rhodobacteraceae	family	1.0	1.0	1956521	1956521	1956521	1.0	1.0	6599	6599	6599	False
+rhimgCAMI2_short_read_pooled_gsa	1762	Mycobacteriaceae	family	1.0	1.0	9548373	9548373	9548373	1.0	1.0	12900	12900	12900	False
+rhimgCAMI2_short_read_pooled_gsa	85031	Nakamurellaceae	family	1.0	1.0	563216	563216	563216	1.0	1.0	2252	2252	2252	False
+rhimgCAMI2_short_read_pooled_gsa	2012	Thermomonosporaceae	family	1.0	1.0	4933716	4933716	4933716	1.0	1.0	9842	9842	9842	False
+rhimgCAMI2_short_read_pooled_gsa	82115	Rhizobiaceae	family	1.0	1.0	59542813	59542813	59542813	1.0	1.0	57119	57119	57119	False
+rhimgCAMI2_short_read_pooled_gsa	1111112	Sympoventuriaceae	family	1.0	1.0	5857306	5857306	5857306	1.0	1.0	22403	22403	22403	False
+rhimgCAMI2_short_read_pooled_gsa	75682	Oxalobacteraceae	family	1.0	1.0	48050336	48050336	48050336	1.0	1.0	11045	11045	11045	False
+rhimgCAMI2_short_read_pooled_gsa	41297	Sphingomonadaceae	family	1.0	1.0	10939978	10939978	10939978	1.0	1.0	19882	19882	19882	False
+rhimgCAMI2_short_read_pooled_gsa	28256	Halomonadaceae	family	1.0	1.0	3883222	3883222	3883222	1.0	1.0	11575	11575	11575	False
+rhimgCAMI2_short_read_pooled_gsa	90964	Staphylococcaceae	family	1.0	1.0	1380875	1380875	1380875	1.0	1.0	4124	4124	4124	False
+rhimgCAMI2_short_read_pooled_gsa	85020	Dermabacteraceae	family	1.0	1.0	815231	815231	815231	1.0	1.0	3012	3012	3012	False
+rhimgCAMI2_short_read_pooled_gsa	568386	Sinobacteraceae	family	1.0	1.0	3430325	3430325	3430325	1.0	1.0	5395	5395	5395	False
+rhimgCAMI2_short_read_pooled_gsa	134621	Verrucomicrobia subdivision 3	family	1.0	1.0	755039	755039	755039	1.0	1.0	2997	2997	2997	False
+rhimgCAMI2_short_read_pooled_gsa	119060	Burkholderiaceae	family	1.0	1.0	111387815	111387815	111387815	1.0	1.0	50394	50394	50394	False
+rhimgCAMI2_short_read_pooled_gsa	1892252	Microcoleaceae	family	1.0	1.0	1150202	1150202	1150202	1.0	1.0	4657	4657	4657	False
+rhimgCAMI2_short_read_pooled_gsa	219687	Gemmatimonadaceae	family	1.0	1.0	1112779	1112779	1112779	1.0	1.0	4122	4122	4122	False
+rhimgCAMI2_short_read_pooled_gsa	186818	Planococcaceae	family	1.0	1.0	1060668	1060668	1060668	1.0	1.0	3697	3697	3697	False
+rhimgCAMI2_short_read_pooled_gsa	1910953	Bartaliniaceae	family	1.0	1.0	53899088	53899088	53899088	1.0	1.0	45672	45672	45672	False
+rhimgCAMI2_short_read_pooled_gsa	1706371	Cellvibrionaceae	family	1.0	1.0	4576569	4576569	4576569	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	1798858	Ballistosporomyces	genus	1.0	1.0	49946458	49946458	49946458	1.0	1.0	78550	78550	78550	False
+rhimgCAMI2_short_read_pooled_gsa	363276	Ktedonobacter	genus	1.0	1.0	713899	713899	713899	1.0	1.0	2929	2929	2929	False
+rhimgCAMI2_short_read_pooled_gsa	174951	Ramlibacter	genus	1.0	1.0	1464226	1464226	1464226	1.0	1.0	4871	4871	4871	False
+rhimgCAMI2_short_read_pooled_gsa	115780	Desulfotignum	genus	1.0	1.0	686909	686909	686909	1.0	1.0	2661	2661	2661	False
+rhimgCAMI2_short_read_pooled_gsa	58113	Glycomyces	genus	1.0	1.0	195591	195591	195591	1.0	1.0	806	806	806	False
+rhimgCAMI2_short_read_pooled_gsa	1485	Clostridium	genus	1.0	1.0	1515702	1515702	1515702	1.0	1.0	6087	6087	6087	False
+rhimgCAMI2_short_read_pooled_gsa	168694	Salinispora	genus	1.0	1.0	311070	311070	311070	1.0	1.0	1270	1270	1270	False
+rhimgCAMI2_short_read_pooled_gsa	1502725	Effusibacillus	genus	1.0	1.0	2382314	2382314	2382314	1.0	1.0	5037	5037	5037	False
+rhimgCAMI2_short_read_pooled_gsa	332162	Candidatus Solibacter	genus	1.0	1.0	542078	542078	542078	1.0	1.0	2233	2233	2233	False
+rhimgCAMI2_short_read_pooled_gsa	20	Phenylobacterium	genus	1.0	1.0	12744224	12744224	12744224	1.0	1.0	7685	7685	7685	False
+rhimgCAMI2_short_read_pooled_gsa	161492	Anaeromyxobacter	genus	1.0	1.0	1847292	1847292	1847292	1.0	1.0	6771	6771	6771	False
+rhimgCAMI2_short_read_pooled_gsa	570266	Methanocella	genus	1.0	1.0	369969	369969	369969	1.0	1.0	1421	1421	1421	False
+rhimgCAMI2_short_read_pooled_gsa	191	Azospirillum	genus	1.0	1.0	6506479	6506479	6506479	1.0	1.0	56	56	56	False
+rhimgCAMI2_short_read_pooled_gsa	395331	Methanoregula	genus	1.0	1.0	238028	238028	238028	1.0	1.0	962	962	962	False
+rhimgCAMI2_short_read_pooled_gsa	36853	Desulfitobacterium	genus	1.0	1.0	464328	464328	464328	1.0	1.0	1831	1831	1831	False
+rhimgCAMI2_short_read_pooled_gsa	120652	Methylocella	genus	1.0	1.0	4193549	4193549	4193549	1.0	1.0	1695	1695	1695	False
+rhimgCAMI2_short_read_pooled_gsa	1742993	Pseudarthrobacter	genus	1.0	1.0	1738811	1738811	1738811	1.0	1.0	6651	6651	6651	False
+rhimgCAMI2_short_read_pooled_gsa	346096	Paludibacter	genus	1.0	1.0	380934	380934	380934	1.0	1.0	1500	1500	1500	False
+rhimgCAMI2_short_read_pooled_gsa	182639	Kribbella	genus	1.0	1.0	930087	930087	930087	1.0	1.0	3665	3665	3665	False
+rhimgCAMI2_short_read_pooled_gsa	1860	Geodermatophilus	genus	1.0	1.0	866445	866445	866445	1.0	1.0	3341	3341	3341	False
+rhimgCAMI2_short_read_pooled_gsa	65551	Meiothermus	genus	1.0	1.0	587603	587603	587603	1.0	1.0	2226	2226	2226	False
+rhimgCAMI2_short_read_pooled_gsa	1827195	Caballeronia	genus	1.0	1.0	2662191	2662191	2662191	1.0	1.0	9060	9060	9060	False
+rhimgCAMI2_short_read_pooled_gsa	642	Aeromonas	genus	1.0	1.0	419766	419766	419766	1.0	1.0	1688	1688	1688	False
+rhimgCAMI2_short_read_pooled_gsa	33071	Gloeobacter	genus	1.0	1.0	344453	344453	344453	1.0	1.0	1392	1392	1392	False
+rhimgCAMI2_short_read_pooled_gsa	57494	Nesterenkonia	genus	1.0	1.0	190644	190644	190644	1.0	1.0	775	775	775	False
+rhimgCAMI2_short_read_pooled_gsa	658061	Candidatus Koribacter	genus	1.0	1.0	577850	577850	577850	1.0	1.0	2312	2312	2312	False
+rhimgCAMI2_short_read_pooled_gsa	106589	Cupriavidus	genus	1.0	1.0	52459689	52459689	52459689	1.0	1.0	8465	8465	8465	False
+rhimgCAMI2_short_read_pooled_gsa	75	Caulobacter	genus	1.0	1.0	3211581	3211581	3211581	1.0	1.0	8602	8602	8602	False
+rhimgCAMI2_short_read_pooled_gsa	1827	Rhodococcus	genus	1.0	1.0	1548820	1548820	1548820	1.0	1.0	5691	5691	5691	False
+rhimgCAMI2_short_read_pooled_gsa	374	Bradyrhizobium	genus	1.0	1.0	24182648	24182648	24182648	1.0	1.0	24680	24680	24680	False
+rhimgCAMI2_short_read_pooled_gsa	295577	Chthoniobacter	genus	1.0	1.0	724187	724187	724187	1.0	1.0	2916	2916	2916	False
+rhimgCAMI2_short_read_pooled_gsa	39643	Sorangium	genus	1.0	1.0	25841039	25841039	25841039	1.0	1.0	16768	16768	16768	False
+rhimgCAMI2_short_read_pooled_gsa	329857	Cohnella	genus	1.0	1.0	1632637	1632637	1632637	1.0	1.0	6247	6247	6247	False
+rhimgCAMI2_short_read_pooled_gsa	1663	Arthrobacter	genus	1.0	1.0	12512707	12512707	12512707	1.0	1.0	8430	8430	8430	False
+rhimgCAMI2_short_read_pooled_gsa	1745211	Chania	genus	1.0	1.0	319793	319793	319793	1.0	1.0	1300	1300	1300	False
+rhimgCAMI2_short_read_pooled_gsa	469	Acinetobacter	genus	1.0	1.0	774599	774599	774599	1.0	1.0	3165	3165	3165	False
+rhimgCAMI2_short_read_pooled_gsa	37463	Phoma	genus	1.0	1.0	2344655	2344655	2344655	1.0	1.0	9511	9511	9511	False
+rhimgCAMI2_short_read_pooled_gsa	528	Ochrobactrum	genus	1.0	1.0	964895	964895	964895	1.0	1.0	3856	3856	3856	False
+rhimgCAMI2_short_read_pooled_gsa	1195526	Gryllotalpicola	genus	1.0	1.0	893456	893456	893456	1.0	1.0	3197	3197	3197	False
+rhimgCAMI2_short_read_pooled_gsa	323620	Shinella	genus	1.0	1.0	6610460	6610460	6610460	1.0	1.0	5888	5888	5888	False
+rhimgCAMI2_short_read_pooled_gsa	2268	Thermofilum	genus	1.0	1.0	181266	181266	181266	1.0	1.0	721	721	721	False
+rhimgCAMI2_short_read_pooled_gsa	222	Achromobacter	genus	1.0	1.0	3749452	3749452	3749452	1.0	1.0	13192	13192	13192	False
+rhimgCAMI2_short_read_pooled_gsa	29330	Alicyclobacillus	genus	1.0	1.0	361341	361341	361341	1.0	1.0	1482	1482	1482	False
+rhimgCAMI2_short_read_pooled_gsa	2745	Halomonas	genus	1.0	1.0	2617036	2617036	2617036	1.0	1.0	7151	7151	7151	False
+rhimgCAMI2_short_read_pooled_gsa	1839	Nocardioides	genus	1.0	1.0	3320440	3320440	3320440	1.0	1.0	7736	7736	7736	False
+rhimgCAMI2_short_read_pooled_gsa	13687	Sphingomonas	genus	1.0	1.0	7260688	7260688	7260688	1.0	1.0	7212	7212	7212	False
+rhimgCAMI2_short_read_pooled_gsa	1525371	Neorhizobium	genus	1.0	1.0	1308284	1308284	1308284	1.0	1.0	4869	4869	4869	False
+rhimgCAMI2_short_read_pooled_gsa	1481960	Peptoclostridium	genus	1.0	1.0	1697484	1697484	1697484	1.0	1.0	3314	3314	3314	False
+rhimgCAMI2_short_read_pooled_gsa	507	Alcaligenes	genus	1.0	1.0	182578	182578	182578	1.0	1.0	740	740	740	False
+rhimgCAMI2_short_read_pooled_gsa	551	Erwinia	genus	1.0	1.0	249219	249219	249219	1.0	1.0	1028	1028	1028	False
+rhimgCAMI2_short_read_pooled_gsa	92944	Ketogulonicigenium	genus	1.0	1.0	464759	464759	464759	1.0	1.0	1784	1784	1784	False
+rhimgCAMI2_short_read_pooled_gsa	2304691	Thermoclostridium	genus	1.0	1.0	159238	159238	159238	1.0	1.0	659	659	659	False
+rhimgCAMI2_short_read_pooled_gsa	1079112	Ilyonectria	genus	1.0	1.0	75445150	75445150	75445150	1.0	1.0	1116	1116	1116	False
+rhimgCAMI2_short_read_pooled_gsa	63958	Demetria	genus	1.0	1.0	558993	558993	558993	1.0	1.0	2119	2119	2119	False
+rhimgCAMI2_short_read_pooled_gsa	52972	Polaromonas	genus	1.0	1.0	63855	63855	63855	1.0	1.0	264	264	264	False
+rhimgCAMI2_short_read_pooled_gsa	246875	Algoriphagus	genus	1.0	1.0	5778651	5778651	5778651	1.0	1.0	66	66	66	False
+rhimgCAMI2_short_read_pooled_gsa	2005	Microbispora	genus	1.0	1.0	203318	203318	203318	1.0	1.0	844	844	844	False
+rhimgCAMI2_short_read_pooled_gsa	2733	Symbiobacterium	genus	1.0	1.0	124805	124805	124805	1.0	1.0	500	500	500	False
+rhimgCAMI2_short_read_pooled_gsa	497726	Nitrososphaera	genus	1.0	1.0	158810	158810	158810	1.0	1.0	650	650	650	False
+rhimgCAMI2_short_read_pooled_gsa	157920	Cellulosimicrobium	genus	1.0	1.0	303809	303809	303809	1.0	1.0	1255	1255	1255	False
+rhimgCAMI2_short_read_pooled_gsa	651553	Haloglycomyces	genus	1.0	1.0	495085	495085	495085	1.0	1.0	1951	1951	1951	False
+rhimgCAMI2_short_read_pooled_gsa	147067	Thermobispora	genus	1.0	1.0	143440	143440	143440	1.0	1.0	593	593	593	False
+rhimgCAMI2_short_read_pooled_gsa	398412	Gibellulopsis	genus	1.0	1.0	35337198	35337198	35337198	1.0	1.0	129	129	129	False
+rhimgCAMI2_short_read_pooled_gsa	149698	Massilia	genus	1.0	1.0	17297271	17297271	17297271	1.0	1.0	319	319	319	False
+rhimgCAMI2_short_read_pooled_gsa	146825	Halorhabdus	genus	1.0	1.0	145951	145951	145951	1.0	1.0	585	585	585	False
+rhimgCAMI2_short_read_pooled_gsa	76890	Asticcacaulis	genus	1.0	1.0	3716722	3716722	3716722	1.0	1.0	23	23	23	False
+rhimgCAMI2_short_read_pooled_gsa	68	Lysobacter	genus	1.0	1.0	6363885	6363885	6363885	1.0	1.0	60	60	60	False
+rhimgCAMI2_short_read_pooled_gsa	1825023	Candidatus Nitrosotenuis	genus	1.0	1.0	95165	95165	95165	1.0	1.0	390	390	390	False
+rhimgCAMI2_short_read_pooled_gsa	2000	Streptosporangium	genus	1.0	1.0	17877	17877	17877	1.0	1.0	77	77	77	False
+rhimgCAMI2_short_read_pooled_gsa	1121253	Catelliglobosispora	genus	1.0	1.0	7684005	7684005	7684005	1.0	1.0	65	65	65	False
+rhimgCAMI2_short_read_pooled_gsa	1578	Lactobacillus	genus	1.0	1.0	252627	252627	252627	1.0	1.0	1051	1051	1051	False
+rhimgCAMI2_short_read_pooled_gsa	32008	Burkholderia	genus	1.0	1.0	13013407	13013407	13013407	1.0	1.0	175	175	175	False
+rhimgCAMI2_short_read_pooled_gsa	1265689	Nafulsella	genus	1.0	1.0	4628695	4628695	4628695	1.0	1.0	2336	2336	2336	False
+rhimgCAMI2_short_read_pooled_gsa	1077265	Chthonomonas	genus	1.0	1.0	300579	300579	300579	1.0	1.0	1213	1213	1213	False
+rhimgCAMI2_short_read_pooled_gsa	1276290	Caldibacillus	genus	1.0	1.0	262908	262908	262908	1.0	1.0	1068	1068	1068	False
+rhimgCAMI2_short_read_pooled_gsa	231454	Dyella	genus	1.0	1.0	377155	377155	377155	1.0	1.0	1551	1551	1551	False
+rhimgCAMI2_short_read_pooled_gsa	39773	Methylomicrobium	genus	1.0	1.0	566134	566134	566134	1.0	1.0	2237	2237	2237	False
+rhimgCAMI2_short_read_pooled_gsa	1849828	Paeniclostridium	genus	1.0	1.0	3557649	3557649	3557649	1.0	1.0	206	206	206	False
+rhimgCAMI2_short_read_pooled_gsa	1350	Enterococcus	genus	1.0	1.0	289519	289519	289519	1.0	1.0	1166	1166	1166	False
+rhimgCAMI2_short_read_pooled_gsa	212743	Rhizobacter	genus	1.0	1.0	5071691	5071691	5071691	1.0	1.0	101	101	101	False
+rhimgCAMI2_short_read_pooled_gsa	40566	Actinosynnema	genus	1.0	1.0	8186995	8186995	8186995	1.0	1.0	1222	1222	1222	False
+rhimgCAMI2_short_read_pooled_gsa	35798	Nitrosospira	genus	1.0	1.0	432690	432690	432690	1.0	1.0	1679	1679	1679	False
+rhimgCAMI2_short_read_pooled_gsa	57665	Sulfurospirillum	genus	1.0	1.0	172606	172606	172606	1.0	1.0	713	713	713	False
+rhimgCAMI2_short_read_pooled_gsa	2053	Gordonia	genus	1.0	1.0	519852	519852	519852	1.0	1.0	2066	2066	2066	False
+rhimgCAMI2_short_read_pooled_gsa	747294	Pseudorhodoferax	genus	1.0	1.0	8003942	8003942	8003942	1.0	1.0	68	68	68	False
+rhimgCAMI2_short_read_pooled_gsa	810	Chlamydia	genus	1.0	1.0	174691	174691	174691	1.0	1.0	672	672	672	False
+rhimgCAMI2_short_read_pooled_gsa	43676	Promicromonospora	genus	1.0	1.0	581972	581972	581972	1.0	1.0	2319	2319	2319	False
+rhimgCAMI2_short_read_pooled_gsa	1849	Actinopolyspora	genus	1.0	1.0	279788	279788	279788	1.0	1.0	1151	1151	1151	False
+rhimgCAMI2_short_read_pooled_gsa	53335	Pantoea	genus	1.0	1.0	286049	286049	286049	1.0	1.0	1139	1139	1139	False
+rhimgCAMI2_short_read_pooled_gsa	1649482	Pseudopedobacter	genus	1.0	1.0	237884	237884	237884	1.0	1.0	975	975	975	False
+rhimgCAMI2_short_read_pooled_gsa	1835	Saccharopolyspora	genus	1.0	1.0	552677	552677	552677	1.0	1.0	2250	2250	2250	False
+rhimgCAMI2_short_read_pooled_gsa	2060	Tsukamurella	genus	1.0	1.0	270068	270068	270068	1.0	1.0	1105	1105	1105	False
+rhimgCAMI2_short_read_pooled_gsa	151038	Anaeroarcus	genus	1.0	1.0	384873	384873	384873	1.0	1.0	1539	1539	1539	False
+rhimgCAMI2_short_read_pooled_gsa	2263	Thermococcus	genus	1.0	1.0	128239	128239	128239	1.0	1.0	522	522	522	False
+rhimgCAMI2_short_read_pooled_gsa	392733	Terriglobus	genus	1.0	1.0	1733415	1733415	1733415	1.0	1.0	5832	5832	5832	False
+rhimgCAMI2_short_read_pooled_gsa	898	Desulfomicrobium	genus	1.0	1.0	446593	446593	446593	1.0	1.0	1749	1749	1749	False
+rhimgCAMI2_short_read_pooled_gsa	68287	Mesorhizobium	genus	1.0	1.0	21787176	21787176	21787176	1.0	1.0	19737	19737	19737	False
+rhimgCAMI2_short_read_pooled_gsa	400634	Lysinibacillus	genus	1.0	1.0	437923	437923	437923	1.0	1.0	1771	1771	1771	False
+rhimgCAMI2_short_read_pooled_gsa	41275	Brevundimonas	genus	1.0	1.0	5499157	5499157	5499157	1.0	1.0	11493	11493	11493	False
+rhimgCAMI2_short_read_pooled_gsa	64561	Umbelopsis	genus	1.0	1.0	1226509	1226509	1226509	1.0	1.0	4970	4970	4970	False
+rhimgCAMI2_short_read_pooled_gsa	59732	Chryseobacterium	genus	1.0	1.0	9838005	9838005	9838005	1.0	1.0	31361	31361	31361	False
+rhimgCAMI2_short_read_pooled_gsa	1707	Cellulomonas	genus	1.0	1.0	1152079	1152079	1152079	1.0	1.0	4510	4510	4510	False
+rhimgCAMI2_short_read_pooled_gsa	44249	Paenibacillus	genus	1.0	1.0	18183716	18183716	18183716	1.0	1.0	39209	39209	39209	False
+rhimgCAMI2_short_read_pooled_gsa	84567	Pedobacter	genus	1.0	1.0	6528741	6528741	6528741	1.0	1.0	10825	10825	10825	False
+rhimgCAMI2_short_read_pooled_gsa	1036719	Verticillium	genus	1.0	1.0	30391188	30391188	30391188	1.0	1.0	46535	46535	46535	False
+rhimgCAMI2_short_read_pooled_gsa	243023	Pochonia	genus	1.0	1.0	38902706	38902706	38902706	1.0	1.0	45498	45498	45498	False
+rhimgCAMI2_short_read_pooled_gsa	83618	Pseudoxanthomonas	genus	1.0	1.0	20531079	20531079	20531079	1.0	1.0	24887	24887	24887	False
+rhimgCAMI2_short_read_pooled_gsa	5094	Talaromyces	genus	1.0	1.0	14926903	14926903	14926903	1.0	1.0	45611	45611	45611	False
+rhimgCAMI2_short_read_pooled_gsa	36922	Diaporthe	genus	1.0	1.0	74186775	74186775	74186775	1.0	1.0	161829	161829	161829	False
+rhimgCAMI2_short_read_pooled_gsa	152317	Truncatella	genus	1.0	1.0	53899088	53899088	53899088	1.0	1.0	45672	45672	45672	False
+rhimgCAMI2_short_read_pooled_gsa	1372	Planococcus	genus	1.0	1.0	1060668	1060668	1060668	1.0	1.0	3697	3697	3697	False
+rhimgCAMI2_short_read_pooled_gsa	1706036	Gemmatirosa	genus	1.0	1.0	1112779	1112779	1112779	1.0	1.0	4122	4122	4122	False
+rhimgCAMI2_short_read_pooled_gsa	44471	Microcoleus	genus	1.0	1.0	1150202	1150202	1150202	1.0	1.0	4657	4657	4657	False
+rhimgCAMI2_short_read_pooled_gsa	1822464	Paraburkholderia	genus	1.0	1.0	24685547	24685547	24685547	1.0	1.0	14653	14653	14653	False
+rhimgCAMI2_short_read_pooled_gsa	1032526	Pedosphaera	genus	1.0	1.0	755039	755039	755039	1.0	1.0	2997	2997	2997	False
+rhimgCAMI2_short_read_pooled_gsa	413435	Solimonas	genus	1.0	1.0	3430325	3430325	3430325	1.0	1.0	5395	5395	5395	False
+rhimgCAMI2_short_read_pooled_gsa	210567	Cadophora	genus	1.0	1.0	38821231	38821231	38821231	1.0	1.0	114819	114819	114819	False
+rhimgCAMI2_short_read_pooled_gsa	28100	Phyllobacterium	genus	1.0	1.0	2178020	2178020	2178020	1.0	1.0	6658	6658	6658	False
+rhimgCAMI2_short_read_pooled_gsa	5498	Cladosporium	genus	1.0	1.0	30087501	30087501	30087501	1.0	1.0	34871	34871	34871	False
+rhimgCAMI2_short_read_pooled_gsa	5543	Trichoderma	genus	1.0	1.0	33020369	33020369	33020369	1.0	1.0	47191	47191	47191	False
+rhimgCAMI2_short_read_pooled_gsa	1279	Staphylococcus	genus	1.0	1.0	1380875	1380875	1380875	1.0	1.0	4124	4124	4124	False
+rhimgCAMI2_short_read_pooled_gsa	1860048	Striaticonidium	genus	1.0	1.0	12044905	12044905	12044905	1.0	1.0	43018	43018	43018	False
+rhimgCAMI2_short_read_pooled_gsa	35724	Macrophomina	genus	1.0	1.0	53029457	53029457	53029457	1.0	1.0	9008	9008	9008	False
+rhimgCAMI2_short_read_pooled_gsa	286	Pseudomonas	genus	1.0	1.0	73412492	73412492	73412492	1.0	1.0	79169	79169	79169	False
+rhimgCAMI2_short_read_pooled_gsa	55170	Didymella	genus	1.0	1.0	35232395	35232395	35232395	1.0	1.0	20858	20858	20858	False
+rhimgCAMI2_short_read_pooled_gsa	414878	Catenulispora	genus	1.0	1.0	3662580	3662580	3662580	1.0	1.0	12241	12241	12241	False
+rhimgCAMI2_short_read_pooled_gsa	5506	Fusarium	genus	1.0	1.0	308031629	308031629	308031629	1.0	1.0	509002	509002	509002	False
+rhimgCAMI2_short_read_pooled_gsa	191494	Conexibacter	genus	1.0	1.0	4656871	4656871	4656871	1.0	1.0	10129	10129	10129	False
+rhimgCAMI2_short_read_pooled_gsa	43356	Kutzneria	genus	1.0	1.0	2759651	2759651	2759651	1.0	1.0	10755	10755	10755	False
+rhimgCAMI2_short_read_pooled_gsa	5598	Alternaria	genus	1.0	1.0	66866953	66866953	66866953	1.0	1.0	60209	60209	60209	False
+rhimgCAMI2_short_read_pooled_gsa	1883	Streptomyces	genus	1.0	1.0	41481998	41481998	41481998	1.0	1.0	64788	64788	64788	False
+rhimgCAMI2_short_read_pooled_gsa	101853	Pezicula	genus	1.0	1.0	34824998	34824998	34824998	1.0	1.0	97111	97111	97111	False
+rhimgCAMI2_short_read_pooled_gsa	28231	Geobacter	genus	1.0	1.0	3702419	3702419	3702419	1.0	1.0	10825	10825	10825	False
+rhimgCAMI2_short_read_pooled_gsa	1865	Actinoplanes	genus	1.0	1.0	18391337	18391337	18391337	1.0	1.0	17932	17932	17932	False
+rhimgCAMI2_short_read_pooled_gsa	2078564	Pseudopyrenochaeta	genus	1.0	1.0	29919392	29919392	29919392	1.0	1.0	81877	81877	81877	False
+rhimgCAMI2_short_read_pooled_gsa	40657	Plectosphaerella	genus	1.0	1.0	28946631	28946631	28946631	1.0	1.0	98128	98128	98128	False
+rhimgCAMI2_short_read_pooled_gsa	1620264	Dactylonectria	genus	1.0	1.0	56317320	56317320	56317320	1.0	1.0	177893	177893	177893	False
+rhimgCAMI2_short_read_pooled_gsa	1769962	Paraboeremia	genus	1.0	1.0	21187231	21187231	21187231	1.0	1.0	63119	63119	63119	False
+rhimgCAMI2_short_read_pooled_gsa	55067	Phaeosphaeria	genus	1.0	1.0	53462479	53462479	53462479	1.0	1.0	48974	48974	48974	False
+rhimgCAMI2_short_read_pooled_gsa	1813	Amycolatopsis	genus	1.0	1.0	19856607	19856607	19856607	1.0	1.0	30208	30208	30208	False
+rhimgCAMI2_short_read_pooled_gsa	5073	Penicillium	genus	1.0	1.0	48299523	48299523	48299523	1.0	1.0	63178	63178	63178	False
+rhimgCAMI2_short_read_pooled_gsa	34072	Variovorax	genus	1.0	1.0	76067349	76067349	76067349	1.0	1.0	44812	44812	44812	False
+rhimgCAMI2_short_read_pooled_gsa	43668	Brachybacterium	genus	1.0	1.0	815231	815231	815231	1.0	1.0	3012	3012	3012	False
+rhimgCAMI2_short_read_pooled_gsa	204286	Cobetia	genus	1.0	1.0	1266186	1266186	1266186	1.0	1.0	4424	4424	4424	False
+rhimgCAMI2_short_read_pooled_gsa	2013	Nocardiopsis	genus	1.0	1.0	3670708	3670708	3670708	1.0	1.0	9022	9022	9022	False
+rhimgCAMI2_short_read_pooled_gsa	1319578	Acrocalymma	genus	1.0	1.0	6398448	6398448	6398448	1.0	1.0	25137	25137	25137	False
+rhimgCAMI2_short_read_pooled_gsa	1494913	Anditalea	genus	1.0	1.0	2740060	2740060	2740060	1.0	1.0	7904	7904	7904	False
+rhimgCAMI2_short_read_pooled_gsa	3701	Arabidopsis	genus	1.0	1.0	118685162	118685162	118685162	1.0	1.0	16474	16474	16474	False
+rhimgCAMI2_short_read_pooled_gsa	84756	Beutenbergia	genus	1.0	1.0	769932	769932	769932	1.0	1.0	2964	2964	2964	False
+rhimgCAMI2_short_read_pooled_gsa	361607	Patulibacter	genus	1.0	1.0	592410	592410	592410	1.0	1.0	2340	2340	2340	False
+rhimgCAMI2_short_read_pooled_gsa	125216	Roseomonas	genus	1.0	1.0	735712	735712	735712	1.0	1.0	2860	2860	2860	False
+rhimgCAMI2_short_read_pooled_gsa	1873	Micromonospora	genus	1.0	1.0	11525167	11525167	11525167	1.0	1.0	11518	11518	11518	False
+rhimgCAMI2_short_read_pooled_gsa	12916	Acidovorax	genus	1.0	1.0	79091990	79091990	79091990	1.0	1.0	41607	41607	41607	False
+rhimgCAMI2_short_read_pooled_gsa	1506553	Lachnoclostridium	genus	1.0	1.0	613598	613598	613598	1.0	1.0	2399	2399	2399	False
+rhimgCAMI2_short_read_pooled_gsa	551759	Aromatoleum	genus	1.0	1.0	910495	910495	910495	1.0	1.0	3393	3393	3393	False
+rhimgCAMI2_short_read_pooled_gsa	117156	Actinopolymorpha	genus	1.0	1.0	5302488	5302488	5302488	1.0	1.0	12285	12285	12285	False
+rhimgCAMI2_short_read_pooled_gsa	85413	Bosea	genus	1.0	1.0	20774592	20774592	20774592	1.0	1.0	33486	33486	33486	False
+rhimgCAMI2_short_read_pooled_gsa	237	Flavobacterium	genus	1.0	1.0	23552402	23552402	23552402	1.0	1.0	5850	5850	5850	False
+rhimgCAMI2_short_read_pooled_gsa	402649	Actinomycetospora	genus	1.0	1.0	4623903	4623903	4623903	1.0	1.0	8162	8162	8162	False
+rhimgCAMI2_short_read_pooled_gsa	281472	Jiangella	genus	1.0	1.0	616791	616791	616791	1.0	1.0	2473	2473	2473	False
+rhimgCAMI2_short_read_pooled_gsa	911	Nitrobacter	genus	1.0	1.0	3857207	3857207	3857207	1.0	1.0	1853	1853	1853	False
+rhimgCAMI2_short_read_pooled_gsa	1386	Bacillus	genus	1.0	1.0	11795395	11795395	11795395	1.0	1.0	28406	28406	28406	False
+rhimgCAMI2_short_read_pooled_gsa	79328	Chitinophaga	genus	1.0	1.0	3215181	3215181	3215181	1.0	1.0	10695	10695	10695	False
+rhimgCAMI2_short_read_pooled_gsa	1505664	Gottschalkia	genus	1.0	1.0	219360	219360	219360	1.0	1.0	882	882	882	False
+rhimgCAMI2_short_read_pooled_gsa	55080	Brevibacillus	genus	1.0	1.0	524683	524683	524683	1.0	1.0	2089	2089	2089	False
+rhimgCAMI2_short_read_pooled_gsa	81461	Thermanaerovibrio	genus	1.0	1.0	694188	694188	694188	1.0	1.0	2273	2273	2273	False
+rhimgCAMI2_short_read_pooled_gsa	1298	Deinococcus	genus	1.0	1.0	6517974	6517974	6517974	1.0	1.0	19113	19113	19113	False
+rhimgCAMI2_short_read_pooled_gsa	1742992	Paenarthrobacter	genus	1.0	1.0	580878	580878	580878	1.0	1.0	2378	2378	2378	False
+rhimgCAMI2_short_read_pooled_gsa	165697	Sphingopyxis	genus	1.0	1.0	2515885	2515885	2515885	1.0	1.0	8255	8255	8255	False
+rhimgCAMI2_short_read_pooled_gsa	749461	Boeremia	genus	1.0	1.0	12857698	12857698	12857698	1.0	1.0	42597	42597	42597	False
+rhimgCAMI2_short_read_pooled_gsa	963	Herbaspirillum	genus	1.0	1.0	1760034	1760034	1760034	1.0	1.0	5988	5988	5988	False
+rhimgCAMI2_short_read_pooled_gsa	227045	Ochroconis	genus	1.0	1.0	5857306	5857306	5857306	1.0	1.0	22403	22403	22403	False
+rhimgCAMI2_short_read_pooled_gsa	165695	Sphingobium	genus	1.0	1.0	1163405	1163405	1163405	1.0	1.0	4415	4415	4415	False
+rhimgCAMI2_short_read_pooled_gsa	284134	Sarocladium	genus	1.0	1.0	13003303	13003303	13003303	1.0	1.0	46619	46619	46619	False
+rhimgCAMI2_short_read_pooled_gsa	106591	Ensifer	genus	1.0	1.0	3704916	3704916	3704916	1.0	1.0	14533	14533	14533	False
+rhimgCAMI2_short_read_pooled_gsa	65496	Actinoalloteichus	genus	1.0	1.0	5436967	5436967	5436967	1.0	1.0	5784	5784	5784	False
+rhimgCAMI2_short_read_pooled_gsa	1988	Actinomadura	genus	1.0	1.0	4933716	4933716	4933716	1.0	1.0	9842	9842	9842	False
+rhimgCAMI2_short_read_pooled_gsa	150173	Phialocephala	genus	1.0	1.0	72720414	72720414	72720414	1.0	1.0	76592	76592	76592	False
+rhimgCAMI2_short_read_pooled_gsa	53460	Nakamurella	genus	1.0	1.0	563216	563216	563216	1.0	1.0	2252	2252	2252	False
+rhimgCAMI2_short_read_pooled_gsa	1866885	Mycolicibacterium	genus	1.0	1.0	9548373	9548373	9548373	1.0	1.0	12900	12900	12900	False
+rhimgCAMI2_short_read_pooled_gsa	40323	Stenotrophomonas	genus	1.0	1.0	19203884	19203884	19203884	1.0	1.0	8669	8669	8669	False
+rhimgCAMI2_short_read_pooled_gsa	265	Paracoccus	genus	1.0	1.0	1491762	1491762	1491762	1.0	1.0	4815	4815	4815	False
+rhimgCAMI2_short_read_pooled_gsa	1716	Corynebacterium	genus	1.0	1.0	1295054	1295054	1295054	1.0	1.0	5131	5131	5131	False
+rhimgCAMI2_short_read_pooled_gsa	379	Rhizobium	genus	1.0	1.0	42380825	42380825	42380825	1.0	1.0	13280	13280	13280	False
+rhimgCAMI2_short_read_pooled_gsa	46913	Devosia	genus	1.0	1.0	24625019	24625019	24625019	1.0	1.0	2139	2139	2139	False
+rhimgCAMI2_short_read_pooled_gsa	5052	Aspergillus	genus	1.0	1.0	12548244	12548244	12548244	1.0	1.0	45037	45037	45037	False
+rhimgCAMI2_short_read_pooled_gsa	1508657	Ruminiclostridium	genus	1.0	1.0	321166	321166	321166	1.0	1.0	1311	1311	1311	False
+rhimgCAMI2_short_read_pooled_gsa	357	Agrobacterium	genus	1.0	1.0	4720946	4720946	4720946	1.0	1.0	15189	15189	15189	False
+rhimgCAMI2_short_read_pooled_gsa	798070	Paraphoma	genus	1.0	1.0	40972732	40972732	40972732	1.0	1.0	72145	72145	72145	False
+rhimgCAMI2_short_read_pooled_gsa	32	Myxococcus	genus	1.0	1.0	6964723	6964723	6964723	1.0	1.0	13167	13167	13167	False
+rhimgCAMI2_short_read_pooled_gsa	10	Cellvibrio	genus	1.0	1.0	4576569	4576569	4576569	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	5444	Ballistosporomyces sasicola	species	1.0	1.0	49946458	49946458	49946458	1.0	1.0	78550	78550	78550	False
+rhimgCAMI2_short_read_pooled_gsa	277	Meiothermus ruber	species	1.0	1.0	587603	587603	587603	1.0	1.0	2226	2226	2226	False
+rhimgCAMI2_short_read_pooled_gsa	652017	Nesterenkonia sp.	species	1.0	1.0	190644	190644	190644	1.0	1.0	775	775	775	False
+rhimgCAMI2_short_read_pooled_gsa	399	Neorhizobium galegae	species	1.0	1.0	1308284	1308284	1308284	1.0	1.0	4869	4869	4869	False
+rhimgCAMI2_short_read_pooled_gsa	196367	Caballeronia sordidicola	species	1.0	1.0	2662191	2662191	2662191	1.0	1.0	9060	9060	9060	False
+rhimgCAMI2_short_read_pooled_gsa	984	Pedobacter heparinus	species	1.0	1.0	968551	968551	968551	1.0	1.0	3660	3660	3660	False
+rhimgCAMI2_short_read_pooled_gsa	161493	Anaeromyxobacter dehalogenans	species	1.0	1.0	1424267	1424267	1424267	1.0	1.0	5040	5040	5040	False
+rhimgCAMI2_short_read_pooled_gsa	225194	Geobacter bemidjiensis	species	1.0	1.0	728637	728637	728637	1.0	1.0	2807	2807	2807	False
+rhimgCAMI2_short_read_pooled_gsa	1407	Bacillus psychrosaccharolyticus	species	1.0	1.0	596430	596430	596430	1.0	1.0	2356	2356	2356	False
+rhimgCAMI2_short_read_pooled_gsa	1861	Geodermatophilus obscurus	species	1.0	1.0	866445	866445	866445	1.0	1.0	3341	3341	3341	False
+rhimgCAMI2_short_read_pooled_gsa	1265690	Nafulsella turpanensis	species	1.0	1.0	4628695	4628695	4628695	1.0	1.0	2336	2336	2336	False
+rhimgCAMI2_short_read_pooled_gsa	307480	Chryseobacterium vrystaatense	species	1.0	1.0	1475649	1475649	1475649	1.0	1.0	5268	5268	5268	False
+rhimgCAMI2_short_read_pooled_gsa	182640	Kribbella flavida	species	1.0	1.0	930087	930087	930087	1.0	1.0	3665	3665	3665	False
+rhimgCAMI2_short_read_pooled_gsa	40324	Stenotrophomonas maltophilia	species	1.0	1.0	1314327	1314327	1314327	1.0	1.0	4666	4666	4666	False
+rhimgCAMI2_short_read_pooled_gsa	185300	Paludibacter propionicigenes	species	1.0	1.0	380934	380934	380934	1.0	1.0	1500	1500	1500	False
+rhimgCAMI2_short_read_pooled_gsa	361575	Pseudarthrobacter phenanthrenivorans	species	1.0	1.0	960579	960579	960579	1.0	1.0	3528	3528	3528	False
+rhimgCAMI2_short_read_pooled_gsa	199596	Methylocella silvestris	species	1.0	1.0	4193549	4193549	4193549	1.0	1.0	1695	1695	1695	False
+rhimgCAMI2_short_read_pooled_gsa	36854	Desulfitobacterium dehalogenans	species	1.0	1.0	464328	464328	464328	1.0	1.0	1831	1831	1831	False
+rhimgCAMI2_short_read_pooled_gsa	1731	Peptoclostridium acidaminophilum	species	1.0	1.0	1697484	1697484	1697484	1.0	1.0	3314	3314	3314	False
+rhimgCAMI2_short_read_pooled_gsa	1206777	Pseudomonas sp.	species	1.0	1.0	334448	334448	334448	1.0	1.0	1356	1356	1356	False
+rhimgCAMI2_short_read_pooled_gsa	35725	Macrophomina phaseolina	species	1.0	1.0	53029457	53029457	53029457	1.0	1.0	9008	9008	9008	False
+rhimgCAMI2_short_read_pooled_gsa	40567	Actinosynnema mirum	species	1.0	1.0	8186995	8186995	8186995	1.0	1.0	1222	1222	1222	False
+rhimgCAMI2_short_read_pooled_gsa	1267981	Arthrobacter sp.	species	1.0	1.0	2880107	2880107	2880107	1.0	1.0	416	416	416	False
+rhimgCAMI2_short_read_pooled_gsa	1881042	Pseudoxanthomonas sp.	species	1.0	1.0	711358	711358	711358	1.0	1.0	2729	2729	2729	False
+rhimgCAMI2_short_read_pooled_gsa	454171	Chthonomonas calidirosea	species	1.0	1.0	300579	300579	300579	1.0	1.0	1213	1213	1213	False
+rhimgCAMI2_short_read_pooled_gsa	1404244	Corynebacterium glyciniphilum	species	1.0	1.0	181820	181820	181820	1.0	1.0	738	738	738	False
+rhimgCAMI2_short_read_pooled_gsa	66821	Sulfurospirillum multivorans	species	1.0	1.0	172606	172606	172606	1.0	1.0	713	713	713	False
+rhimgCAMI2_short_read_pooled_gsa	1231	Nitrosospira multiformis	species	1.0	1.0	432690	432690	432690	1.0	1.0	1679	1679	1679	False
+rhimgCAMI2_short_read_pooled_gsa	1406	Paenibacillus polymyxa	species	1.0	1.0	308226	308226	308226	1.0	1.0	1269	1269	1269	False
+rhimgCAMI2_short_read_pooled_gsa	1452	Bacillus atrophaeus	species	1.0	1.0	4119256	4119256	4119256	1.0	1.0	905	905	905	False
+rhimgCAMI2_short_read_pooled_gsa	301148	Caldibacillus debilis	species	1.0	1.0	262908	262908	262908	1.0	1.0	1068	1068	1068	False
+rhimgCAMI2_short_read_pooled_gsa	85085	Pseudarthrobacter chlorophenolicus	species	1.0	1.0	478844	478844	478844	1.0	1.0	1911	1911	1911	False
+rhimgCAMI2_short_read_pooled_gsa	1417988	Enterococcus sp.	species	1.0	1.0	289519	289519	289519	1.0	1.0	1166	1166	1166	False
+rhimgCAMI2_short_read_pooled_gsa	75612	Pseudomonas mandelii	species	1.0	1.0	7033353	7033353	7033353	1.0	1.0	1533	1533	1533	False
+rhimgCAMI2_short_read_pooled_gsa	1505	Paeniclostridium sordellii	species	1.0	1.0	3557649	3557649	3557649	1.0	1.0	206	206	206	False
+rhimgCAMI2_short_read_pooled_gsa	95641	Methylomicrobium buryatense	species	1.0	1.0	566134	566134	566134	1.0	1.0	2237	2237	2237	False
+rhimgCAMI2_short_read_pooled_gsa	231455	Dyella japonica	species	1.0	1.0	377155	377155	377155	1.0	1.0	1551	1551	1551	False
+rhimgCAMI2_short_read_pooled_gsa	1478	Bacillus simplex	species	1.0	1.0	1087251	1087251	1087251	1.0	1.0	4295	4295	4295	False
+rhimgCAMI2_short_read_pooled_gsa	1405	Bacillus mycoides	species	1.0	1.0	370675	370675	370675	1.0	1.0	1496	1496	1496	False
+rhimgCAMI2_short_read_pooled_gsa	1454	Bacillus azotoformans	species	1.0	1.0	343406	343406	343406	1.0	1.0	1361	1361	1361	False
+rhimgCAMI2_short_read_pooled_gsa	69328	Pseudomonas sp.	species	1.0	1.0	396216	396216	396216	1.0	1.0	1590	1590	1590	False
+rhimgCAMI2_short_read_pooled_gsa	310783	Deinococcus deserti	species	1.0	1.0	886532	886532	886532	1.0	1.0	3086	3086	3086	False
+rhimgCAMI2_short_read_pooled_gsa	1217718	Cupriavidus sp.	species	1.0	1.0	5810166	5810166	5810166	1.0	1.0	1084	1084	1084	False
+rhimgCAMI2_short_read_pooled_gsa	380174	Cohnella laeviribosi	species	1.0	1.0	585822	585822	585822	1.0	1.0	2338	2338	2338	False
+rhimgCAMI2_short_read_pooled_gsa	115781	Desulfotignum balticum	species	1.0	1.0	686909	686909	686909	1.0	1.0	2661	2661	2661	False
+rhimgCAMI2_short_read_pooled_gsa	588932	Brevundimonas naejangsanensis	species	1.0	1.0	272492	272492	272492	1.0	1.0	1117	1117	1117	False
+rhimgCAMI2_short_read_pooled_gsa	94132	Ramlibacter tataouinensis	species	1.0	1.0	1464226	1464226	1464226	1.0	1.0	4871	4871	4871	False
+rhimgCAMI2_short_read_pooled_gsa	72556	Achromobacter piechaudii	species	1.0	1.0	2406101	2406101	2406101	1.0	1.0	8248	8248	8248	False
+rhimgCAMI2_short_read_pooled_gsa	321846	Pseudomonas simiae	species	1.0	1.0	319477	319477	319477	1.0	1.0	1305	1305	1305	False
+rhimgCAMI2_short_read_pooled_gsa	89154	Corynebacterium terpenotabidum	species	1.0	1.0	243992	243992	243992	1.0	1.0	986	986	986	False
+rhimgCAMI2_short_read_pooled_gsa	358766	Methanoregula boonei	species	1.0	1.0	238028	238028	238028	1.0	1.0	962	962	962	False
+rhimgCAMI2_short_read_pooled_gsa	34010	Azospirillum halopraeferens	species	1.0	1.0	6506479	6506479	6506479	1.0	1.0	56	56	56	False
+rhimgCAMI2_short_read_pooled_gsa	33072	Gloeobacter violaceus	species	1.0	1.0	344453	344453	344453	1.0	1.0	1392	1392	1392	False
+rhimgCAMI2_short_read_pooled_gsa	1380394	Rhodospirillales bacterium	species	1.0	1.0	574470	574470	574470	1.0	1.0	2332	2332	2332	False
+rhimgCAMI2_short_read_pooled_gsa	565429	Phoma radicina	species	1.0	1.0	2344655	2344655	2344655	1.0	1.0	9511	9511	9511	False
+rhimgCAMI2_short_read_pooled_gsa	113565	Actinoplanes globisporus	species	1.0	1.0	10464343	10464343	10464343	1.0	1.0	6601	6601	6601	False
+rhimgCAMI2_short_read_pooled_gsa	1449076	Sphingomonas sp.	species	1.0	1.0	2572306	2572306	2572306	1.0	1.0	6908	6908	6908	False
+rhimgCAMI2_short_read_pooled_gsa	45202	unidentified plasmid	species	1.0	1.0	3489036	3489036	3489036	1.0	1.0	4925	4925	4925	False
+rhimgCAMI2_short_read_pooled_gsa	998084	Streptomyces himastatinicus	species	1.0	1.0	3602621	3602621	3602621	1.0	1.0	12152	12152	12152	False
+rhimgCAMI2_short_read_pooled_gsa	256035	Glycomyces arizonensis	species	1.0	1.0	195591	195591	195591	1.0	1.0	806	806	806	False
+rhimgCAMI2_short_read_pooled_gsa	1520	Clostridium beijerinckii	species	1.0	1.0	669868	669868	669868	1.0	1.0	2661	2661	2661	False
+rhimgCAMI2_short_read_pooled_gsa	351187	Salinispora pacifica	species	1.0	1.0	311070	311070	311070	1.0	1.0	1270	1270	1270	False
+rhimgCAMI2_short_read_pooled_gsa	360313	Ochrobactrum sp.	species	1.0	1.0	566029	566029	566029	1.0	1.0	2254	2254	2254	False
+rhimgCAMI2_short_read_pooled_gsa	1175444	Methanocella conradii	species	1.0	1.0	369969	369969	369969	1.0	1.0	1421	1421	1421	False
+rhimgCAMI2_short_read_pooled_gsa	32644	unidentified	species	1.0	1.0	2815429	2815429	2815429	1.0	1.0	3570	3570	3570	False
+rhimgCAMI2_short_read_pooled_gsa	48865	Fusarium redolens	species	1.0	1.0	932178	932178	932178	1.0	1.0	3879	3879	3879	False
+rhimgCAMI2_short_read_pooled_gsa	43759	Streptomyces wedmorensis	species	1.0	1.0	961826	961826	961826	1.0	1.0	3834	3834	3834	False
+rhimgCAMI2_short_read_pooled_gsa	363277	Ktedonobacter racemifer	species	1.0	1.0	713899	713899	713899	1.0	1.0	2929	2929	2929	False
+rhimgCAMI2_short_read_pooled_gsa	44250	Paenibacillus alvei	species	1.0	1.0	603882	603882	603882	1.0	1.0	2404	2404	2404	False
+rhimgCAMI2_short_read_pooled_gsa	324057	Paenibacillus sp.	species	1.0	1.0	991308	991308	991308	1.0	1.0	3872	3872	3872	False
+rhimgCAMI2_short_read_pooled_gsa	404589	Anaeromyxobacter sp.	species	1.0	1.0	423025	423025	423025	1.0	1.0	1731	1731	1731	False
+rhimgCAMI2_short_read_pooled_gsa	1736591	Phenylobacterium sp.	species	1.0	1.0	2054361	2054361	2054361	1.0	1.0	6397	6397	6397	False
+rhimgCAMI2_short_read_pooled_gsa	332163	Candidatus Solibacter	species	1.0	1.0	542078	542078	542078	1.0	1.0	2233	2233	2233	False
+rhimgCAMI2_short_read_pooled_gsa	1766	Mycolicibacterium fortuitum	species	1.0	1.0	591070	591070	591070	1.0	1.0	2344	2344	2344	False
+rhimgCAMI2_short_read_pooled_gsa	220686	Bacillus vireti	species	1.0	1.0	667001	667001	667001	1.0	1.0	2627	2627	2627	False
+rhimgCAMI2_short_read_pooled_gsa	232270	Effusibacillus pohliae	species	1.0	1.0	2382314	2382314	2382314	1.0	1.0	5037	5037	5037	False
+rhimgCAMI2_short_read_pooled_gsa	1519	Clostridium tyrobutyricum	species	1.0	1.0	369822	369822	369822	1.0	1.0	1446	1446	1446	False
+rhimgCAMI2_short_read_pooled_gsa	337191	Gordonia sp.	species	1.0	1.0	519852	519852	519852	1.0	1.0	2066	2066	2066	False
+rhimgCAMI2_short_read_pooled_gsa	83554	Chlamydia psittaci	species	1.0	1.0	174691	174691	174691	1.0	1.0	672	672	672	False
+rhimgCAMI2_short_read_pooled_gsa	863227	Paraburkholderia symbiotica	species	1.0	1.0	391609	391609	391609	1.0	1.0	1586	1586	1586	False
+rhimgCAMI2_short_read_pooled_gsa	1459637	Candidatus Nitrososphaera	species	1.0	1.0	158810	158810	158810	1.0	1.0	650	650	650	False
+rhimgCAMI2_short_read_pooled_gsa	392016	Alicyclobacillus contaminans	species	1.0	1.0	130882	130882	130882	1.0	1.0	549	549	549	False
+rhimgCAMI2_short_read_pooled_gsa	658612	Pseudomonas sp.	species	1.0	1.0	5787511	5787511	5787511	1.0	1.0	122	122	122	False
+rhimgCAMI2_short_read_pooled_gsa	1214906	unidentified virus	species	1.0	1.0	478642	478642	478642	1.0	1.0	865	865	865	False
+rhimgCAMI2_short_read_pooled_gsa	796325	Gibellulopsis nigrescens	species	1.0	1.0	35337198	35337198	35337198	1.0	1.0	129	129	129	False
+rhimgCAMI2_short_read_pooled_gsa	2006	Thermobispora bispora	species	1.0	1.0	143440	143440	143440	1.0	1.0	593	593	593	False
+rhimgCAMI2_short_read_pooled_gsa	1523621	Cellulosimicrobium sp.	species	1.0	1.0	303809	303809	303809	1.0	1.0	1255	1255	1255	False
+rhimgCAMI2_short_read_pooled_gsa	69222	Erwinia mallotivora	species	1.0	1.0	249219	249219	249219	1.0	1.0	1028	1028	1028	False
+rhimgCAMI2_short_read_pooled_gsa	2734	Symbiobacterium thermophilum	species	1.0	1.0	124805	124805	124805	1.0	1.0	500	500	500	False
+rhimgCAMI2_short_read_pooled_gsa	59840	Paenibacillus curdlanolyticus	species	1.0	1.0	509141	509141	509141	1.0	1.0	2031	2031	2031	False
+rhimgCAMI2_short_read_pooled_gsa	106590	Cupriavidus necator	species	1.0	1.0	8043688	8043688	8043688	1.0	1.0	256	256	256	False
+rhimgCAMI2_short_read_pooled_gsa	1463864	Streptomyces sp.	species	1.0	1.0	7059839	7059839	7059839	1.0	1.0	222	222	222	False
+rhimgCAMI2_short_read_pooled_gsa	316330	Microbispora sp.	species	1.0	1.0	203318	203318	203318	1.0	1.0	844	844	844	False
+rhimgCAMI2_short_read_pooled_gsa	344884	Algoriphagus terrigena	species	1.0	1.0	5778651	5778651	5778651	1.0	1.0	66	66	66	False
+rhimgCAMI2_short_read_pooled_gsa	219305	Micromonospora sp.	species	1.0	1.0	6502217	6502217	6502217	1.0	1.0	339	339	339	False
+rhimgCAMI2_short_read_pooled_gsa	73010	Aeromonas encheleia	species	1.0	1.0	118322	118322	118322	1.0	1.0	485	485	485	False
+rhimgCAMI2_short_read_pooled_gsa	1144318	Polaromonas sp.	species	1.0	1.0	63855	63855	63855	1.0	1.0	264	264	264	False
+rhimgCAMI2_short_read_pooled_gsa	146826	Halorhabdus utahensis	species	1.0	1.0	145951	145951	145951	1.0	1.0	585	585	585	False
+rhimgCAMI2_short_read_pooled_gsa	1268068	Pseudomonas sp.	species	1.0	1.0	6832081	6832081	6832081	1.0	1.0	233	233	233	False
+rhimgCAMI2_short_read_pooled_gsa	435897	Lysobacter capsici	species	1.0	1.0	6363885	6363885	6363885	1.0	1.0	60	60	60	False
+rhimgCAMI2_short_read_pooled_gsa	1353246	Candidatus Nitrosotenuis	species	1.0	1.0	95165	95165	95165	1.0	1.0	390	390	390	False
+rhimgCAMI2_short_read_pooled_gsa	42684	Streptomyces collinus	species	1.0	1.0	8272925	8272925	8272925	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	208439	Amycolatopsis japonica	species	1.0	1.0	8961294	8961294	8961294	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	155077	Cellvibrio japonicus	species	1.0	1.0	4576569	4576569	4576569	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	1144313	Flavobacterium sp.	species	1.0	1.0	5158080	5158080	5158080	1.0	1.0	19	19	19	False
+rhimgCAMI2_short_read_pooled_gsa	69784	Penicillium restrictum	species	1.0	1.0	28557369	28557369	28557369	1.0	1.0	14	14	14	False
+rhimgCAMI2_short_read_pooled_gsa	1736576	Pseudoxanthomonas sp.	species	1.0	1.0	8017157	8017157	8017157	1.0	1.0	46	46	46	False
+rhimgCAMI2_short_read_pooled_gsa	129052	Catelliglobosispora koreensis	species	1.0	1.0	7684005	7684005	7684005	1.0	1.0	65	65	65	False
+rhimgCAMI2_short_read_pooled_gsa	5599	Alternaria alternata	species	1.0	1.0	34442465	34442465	34442465	1.0	1.0	35	35	35	False
+rhimgCAMI2_short_read_pooled_gsa	1202532	Flavobacterium sp.	species	1.0	1.0	5335603	5335603	5335603	1.0	1.0	52	52	52	False
+rhimgCAMI2_short_read_pooled_gsa	1298859	Burkholderia sp.	species	1.0	1.0	7244063	7244063	7244063	1.0	1.0	54	54	54	False
+rhimgCAMI2_short_read_pooled_gsa	2001	Streptosporangium roseum	species	1.0	1.0	17877	17877	17877	1.0	1.0	77	77	77	False
+rhimgCAMI2_short_read_pooled_gsa	71433	Mesorhizobium amorphae	species	1.0	1.0	14728269	14728269	14728269	1.0	1.0	92	92	92	False
+rhimgCAMI2_short_read_pooled_gsa	1341165	Flavobacterium enshiense	species	1.0	1.0	3375147	3375147	3375147	1.0	1.0	74	74	74	False
+rhimgCAMI2_short_read_pooled_gsa	46914	Devosia riboflavina	species	1.0	1.0	9816621	9816621	9816621	1.0	1.0	80	80	80	False
+rhimgCAMI2_short_read_pooled_gsa	407019	Sphingomonas astaxanthinifaciens	species	1.0	1.0	70136	70136	70136	1.0	1.0	293	293	293	False
+rhimgCAMI2_short_read_pooled_gsa	63959	Demetria terragena	species	1.0	1.0	558993	558993	558993	1.0	1.0	2119	2119	2119	False
+rhimgCAMI2_short_read_pooled_gsa	309886	Deinococcus apachensis	species	1.0	1.0	198283	198283	198283	1.0	1.0	818	818	818	False
+rhimgCAMI2_short_read_pooled_gsa	440482	Promicromonospora kroppenstedtii	species	1.0	1.0	581972	581972	581972	1.0	1.0	2319	2319	2319	False
+rhimgCAMI2_short_read_pooled_gsa	11	Cellulomonas gilvus	species	1.0	1.0	160479	160479	160479	1.0	1.0	657	657	657	False
+rhimgCAMI2_short_read_pooled_gsa	421531	Chryseobacterium luteum	species	1.0	1.0	431553	431553	431553	1.0	1.0	1705	1705	1705	False
+rhimgCAMI2_short_read_pooled_gsa	2061	Tsukamurella paurometabola	species	1.0	1.0	270068	270068	270068	1.0	1.0	1105	1105	1105	False
+rhimgCAMI2_short_read_pooled_gsa	79885	Bacillus pseudofirmus	species	1.0	1.0	203252	203252	203252	1.0	1.0	834	834	834	False
+rhimgCAMI2_short_read_pooled_gsa	169679	Clostridium saccharobutylicum	species	1.0	1.0	275439	275439	275439	1.0	1.0	1145	1145	1145	False
+rhimgCAMI2_short_read_pooled_gsa	1836	Saccharopolyspora erythraea	species	1.0	1.0	552677	552677	552677	1.0	1.0	2250	2250	2250	False
+rhimgCAMI2_short_read_pooled_gsa	151895	Pseudopedobacter saltans	species	1.0	1.0	237884	237884	237884	1.0	1.0	975	975	975	False
+rhimgCAMI2_short_read_pooled_gsa	445961	Chryseobacterium soli	species	1.0	1.0	376329	376329	376329	1.0	1.0	1537	1537	1537	False
+rhimgCAMI2_short_read_pooled_gsa	1304866	Clostridium sp.	species	1.0	1.0	200573	200573	200573	1.0	1.0	835	835	835	False
+rhimgCAMI2_short_read_pooled_gsa	1217712	Acinetobacter sp.	species	1.0	1.0	220421	220421	220421	1.0	1.0	916	916	916	False
+rhimgCAMI2_short_read_pooled_gsa	375	Bradyrhizobium japonicum	species	1.0	1.0	9390473	9390473	9390473	1.0	1.0	2526	2526	2526	False
+rhimgCAMI2_short_read_pooled_gsa	35621	Streptomyces mobaraensis	species	1.0	1.0	430184	430184	430184	1.0	1.0	1753	1753	1753	False
+rhimgCAMI2_short_read_pooled_gsa	1408	Bacillus pumilus	species	1.0	1.0	144374	144374	144374	1.0	1.0	599	599	599	False
+rhimgCAMI2_short_read_pooled_gsa	1267600	Pantoea sp.	species	1.0	1.0	286049	286049	286049	1.0	1.0	1139	1139	1139	False
+rhimgCAMI2_short_read_pooled_gsa	332056	Sphingobium japonicum	species	1.0	1.0	291507	291507	291507	1.0	1.0	1189	1189	1189	False
+rhimgCAMI2_short_read_pooled_gsa	493376	Chryseobacterium palustre	species	1.0	1.0	165835	165835	165835	1.0	1.0	671	671	671	False
+rhimgCAMI2_short_read_pooled_gsa	33906	Actinopolyspora mortivallis	species	1.0	1.0	279788	279788	279788	1.0	1.0	1151	1151	1151	False
+rhimgCAMI2_short_read_pooled_gsa	82376	Anaeroarcus burkinensis	species	1.0	1.0	384873	384873	384873	1.0	1.0	1539	1539	1539	False
+rhimgCAMI2_short_read_pooled_gsa	342948	Thermococcus onnurineus	species	1.0	1.0	128239	128239	128239	1.0	1.0	522	522	522	False
+rhimgCAMI2_short_read_pooled_gsa	1312959	Arthrobacter sp.	species	1.0	1.0	291452	291452	291452	1.0	1.0	1190	1190	1190	False
+rhimgCAMI2_short_read_pooled_gsa	218284	Bacillus vietnamensis	species	1.0	1.0	229580	229580	229580	1.0	1.0	933	933	933	False
+rhimgCAMI2_short_read_pooled_gsa	64609	Ilyonectria destructans	species	1.0	1.0	75445150	75445150	75445150	1.0	1.0	1116	1116	1116	False
+rhimgCAMI2_short_read_pooled_gsa	1510	Thermoclostridium stercorarium	species	1.0	1.0	159238	159238	159238	1.0	1.0	659	659	659	False
+rhimgCAMI2_short_read_pooled_gsa	1888	Streptomyces albus	species	1.0	1.0	418803	418803	418803	1.0	1.0	1708	1708	1708	False
+rhimgCAMI2_short_read_pooled_gsa	487316	Acinetobacter soli	species	1.0	1.0	132097	132097	132097	1.0	1.0	535	535	535	False
+rhimgCAMI2_short_read_pooled_gsa	92945	Ketogulonicigenium vulgare	species	1.0	1.0	464759	464759	464759	1.0	1.0	1784	1784	1784	False
+rhimgCAMI2_short_read_pooled_gsa	1938	Streptomyces viridochromogenes	species	1.0	1.0	222604	222604	222604	1.0	1.0	926	926	926	False
+rhimgCAMI2_short_read_pooled_gsa	253839	Streptomyces sp.	species	1.0	1.0	7914125	7914125	7914125	1.0	1.0	651	651	651	False
+rhimgCAMI2_short_read_pooled_gsa	483011	Lactobacillus fabifermentans	species	1.0	1.0	252627	252627	252627	1.0	1.0	1051	1051	1051	False
+rhimgCAMI2_short_read_pooled_gsa	67581	Streptomyces viridosporus	species	1.0	1.0	711790	711790	711790	1.0	1.0	2879	2879	2879	False
+rhimgCAMI2_short_read_pooled_gsa	316	Pseudomonas stutzeri	species	1.0	1.0	219646	219646	219646	1.0	1.0	912	912	912	False
+rhimgCAMI2_short_read_pooled_gsa	526067	Haloglycomyces albus	species	1.0	1.0	495085	495085	495085	1.0	1.0	1951	1951	1951	False
+rhimgCAMI2_short_read_pooled_gsa	47879	Pseudomonas corrugata	species	1.0	1.0	569268	569268	569268	1.0	1.0	2278	2278	2278	False
+rhimgCAMI2_short_read_pooled_gsa	160386	Corynebacterium casei	species	1.0	1.0	513192	513192	513192	1.0	1.0	1963	1963	1963	False
+rhimgCAMI2_short_read_pooled_gsa	1711	Cellulomonas flavigena	species	1.0	1.0	221997	221997	221997	1.0	1.0	908	908	908	False
+rhimgCAMI2_short_read_pooled_gsa	1736315	Pseudorhodoferax sp.	species	1.0	1.0	8003942	8003942	8003942	1.0	1.0	68	68	68	False
+rhimgCAMI2_short_read_pooled_gsa	196162	Nocardioides sp.	species	1.0	1.0	3320440	3320440	3320440	1.0	1.0	7736	7736	7736	False
+rhimgCAMI2_short_read_pooled_gsa	1178482	Halomonas huangheensis	species	1.0	1.0	2617036	2617036	2617036	1.0	1.0	7151	7151	7151	False
+rhimgCAMI2_short_read_pooled_gsa	287986	Amycolatopsis rifamycinica	species	1.0	1.0	3973335	3973335	3973335	1.0	1.0	12507	12507	12507	False
+rhimgCAMI2_short_read_pooled_gsa	1144343	Phyllobacterium sp.	species	1.0	1.0	2178020	2178020	2178020	1.0	1.0	6658	6658	6658	False
+rhimgCAMI2_short_read_pooled_gsa	262132	Ochroconis tshawytschae	species	1.0	1.0	5857306	5857306	5857306	1.0	1.0	22403	22403	22403	False
+rhimgCAMI2_short_read_pooled_gsa	1736474	Sphingopyxis sp.	species	1.0	1.0	442369	442369	442369	1.0	1.0	1768	1768	1768	False
+rhimgCAMI2_short_read_pooled_gsa	553385	Cobetia crustatorum	species	1.0	1.0	1266186	1266186	1266186	1.0	1.0	4424	4424	4424	False
+rhimgCAMI2_short_read_pooled_gsa	246432	Staphylococcus equorum	species	1.0	1.0	1380875	1380875	1380875	1.0	1.0	4124	4124	4124	False
+rhimgCAMI2_short_read_pooled_gsa	33205	Fusarium torulosum	species	1.0	1.0	26752337	26752337	26752337	1.0	1.0	66177	66177	66177	False
+rhimgCAMI2_short_read_pooled_gsa	43669	Brachybacterium faecium	species	1.0	1.0	815231	815231	815231	1.0	1.0	3012	3012	3012	False
+rhimgCAMI2_short_read_pooled_gsa	1173027	Microcoleus sp.	species	1.0	1.0	672316	672316	672316	1.0	1.0	2731	2731	2731	False
+rhimgCAMI2_short_read_pooled_gsa	1732013	Cadophora orchidicola	species	1.0	1.0	38821231	38821231	38821231	1.0	1.0	114819	114819	114819	False
+rhimgCAMI2_short_read_pooled_gsa	152316	Truncatella angustata	species	1.0	1.0	53899088	53899088	53899088	1.0	1.0	45672	45672	45672	False
+rhimgCAMI2_short_read_pooled_gsa	421072	Chryseobacterium halperniae	species	1.0	1.0	1218489	1218489	1218489	1.0	1.0	4311	4311	4311	False
+rhimgCAMI2_short_read_pooled_gsa	413479	Solimonas soli	species	1.0	1.0	3430325	3430325	3430325	1.0	1.0	5395	5395	5395	False
+rhimgCAMI2_short_read_pooled_gsa	1032527	Pedosphaera parvula	species	1.0	1.0	755039	755039	755039	1.0	1.0	2997	2997	2997	False
+rhimgCAMI2_short_read_pooled_gsa	157910	Paraburkholderia tuberum	species	1.0	1.0	617384	617384	617384	1.0	1.0	2528	2528	2528	False
+rhimgCAMI2_short_read_pooled_gsa	119532	Microcoleus vaginatus	species	1.0	1.0	477886	477886	477886	1.0	1.0	1926	1926	1926	False
+rhimgCAMI2_short_read_pooled_gsa	861299	Gemmatirosa kalamazoonesis	species	1.0	1.0	1112779	1112779	1112779	1.0	1.0	4122	4122	4122	False
+rhimgCAMI2_short_read_pooled_gsa	61235	Fusarium equiseti	species	1.0	1.0	1630995	1630995	1630995	1.0	1.0	6691	6691	6691	False
+rhimgCAMI2_short_read_pooled_gsa	1927	Streptomyces rimosus	species	1.0	1.0	563449	563449	563449	1.0	1.0	2272	2272	2272	False
+rhimgCAMI2_short_read_pooled_gsa	627192	Sphingobium sp.	species	1.0	1.0	871898	871898	871898	1.0	1.0	3226	3226	3226	False
+rhimgCAMI2_short_read_pooled_gsa	5046	Sarocladium strictum	species	1.0	1.0	13003303	13003303	13003303	1.0	1.0	46619	46619	46619	False
+rhimgCAMI2_short_read_pooled_gsa	106592	Ensifer adhaerens	species	1.0	1.0	3704916	3704916	3704916	1.0	1.0	14533	14533	14533	False
+rhimgCAMI2_short_read_pooled_gsa	358	Agrobacterium tumefaciens	species	1.0	1.0	4720946	4720946	4720946	1.0	1.0	15189	15189	15189	False
+rhimgCAMI2_short_read_pooled_gsa	1521	Ruminiclostridium cellulolyticum	species	1.0	1.0	321166	321166	321166	1.0	1.0	1311	1311	1311	False
+rhimgCAMI2_short_read_pooled_gsa	746128	Aspergillus fumigatus	species	1.0	1.0	12548244	12548244	12548244	1.0	1.0	45037	45037	45037	False
+rhimgCAMI2_short_read_pooled_gsa	592361	Pseudomonas peli	species	1.0	1.0	534808	534808	534808	1.0	1.0	2099	2099	2099	False
+rhimgCAMI2_short_read_pooled_gsa	1721	Corynebacterium callunae	species	1.0	1.0	135121	135121	135121	1.0	1.0	554	554	554	False
+rhimgCAMI2_short_read_pooled_gsa	1226757	Streptomyces rapamycinicus	species	1.0	1.0	1842248	1842248	1842248	1.0	1.0	7142	7142	7142	False
+rhimgCAMI2_short_read_pooled_gsa	34003	Paracoccus aminophilus	species	1.0	1.0	1491762	1491762	1491762	1.0	1.0	4815	4815	4815	False
+rhimgCAMI2_short_read_pooled_gsa	1804	Mycolicibacterium gilvum	species	1.0	1.0	3650910	3650910	3650910	1.0	1.0	8674	8674	8674	False
+rhimgCAMI2_short_read_pooled_gsa	749465	Boeremia exigua	species	1.0	1.0	12857698	12857698	12857698	1.0	1.0	42597	42597	42597	False
+rhimgCAMI2_short_read_pooled_gsa	53461	Nakamurella multipartita	species	1.0	1.0	563216	563216	563216	1.0	1.0	2252	2252	2252	False
+rhimgCAMI2_short_read_pooled_gsa	1464	Paenibacillus larvae	species	1.0	1.0	1098131	1098131	1098131	1.0	1.0	3924	3924	3924	False
+rhimgCAMI2_short_read_pooled_gsa	62722	Phialocephala fortinii	species	1.0	1.0	72720414	72720414	72720414	1.0	1.0	76592	76592	76592	False
+rhimgCAMI2_short_read_pooled_gsa	1990	Actinomadura atramentaria	species	1.0	1.0	4933716	4933716	4933716	1.0	1.0	9842	9842	9842	False
+rhimgCAMI2_short_read_pooled_gsa	65497	Actinoalloteichus cyanogriseus	species	1.0	1.0	5436967	5436967	5436967	1.0	1.0	5784	5784	5784	False
+rhimgCAMI2_short_read_pooled_gsa	1501230	Paenibacillus tyrfis	species	1.0	1.0	3380460	3380460	3380460	1.0	1.0	10649	10649	10649	False
+rhimgCAMI2_short_read_pooled_gsa	1215089	Planococcus halocryophilus	species	1.0	1.0	1060668	1060668	1060668	1.0	1.0	3697	3697	3697	False
+rhimgCAMI2_short_read_pooled_gsa	198730	Talaromyces verruculosus	species	1.0	1.0	14926903	14926903	14926903	1.0	1.0	45611	45611	45611	False
+rhimgCAMI2_short_read_pooled_gsa	34	Myxococcus xanthus	species	1.0	1.0	6964723	6964723	6964723	1.0	1.0	13167	13167	13167	False
+rhimgCAMI2_short_read_pooled_gsa	1911	Streptomyces griseus	species	1.0	1.0	4734723	4734723	4734723	1.0	1.0	12898	12898	12898	False
+rhimgCAMI2_short_read_pooled_gsa	294	Pseudomonas fluorescens	species	1.0	1.0	26606785	26606785	26606785	1.0	1.0	27230	27230	27230	False
+rhimgCAMI2_short_read_pooled_gsa	40658	Plectosphaerella cucumerina	species	1.0	1.0	28946631	28946631	28946631	1.0	1.0	98128	98128	98128	False
+rhimgCAMI2_short_read_pooled_gsa	395598	Pseudomonas reinekei	species	1.0	1.0	934599	934599	934599	1.0	1.0	3745	3745	3745	False
+rhimgCAMI2_short_read_pooled_gsa	285811	Pseudopyrenochaeta lycopersici	species	1.0	1.0	29919392	29919392	29919392	1.0	1.0	81877	81877	81877	False
+rhimgCAMI2_short_read_pooled_gsa	196914	Actinoplanes friuliensis	species	1.0	1.0	7926994	7926994	7926994	1.0	1.0	11331	11331	11331	False
+rhimgCAMI2_short_read_pooled_gsa	1663492	Pezicula ericae	species	1.0	1.0	34824998	34824998	34824998	1.0	1.0	97111	97111	97111	False
+rhimgCAMI2_short_read_pooled_gsa	1860054	Striaticonidium cinctum	species	1.0	1.0	12044905	12044905	12044905	1.0	1.0	43018	43018	43018	False
+rhimgCAMI2_short_read_pooled_gsa	195108	Fusarium falciforme	species	1.0	1.0	20653822	20653822	20653822	1.0	1.0	78404	78404	78404	False
+rhimgCAMI2_short_read_pooled_gsa	1453492	Chryseobacterium hispalense	species	1.0	1.0	2904681	2904681	2904681	1.0	1.0	6652	6652	6652	False
+rhimgCAMI2_short_read_pooled_gsa	247032	Alternaria chlamydosporigena	species	1.0	1.0	32424488	32424488	32424488	1.0	1.0	60174	60174	60174	False
+rhimgCAMI2_short_read_pooled_gsa	345341	Kutzneria sp.	species	1.0	1.0	1902092	1902092	1902092	1.0	1.0	7302	7302	7302	False
+rhimgCAMI2_short_read_pooled_gsa	191495	Conexibacter woesei	species	1.0	1.0	4656871	4656871	4656871	1.0	1.0	10129	10129	10129	False
+rhimgCAMI2_short_read_pooled_gsa	5507	Fusarium oxysporum	species	1.0	1.0	258062297	258062297	258062297	1.0	1.0	353851	353851	353851	False
+rhimgCAMI2_short_read_pooled_gsa	304895	Catenulispora acidiphila	species	1.0	1.0	3662580	3662580	3662580	1.0	1.0	12241	12241	12241	False
+rhimgCAMI2_short_read_pooled_gsa	749631	Didymella curtisii	species	1.0	1.0	35232395	35232395	35232395	1.0	1.0	20858	20858	20858	False
+rhimgCAMI2_short_read_pooled_gsa	76761	Pseudomonas veronii	species	1.0	1.0	621148	621148	621148	1.0	1.0	2502	2502	2502	False
+rhimgCAMI2_short_read_pooled_gsa	307937	Dactylonectria macrodidyma	species	1.0	1.0	28907595	28907595	28907595	1.0	1.0	94051	94051	94051	False
+rhimgCAMI2_short_read_pooled_gsa	749870	Paraboeremia selaginellae	species	1.0	1.0	21187231	21187231	21187231	1.0	1.0	63119	63119	63119	False
+rhimgCAMI2_short_read_pooled_gsa	85909	Phaeosphaeria eustoma	species	1.0	1.0	53462479	53462479	53462479	1.0	1.0	48974	48974	48974	False
+rhimgCAMI2_short_read_pooled_gsa	208443	Amycolatopsis balhimycina	species	1.0	1.0	472015	472015	472015	1.0	1.0	1948	1948	1948	False
+rhimgCAMI2_short_read_pooled_gsa	1421	Lysinibacillus sphaericus	species	1.0	1.0	437923	437923	437923	1.0	1.0	1771	1771	1771	False
+rhimgCAMI2_short_read_pooled_gsa	280754	Pochonia chlamydosporia	species	1.0	1.0	38902706	38902706	38902706	1.0	1.0	45498	45498	45498	False
+rhimgCAMI2_short_read_pooled_gsa	465806	Dactylonectria pauciseptata	species	1.0	1.0	27409725	27409725	27409725	1.0	1.0	83842	83842	83842	False
+rhimgCAMI2_short_read_pooled_gsa	27337	Verticillium dahliae	species	1.0	1.0	30391188	30391188	30391188	1.0	1.0	46535	46535	46535	False
+rhimgCAMI2_short_read_pooled_gsa	509635	Pedobacter sp.	species	1.0	1.0	5560190	5560190	5560190	1.0	1.0	7165	7165	7165	False
+rhimgCAMI2_short_read_pooled_gsa	1196323	Paenibacillus sp.	species	1.0	1.0	2600704	2600704	2600704	1.0	1.0	8616	8616	8616	False
+rhimgCAMI2_short_read_pooled_gsa	1708	Cellulomonas fimi	species	1.0	1.0	769603	769603	769603	1.0	1.0	2945	2945	2945	False
+rhimgCAMI2_short_read_pooled_gsa	236814	Chryseobacterium formosense	species	1.0	1.0	584536	584536	584536	1.0	1.0	2284	2284	2284	False
+rhimgCAMI2_short_read_pooled_gsa	979767	Umbelopsis autotrophica	species	1.0	1.0	1226509	1226509	1226509	1.0	1.0	4970	4970	4970	False
+rhimgCAMI2_short_read_pooled_gsa	887101	Cladosporium rectoides	species	1.0	1.0	30087501	30087501	30087501	1.0	1.0	34871	34871	34871	False
+rhimgCAMI2_short_read_pooled_gsa	193000	Diaporthe columnaris	species	1.0	1.0	74186775	74186775	74186775	1.0	1.0	161829	161829	161829	False
+rhimgCAMI2_short_read_pooled_gsa	63577	Trichoderma atroviride	species	1.0	1.0	33020369	33020369	33020369	1.0	1.0	47191	47191	47191	False
+rhimgCAMI2_short_read_pooled_gsa	443143	Geobacter sp.	species	1.0	1.0	2973782	2973782	2973782	1.0	1.0	8018	8018	8018	False
+rhimgCAMI2_short_read_pooled_gsa	34073	Variovorax paradoxus	species	1.0	1.0	45242020	45242020	45242020	1.0	1.0	33651	33651	33651	False
+rhimgCAMI2_short_read_pooled_gsa	36656	Penicillium crustosum	species	1.0	1.0	17431810	17431810	17431810	1.0	1.0	53815	53815	53815	False
+rhimgCAMI2_short_read_pooled_gsa	798071	Paraphoma chrysanthemicola	species	1.0	1.0	40972732	40972732	40972732	1.0	1.0	72145	72145	72145	False
+rhimgCAMI2_short_read_pooled_gsa	216778	Stenotrophomonas rhizophila	species	1.0	1.0	5336008	5336008	5336008	1.0	1.0	3856	3856	3856	False
+rhimgCAMI2_short_read_pooled_gsa	29320	Paenarthrobacter nicotinovorans	species	1.0	1.0	332665	332665	332665	1.0	1.0	1357	1357	1357	False
+rhimgCAMI2_short_read_pooled_gsa	1038866	Bradyrhizobium sp.	species	1.0	1.0	3051090	3051090	3051090	1.0	1.0	10318	10318	10318	False
+rhimgCAMI2_short_read_pooled_gsa	1312954	Arthrobacter sp.	species	1.0	1.0	1440959	1440959	1440959	1.0	1.0	4361	4361	4361	False
+rhimgCAMI2_short_read_pooled_gsa	400776	Cohnella panacarvi	species	1.0	1.0	1046815	1046815	1046815	1.0	1.0	3909	3909	3909	False
+rhimgCAMI2_short_read_pooled_gsa	29449	Rhizobium etli	species	1.0	1.0	1023203	1023203	1023203	1.0	1.0	3741	3741	3741	False
+rhimgCAMI2_short_read_pooled_gsa	261302	Paraburkholderia phytofirmans	species	1.0	1.0	1242172	1242172	1242172	1.0	1.0	4788	4788	4788	False
+rhimgCAMI2_short_read_pooled_gsa	358220	Acidovorax sp.	species	1.0	1.0	21214409	21214409	21214409	1.0	1.0	2537	2537	2537	False
+rhimgCAMI2_short_read_pooled_gsa	56	Sorangium cellulosum	species	1.0	1.0	25841039	25841039	25841039	1.0	1.0	16768	16768	16768	False
+rhimgCAMI2_short_read_pooled_gsa	191863	Chthoniobacter flavus	species	1.0	1.0	724187	724187	724187	1.0	1.0	2916	2916	2916	False
+rhimgCAMI2_short_read_pooled_gsa	358823	Streptomyces olindensis	species	1.0	1.0	1229060	1229060	1229060	1.0	1.0	4835	4835	4835	False
+rhimgCAMI2_short_read_pooled_gsa	870903	Terriglobus saanensis	species	1.0	1.0	1733415	1733415	1733415	1.0	1.0	5832	5832	5832	False
+rhimgCAMI2_short_read_pooled_gsa	1829	Rhodococcus rhodochrous	species	1.0	1.0	1548820	1548820	1548820	1.0	1.0	5691	5691	5691	False
+rhimgCAMI2_short_read_pooled_gsa	758826	Acidovorax radicis	species	1.0	1.0	7094921	7094921	7094921	1.0	1.0	5311	5311	5311	False
+rhimgCAMI2_short_read_pooled_gsa	1144338	Pseudomonas sp.	species	1.0	1.0	8010181	8010181	8010181	1.0	1.0	7095	7095	7095	False
+rhimgCAMI2_short_read_pooled_gsa	591158	Streptomyces sp.	species	1.0	1.0	1640612	1640612	1640612	1.0	1.0	6189	6189	6189	False
+rhimgCAMI2_short_read_pooled_gsa	1298862	Caulobacter sp.	species	1.0	1.0	3211581	3211581	3211581	1.0	1.0	8602	8602	8602	False
+rhimgCAMI2_short_read_pooled_gsa	311230	Paraburkholderia terrae	species	1.0	1.0	22434382	22434382	22434382	1.0	1.0	5751	5751	5751	False
+rhimgCAMI2_short_read_pooled_gsa	1169025	Streptomyces pratensis	species	1.0	1.0	953439	953439	953439	1.0	1.0	3743	3743	3743	False
+rhimgCAMI2_short_read_pooled_gsa	1639108	Chania multitudinisentens	species	1.0	1.0	319793	319793	319793	1.0	1.0	1300	1300	1300	False
+rhimgCAMI2_short_read_pooled_gsa	658062	Candidatus Koribacter	species	1.0	1.0	577850	577850	577850	1.0	1.0	2312	2312	2312	False
+rhimgCAMI2_short_read_pooled_gsa	1096756	Arthrobacter sp.	species	1.0	1.0	3492344	3492344	3492344	1.0	1.0	1890	1890	1890	False
+rhimgCAMI2_short_read_pooled_gsa	1814	Amycolatopsis methanolica	species	1.0	1.0	5184556	5184556	5184556	1.0	1.0	10752	10752	10752	False
+rhimgCAMI2_short_read_pooled_gsa	1450	Alicyclobacillus acidoterrestris	species	1.0	1.0	230459	230459	230459	1.0	1.0	933	933	933	False
+rhimgCAMI2_short_read_pooled_gsa	1299	Deinococcus radiodurans	species	1.0	1.0	2216618	2216618	2216618	1.0	1.0	4567	4567	4567	False
+rhimgCAMI2_short_read_pooled_gsa	1365176	Thermofilum adornatus	species	1.0	1.0	181266	181266	181266	1.0	1.0	721	721	721	False
+rhimgCAMI2_short_read_pooled_gsa	1410620	Shinella sp.	species	1.0	1.0	6610460	6610460	6610460	1.0	1.0	5888	5888	5888	False
+rhimgCAMI2_short_read_pooled_gsa	587753	Pseudomonas chlororaphis	species	1.0	1.0	987472	987472	987472	1.0	1.0	4022	4022	4022	False
+rhimgCAMI2_short_read_pooled_gsa	444608	Gryllotalpicola ginsengisoli	species	1.0	1.0	893456	893456	893456	1.0	1.0	3197	3197	3197	False
+rhimgCAMI2_short_read_pooled_gsa	309887	Deinococcus maricopensis	species	1.0	1.0	1572087	1572087	1572087	1.0	1.0	4832	4832	4832	False
+rhimgCAMI2_short_read_pooled_gsa	580165	Bacillus cytotoxicus	species	1.0	1.0	2023833	2023833	2023833	1.0	1.0	5882	5882	5882	False
+rhimgCAMI2_short_read_pooled_gsa	1380763	Paenibacillus darwinianus	species	1.0	1.0	577453	577453	577453	1.0	1.0	2184	2184	2184	False
+rhimgCAMI2_short_read_pooled_gsa	529	Ochrobactrum anthropi	species	1.0	1.0	398866	398866	398866	1.0	1.0	1602	1602	1602	False
+rhimgCAMI2_short_read_pooled_gsa	33910	Amycolatopsis mediterranei	species	1.0	1.0	1265407	1265407	1265407	1.0	1.0	5000	5000	5000	False
+rhimgCAMI2_short_read_pooled_gsa	1435036	Acinetobacter bohemicus	species	1.0	1.0	129423	129423	129423	1.0	1.0	539	539	539	False
+rhimgCAMI2_short_read_pooled_gsa	1500301	Rhizobium sp.	species	1.0	1.0	411528	411528	411528	1.0	1.0	1689	1689	1689	False
+rhimgCAMI2_short_read_pooled_gsa	1471	Bacillus methanolicus	species	1.0	1.0	1289257	1289257	1289257	1.0	1.0	4192	4192	4192	False
+rhimgCAMI2_short_read_pooled_gsa	1530123	Acinetobacter seifertii	species	1.0	1.0	292658	292658	292658	1.0	1.0	1175	1175	1175	False
+rhimgCAMI2_short_read_pooled_gsa	164546	Cupriavidus taiwanensis	species	1.0	1.0	433961	433961	433961	1.0	1.0	1752	1752	1752	False
+rhimgCAMI2_short_read_pooled_gsa	317577	Deinococcus ficus	species	1.0	1.0	207799	207799	207799	1.0	1.0	841	841	841	False
+rhimgCAMI2_short_read_pooled_gsa	43663	Paenarthrobacter aurescens	species	1.0	1.0	248213	248213	248213	1.0	1.0	1021	1021	1021	False
+rhimgCAMI2_short_read_pooled_gsa	1882774	Variovorax sp.	species	1.0	1.0	30825329	30825329	30825329	1.0	1.0	11161	11161	11161	False
+rhimgCAMI2_short_read_pooled_gsa	1690268	Acidovorax sp.	species	1.0	1.0	6955619	6955619	6955619	1.0	1.0	13658	13658	13658	False
+rhimgCAMI2_short_read_pooled_gsa	285679	Micromonospora lupini	species	1.0	1.0	5022950	5022950	5022950	1.0	1.0	11179	11179	11179	False
+rhimgCAMI2_short_read_pooled_gsa	1901	Streptomyces clavuligerus	species	1.0	1.0	923750	923750	923750	1.0	1.0	3583	3583	3583	False
+rhimgCAMI2_short_read_pooled_gsa	1217720	Roseomonas sp.	species	1.0	1.0	735712	735712	735712	1.0	1.0	2860	2860	2860	False
+rhimgCAMI2_short_read_pooled_gsa	384	Rhizobium leguminosarum	species	1.0	1.0	8879035	8879035	8879035	1.0	1.0	4230	4230	4230	False
+rhimgCAMI2_short_read_pooled_gsa	298163	Patulibacter minatonensis	species	1.0	1.0	592410	592410	592410	1.0	1.0	2340	2340	2340	False
+rhimgCAMI2_short_read_pooled_gsa	46677	Pseudomonas agarici	species	1.0	1.0	403836	403836	403836	1.0	1.0	1660	1660	1660	False
+rhimgCAMI2_short_read_pooled_gsa	84757	Beutenbergia cavernae	species	1.0	1.0	769932	769932	769932	1.0	1.0	2964	2964	2964	False
+rhimgCAMI2_short_read_pooled_gsa	511	Alcaligenes faecalis	species	1.0	1.0	182578	182578	182578	1.0	1.0	740	740	740	False
+rhimgCAMI2_short_read_pooled_gsa	43357	Kutzneria albida	species	1.0	1.0	857559	857559	857559	1.0	1.0	3453	3453	3453	False
+rhimgCAMI2_short_read_pooled_gsa	3702	Arabidopsis thaliana	species	1.0	1.0	118685162	118685162	118685162	1.0	1.0	16474	16474	16474	False
+rhimgCAMI2_short_read_pooled_gsa	1048983	Anditalea andensis	species	1.0	1.0	2740060	2740060	2740060	1.0	1.0	7904	7904	7904	False
+rhimgCAMI2_short_read_pooled_gsa	309888	Deinococcus pimensis	species	1.0	1.0	1436655	1436655	1436655	1.0	1.0	4969	4969	4969	False
+rhimgCAMI2_short_read_pooled_gsa	225326	Corynebacterium halotolerans	species	1.0	1.0	220929	220929	220929	1.0	1.0	890	890	890	False
+rhimgCAMI2_short_read_pooled_gsa	1510531	Bosea sp.	species	1.0	1.0	3411065	3411065	3411065	1.0	1.0	11440	11440	11440	False
+rhimgCAMI2_short_read_pooled_gsa	5083	Penicillium canescens	species	1.0	1.0	2310344	2310344	2310344	1.0	1.0	9349	9349	9349	False
+rhimgCAMI2_short_read_pooled_gsa	1387231	Pseudomonas sp.	species	1.0	1.0	1120257	1120257	1120257	1.0	1.0	4314	4314	4314	False
+rhimgCAMI2_short_read_pooled_gsa	66219	Lachnoclostridium phytofermentans	species	1.0	1.0	613598	613598	613598	1.0	1.0	2399	2399	2399	False
+rhimgCAMI2_short_read_pooled_gsa	551760	Aromatoleum aromaticum	species	1.0	1.0	910495	910495	910495	1.0	1.0	3393	3393	3393	False
+rhimgCAMI2_short_read_pooled_gsa	43263	Pseudomonas alcaligenes	species	1.0	1.0	5342260	5342260	5342260	1.0	1.0	11123	11123	11123	False
+rhimgCAMI2_short_read_pooled_gsa	899	Desulfomicrobium baculatum	species	1.0	1.0	446593	446593	446593	1.0	1.0	1749	1749	1749	False
+rhimgCAMI2_short_read_pooled_gsa	53437	Nocardiopsis alba	species	1.0	1.0	3670708	3670708	3670708	1.0	1.0	9022	9022	9022	False
+rhimgCAMI2_short_read_pooled_gsa	81462	Thermanaerovibrio acidaminovorans	species	1.0	1.0	694188	694188	694188	1.0	1.0	2273	2273	2273	False
+rhimgCAMI2_short_read_pooled_gsa	497735	Brevibacillus panacihumi	species	1.0	1.0	524683	524683	524683	1.0	1.0	2089	2089	2089	False
+rhimgCAMI2_short_read_pooled_gsa	1556	Gottschalkia acidurici	species	1.0	1.0	219360	219360	219360	1.0	1.0	882	882	882	False
+rhimgCAMI2_short_read_pooled_gsa	79329	Chitinophaga pinensis	species	1.0	1.0	3215181	3215181	3215181	1.0	1.0	10695	10695	10695	False
+rhimgCAMI2_short_read_pooled_gsa	1121084	Bacillus acidiproducens	species	1.0	1.0	234138	234138	234138	1.0	1.0	944	944	944	False
+rhimgCAMI2_short_read_pooled_gsa	912	Nitrobacter hamburgensis	species	1.0	1.0	455118	455118	455118	1.0	1.0	1852	1852	1852	False
+rhimgCAMI2_short_read_pooled_gsa	281473	Jiangella gansuensis	species	1.0	1.0	616791	616791	616791	1.0	1.0	2473	2473	2473	False
+rhimgCAMI2_short_read_pooled_gsa	1439940	Pseudomonas sp.	species	1.0	1.0	412778	412778	412778	1.0	1.0	1668	1668	1668	False
+rhimgCAMI2_short_read_pooled_gsa	402650	Actinomycetospora chiangmaiensis	species	1.0	1.0	4623903	4623903	4623903	1.0	1.0	8162	8162	8162	False
+rhimgCAMI2_short_read_pooled_gsa	728056	Flavobacterium oncorhynchi	species	1.0	1.0	4361356	4361356	4361356	1.0	1.0	5633	5633	5633	False
+rhimgCAMI2_short_read_pooled_gsa	533267	Actinopolymorpha alba	species	1.0	1.0	5302488	5302488	5302488	1.0	1.0	12285	12285	12285	False
+rhimgCAMI2_short_read_pooled_gsa	1795	Mycolicibacterium neoaurum	species	1.0	1.0	5306393	5306393	5306393	1.0	1.0	1882	1882	1882	False
+rhimgCAMI2_short_read_pooled_gsa	1589764	Acrocalymma vagum	species	1.0	1.0	6398448	6398448	6398448	1.0	1.0	25137	25137	25137	False
+rhimgCAMI2_short_read_pooled_gsa	913	Nitrobacter winogradskyi	species	1.0	1.0	3402089	3402089	3402089	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	1295141	Pseudomonas veronii strain	strain	1.0	1.0	621148	621148	621148	1.0	1.0	2502	2502	2502	False
+rhimgCAMI2_short_read_pooled_gsa	452662	Sphingobium japonicum strain	strain	1.0	1.0	291507	291507	291507	1.0	1.0	1189	1189	1189	False
+rhimgCAMI2_short_read_pooled_gsa	1286171	Peptoclostridium acidaminophilum strain	strain	1.0	1.0	1697484	1697484	1697484	1.0	1.0	3314	3314	3314	False
+rhimgCAMI2_short_read_pooled_gsa	1124780	Nafulsella turpanensis strain	strain	1.0	1.0	4628695	4628695	4628695	1.0	1.0	2336	2336	2336	False
+rhimgCAMI2_short_read_pooled_gsa	1121917	Caldibacillus debilis strain	strain	1.0	1.0	262908	262908	262908	1.0	1.0	1068	1068	1068	False
+rhimgCAMI2_short_read_pooled_gsa	1217721	Dyella japonica strain	strain	1.0	1.0	377155	377155	377155	1.0	1.0	1551	1551	1551	False
+rhimgCAMI2_short_read_pooled_gsa	675511	Methylomicrobium buryatense strain	strain	1.0	1.0	566134	566134	566134	1.0	1.0	2237	2237	2237	False
+rhimgCAMI2_short_read_pooled_gsa	1292035	Paeniclostridium sordellii strain	strain	1.0	1.0	3557649	3557649	3557649	1.0	1.0	206	206	206	False
+rhimgCAMI2_short_read_pooled_gsa	452863	Pseudarthrobacter chlorophenolicus strain	strain	1.0	1.0	478844	478844	478844	1.0	1.0	1911	1911	1911	False
+rhimgCAMI2_short_read_pooled_gsa	1262454	Pseudomonas fluorescens strain	strain	1.0	1.0	1133845	1133845	1133845	1.0	1.0	4201	4201	4201	False
+rhimgCAMI2_short_read_pooled_gsa	720555	Bacillus atrophaeus strain	strain	1.0	1.0	4119256	4119256	4119256	1.0	1.0	905	905	905	False
+rhimgCAMI2_short_read_pooled_gsa	446462	Actinosynnema mirum strain	strain	1.0	1.0	8186995	8186995	8186995	1.0	1.0	1222	1222	1222	False
+rhimgCAMI2_short_read_pooled_gsa	323848	Nitrosospira multiformis strain	strain	1.0	1.0	432690	432690	432690	1.0	1.0	1679	1679	1679	False
+rhimgCAMI2_short_read_pooled_gsa	1150621	Sulfurospirillum multivorans strain	strain	1.0	1.0	172606	172606	172606	1.0	1.0	713	713	713	False
+rhimgCAMI2_short_read_pooled_gsa	1404245	Corynebacterium glyciniphilum strain	strain	1.0	1.0	181820	181820	181820	1.0	1.0	738	738	738	False
+rhimgCAMI2_short_read_pooled_gsa	1303518	Chthonomonas calidirosea strain	strain	1.0	1.0	300579	300579	300579	1.0	1.0	1213	1213	1213	False
+rhimgCAMI2_short_read_pooled_gsa	1238237	Chlamydia psittaci strain	strain	1.0	1.0	174691	174691	174691	1.0	1.0	672	672	672	False
+rhimgCAMI2_short_read_pooled_gsa	926564	Promicromonospora kroppenstedtii strain	strain	1.0	1.0	581972	581972	581972	1.0	1.0	2319	2319	2319	False
+rhimgCAMI2_short_read_pooled_gsa	1050202	Actinopolyspora mortivallis strain	strain	1.0	1.0	279788	279788	279788	1.0	1.0	1151	1151	1151	False
+rhimgCAMI2_short_read_pooled_gsa	485917	Pedobacter heparinus strain	strain	1.0	1.0	968551	968551	968551	1.0	1.0	3660	3660	3660	False
+rhimgCAMI2_short_read_pooled_gsa	290397	Anaeromyxobacter dehalogenans strain	strain	1.0	1.0	1424267	1424267	1424267	1.0	1.0	5040	5040	5040	False
+rhimgCAMI2_short_read_pooled_gsa	404380	Geobacter bemidjiensis strain	strain	1.0	1.0	728637	728637	728637	1.0	1.0	2807	2807	2807	False
+rhimgCAMI2_short_read_pooled_gsa	1041930	Methanocella conradii strain	strain	1.0	1.0	369969	369969	369969	1.0	1.0	1421	1421	1421	False
+rhimgCAMI2_short_read_pooled_gsa	1120973	Effusibacillus pohliae strain	strain	1.0	1.0	2382314	2382314	2382314	1.0	1.0	5037	5037	5037	False
+rhimgCAMI2_short_read_pooled_gsa	1131730	Bacillus vireti strain	strain	1.0	1.0	667001	667001	667001	1.0	1.0	2627	2627	2627	False
+rhimgCAMI2_short_read_pooled_gsa	1214102	Mycolicibacterium fortuitum strain	strain	1.0	1.0	591070	591070	591070	1.0	1.0	2344	2344	2344	False
+rhimgCAMI2_short_read_pooled_gsa	234267	Candidatus Solibacter strain	strain	1.0	1.0	542078	542078	542078	1.0	1.0	2233	2233	2233	False
+rhimgCAMI2_short_read_pooled_gsa	1206781	Paenibacillus alvei strain	strain	1.0	1.0	603882	603882	603882	1.0	1.0	2404	2404	2404	False
+rhimgCAMI2_short_read_pooled_gsa	469383	Conexibacter woesei strain	strain	1.0	1.0	448005	448005	448005	1.0	1.0	1831	1831	1831	False
+rhimgCAMI2_short_read_pooled_gsa	485913	Ktedonobacter racemifer strain	strain	1.0	1.0	713899	713899	713899	1.0	1.0	2929	2929	2929	False
+rhimgCAMI2_short_read_pooled_gsa	456442	Methanoregula boonei strain	strain	1.0	1.0	238028	238028	238028	1.0	1.0	962	962	962	False
+rhimgCAMI2_short_read_pooled_gsa	1174504	Bacillus psychrosaccharolyticus strain	strain	1.0	1.0	596430	596430	596430	1.0	1.0	2356	2356	2356	False
+rhimgCAMI2_short_read_pooled_gsa	1131731	Bacillus azotoformans strain	strain	1.0	1.0	343406	343406	343406	1.0	1.0	1361	1361	1361	False
+rhimgCAMI2_short_read_pooled_gsa	756499	Desulfitobacterium dehalogenans strain	strain	1.0	1.0	464328	464328	464328	1.0	1.0	1831	1831	1831	False
+rhimgCAMI2_short_read_pooled_gsa	395965	Methylocella silvestris strain	strain	1.0	1.0	4193549	4193549	4193549	1.0	1.0	1695	1695	1695	False
+rhimgCAMI2_short_read_pooled_gsa	930171	Pseudarthrobacter phenanthrenivorans strain	strain	1.0	1.0	960579	960579	960579	1.0	1.0	3528	3528	3528	False
+rhimgCAMI2_short_read_pooled_gsa	694427	Paludibacter propionicigenes strain	strain	1.0	1.0	380934	380934	380934	1.0	1.0	1500	1500	1500	False
+rhimgCAMI2_short_read_pooled_gsa	479435	Kribbella flavida strain	strain	1.0	1.0	930087	930087	930087	1.0	1.0	3665	3665	3665	False
+rhimgCAMI2_short_read_pooled_gsa	526225	Geodermatophilus obscurus strain	strain	1.0	1.0	866445	866445	866445	1.0	1.0	3341	3341	3341	False
+rhimgCAMI2_short_read_pooled_gsa	1121288	Chryseobacterium palustre strain	strain	1.0	1.0	165835	165835	165835	1.0	1.0	671	671	671	False
+rhimgCAMI2_short_read_pooled_gsa	315750	Bacillus pumilus strain	strain	1.0	1.0	144374	144374	144374	1.0	1.0	599	599	599	False
+rhimgCAMI2_short_read_pooled_gsa	479433	Catenulispora acidiphila strain	strain	1.0	1.0	3662580	3662580	3662580	1.0	1.0	12241	12241	12241	False
+rhimgCAMI2_short_read_pooled_gsa	1223523	Streptomyces mobaraensis strain	strain	1.0	1.0	430184	430184	430184	1.0	1.0	1753	1753	1753	False
+rhimgCAMI2_short_read_pooled_gsa	717606	Paenibacillus curdlanolyticus strain	strain	1.0	1.0	509141	509141	509141	1.0	1.0	2031	2031	2031	False
+rhimgCAMI2_short_read_pooled_gsa	1121385	Demetria terragena strain	strain	1.0	1.0	558993	558993	558993	1.0	1.0	2119	2119	2119	False
+rhimgCAMI2_short_read_pooled_gsa	1120967	Algoriphagus terrigena strain	strain	1.0	1.0	5778651	5778651	5778651	1.0	1.0	66	66	66	False
+rhimgCAMI2_short_read_pooled_gsa	292459	Symbiobacterium thermophilum strain	strain	1.0	1.0	124805	124805	124805	1.0	1.0	500	500	500	False
+rhimgCAMI2_short_read_pooled_gsa	1459636	Candidatus Nitrososphaera strain	strain	1.0	1.0	158810	158810	158810	1.0	1.0	650	650	650	False
+rhimgCAMI2_short_read_pooled_gsa	469371	Thermobispora bispora strain	strain	1.0	1.0	143440	143440	143440	1.0	1.0	593	593	593	False
+rhimgCAMI2_short_read_pooled_gsa	1120971	Alicyclobacillus contaminans strain	strain	1.0	1.0	130882	130882	130882	1.0	1.0	549	549	549	False
+rhimgCAMI2_short_read_pooled_gsa	519442	Halorhabdus utahensis strain	strain	1.0	1.0	145951	145951	145951	1.0	1.0	585	585	585	False
+rhimgCAMI2_short_read_pooled_gsa	1419583	Pseudomonas mandelii strain	strain	1.0	1.0	6688229	6688229	6688229	1.0	1.0	108	108	108	False
+rhimgCAMI2_short_read_pooled_gsa	1218084	Paraburkholderia terrae strain	strain	1.0	1.0	9924887	9924887	9924887	1.0	1.0	247	247	247	False
+rhimgCAMI2_short_read_pooled_gsa	1107311	Flavobacterium enshiense strain	strain	1.0	1.0	3375147	3375147	3375147	1.0	1.0	74	74	74	False
+rhimgCAMI2_short_read_pooled_gsa	479432	Streptosporangium roseum strain	strain	1.0	1.0	17877	17877	17877	1.0	1.0	77	77	77	False
+rhimgCAMI2_short_read_pooled_gsa	743713	Pseudomonas fluorescens strain	strain	1.0	1.0	6221302	6221302	6221302	1.0	1.0	77	77	77	False
+rhimgCAMI2_short_read_pooled_gsa	1121272	Catelliglobosispora koreensis strain	strain	1.0	1.0	7684005	7684005	7684005	1.0	1.0	65	65	65	False
+rhimgCAMI2_short_read_pooled_gsa	498211	Cellvibrio japonicus strain	strain	1.0	1.0	4576569	4576569	4576569	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	1214242	Streptomyces collinus strain	strain	1.0	1.0	8272925	8272925	8272925	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	448385	Sorangium cellulosum strain	strain	1.0	1.0	13033770	13033770	13033770	1.0	1.0	1	1	1	False
+rhimgCAMI2_short_read_pooled_gsa	1121377	Deinococcus apachensis strain	strain	1.0	1.0	198283	198283	198283	1.0	1.0	818	818	818	False
+rhimgCAMI2_short_read_pooled_gsa	1121335	Thermoclostridium stercorarium strain	strain	1.0	1.0	159238	159238	159238	1.0	1.0	659	659	659	False
+rhimgCAMI2_short_read_pooled_gsa	457425	Streptomyces albus strain	strain	1.0	1.0	418803	418803	418803	1.0	1.0	1708	1708	1708	False
+rhimgCAMI2_short_read_pooled_gsa	1120985	Anaeroarcus burkinensis strain	strain	1.0	1.0	384873	384873	384873	1.0	1.0	1539	1539	1539	False
+rhimgCAMI2_short_read_pooled_gsa	1038862	Bradyrhizobium japonicum strain	strain	1.0	1.0	610084	610084	610084	1.0	1.0	2493	2493	2493	False
+rhimgCAMI2_short_read_pooled_gsa	593907	Cellulomonas gilvus strain	strain	1.0	1.0	160479	160479	160479	1.0	1.0	657	657	657	False
+rhimgCAMI2_short_read_pooled_gsa	762903	Pseudopedobacter saltans strain	strain	1.0	1.0	237884	237884	237884	1.0	1.0	975	975	975	False
+rhimgCAMI2_short_read_pooled_gsa	405948	Saccharopolyspora erythraea strain	strain	1.0	1.0	552677	552677	552677	1.0	1.0	2250	2250	2250	False
+rhimgCAMI2_short_read_pooled_gsa	1345695	Clostridium saccharobutylicum strain	strain	1.0	1.0	275439	275439	275439	1.0	1.0	1145	1145	1145	False
+rhimgCAMI2_short_read_pooled_gsa	398511	Bacillus pseudofirmus strain	strain	1.0	1.0	203252	203252	203252	1.0	1.0	834	834	834	False
+rhimgCAMI2_short_read_pooled_gsa	521096	Tsukamurella paurometabola strain	strain	1.0	1.0	270068	270068	270068	1.0	1.0	1105	1105	1105	False
+rhimgCAMI2_short_read_pooled_gsa	523850	Thermococcus onnurineus strain	strain	1.0	1.0	128239	128239	128239	1.0	1.0	522	522	522	False
+rhimgCAMI2_short_read_pooled_gsa	759362	Ketogulonicigenium vulgare strain	strain	1.0	1.0	464759	464759	464759	1.0	1.0	1784	1784	1784	False
+rhimgCAMI2_short_read_pooled_gsa	446466	Cellulomonas flavigena strain	strain	1.0	1.0	221997	221997	221997	1.0	1.0	908	908	908	False
+rhimgCAMI2_short_read_pooled_gsa	1285583	Corynebacterium casei strain	strain	1.0	1.0	513192	513192	513192	1.0	1.0	1963	1963	1963	False
+rhimgCAMI2_short_read_pooled_gsa	1316927	Pseudomonas corrugata strain	strain	1.0	1.0	569268	569268	569268	1.0	1.0	2278	2278	2278	False
+rhimgCAMI2_short_read_pooled_gsa	1089549	Haloglycomyces albus strain	strain	1.0	1.0	495085	495085	495085	1.0	1.0	1951	1951	1951	False
+rhimgCAMI2_short_read_pooled_gsa	665577	Streptomyces viridosporus strain	strain	1.0	1.0	711790	711790	711790	1.0	1.0	2879	2879	2879	False
+rhimgCAMI2_short_read_pooled_gsa	1400520	Lactobacillus fabifermentans strain	strain	1.0	1.0	252627	252627	252627	1.0	1.0	1051	1051	1051	False
+rhimgCAMI2_short_read_pooled_gsa	591159	Streptomyces viridochromogenes strain	strain	1.0	1.0	222604	222604	222604	1.0	1.0	926	926	926	False
+rhimgCAMI2_short_read_pooled_gsa	1121342	Clostridium tyrobutyricum strain	strain	1.0	1.0	369822	369822	369822	1.0	1.0	1446	1446	1446	False
+rhimgCAMI2_short_read_pooled_gsa	1136417	Salinispora pacifica strain	strain	1.0	1.0	311070	311070	311070	1.0	1.0	1270	1270	1270	False
+rhimgCAMI2_short_read_pooled_gsa	290402	Clostridium beijerinckii strain	strain	1.0	1.0	669868	669868	669868	1.0	1.0	2661	2661	2661	False
+rhimgCAMI2_short_read_pooled_gsa	1121926	Glycomyces arizonensis strain	strain	1.0	1.0	195591	195591	195591	1.0	1.0	806	806	806	False
+rhimgCAMI2_short_read_pooled_gsa	394503	Ruminiclostridium cellulolyticum strain	strain	1.0	1.0	321166	321166	321166	1.0	1.0	1311	1311	1311	False
+rhimgCAMI2_short_read_pooled_gsa	311403	Agrobacterium radiobacter strain	strain	1.0	1.0	3291302	3291302	3291302	1.0	1.0	9614	9614	9614	False
+rhimgCAMI2_short_read_pooled_gsa	246197	Myxococcus xanthus strain	strain	1.0	1.0	6964723	6964723	6964723	1.0	1.0	13167	13167	13167	False
+rhimgCAMI2_short_read_pooled_gsa	290340	Paenarthrobacter aurescens strain	strain	1.0	1.0	248213	248213	248213	1.0	1.0	1021	1021	1021	False
+rhimgCAMI2_short_read_pooled_gsa	1121362	Corynebacterium halotolerans strain	strain	1.0	1.0	220929	220929	220929	1.0	1.0	890	890	890	False
+rhimgCAMI2_short_read_pooled_gsa	926554	Deinococcus pimensis strain	strain	1.0	1.0	1436655	1436655	1436655	1.0	1.0	4969	4969	4969	False
+rhimgCAMI2_short_read_pooled_gsa	1449976	Kutzneria albida strain	strain	1.0	1.0	857559	857559	857559	1.0	1.0	3453	3453	3453	False
+rhimgCAMI2_short_read_pooled_gsa	471853	Beutenbergia cavernae strain	strain	1.0	1.0	769932	769932	769932	1.0	1.0	2964	2964	2964	False
+rhimgCAMI2_short_read_pooled_gsa	690598	Pseudomonas agarici strain	strain	1.0	1.0	403836	403836	403836	1.0	1.0	1660	1660	1660	False
+rhimgCAMI2_short_read_pooled_gsa	929712	Patulibacter minatonensis strain	strain	1.0	1.0	592410	592410	592410	1.0	1.0	2340	2340	2340	False
+rhimgCAMI2_short_read_pooled_gsa	443255	Streptomyces clavuligerus strain	strain	1.0	1.0	923750	923750	923750	1.0	1.0	3583	3583	3583	False
+rhimgCAMI2_short_read_pooled_gsa	1150864	Micromonospora lupini strain	strain	1.0	1.0	5022950	5022950	5022950	1.0	1.0	11179	11179	11179	False
+rhimgCAMI2_short_read_pooled_gsa	357809	Lachnoclostridium phytofermentans strain	strain	1.0	1.0	613598	613598	613598	1.0	1.0	2399	2399	2399	False
+rhimgCAMI2_short_read_pooled_gsa	76114	Aromatoleum aromaticum strain	strain	1.0	1.0	910495	910495	910495	1.0	1.0	3393	3393	3393	False
+rhimgCAMI2_short_read_pooled_gsa	700508	Mycolicibacterium neoaurum strain	strain	1.0	1.0	5306393	5306393	5306393	1.0	1.0	1882	1882	1882	False
+rhimgCAMI2_short_read_pooled_gsa	1120950	Actinopolymorpha alba strain	strain	1.0	1.0	5302488	5302488	5302488	1.0	1.0	12285	12285	12285	False
+rhimgCAMI2_short_read_pooled_gsa	1120948	Actinomycetospora chiangmaiensis strain	strain	1.0	1.0	4623903	4623903	4623903	1.0	1.0	8162	8162	8162	False
+rhimgCAMI2_short_read_pooled_gsa	1121353	Corynebacterium callunae strain	strain	1.0	1.0	135121	135121	135121	1.0	1.0	554	554	554	False
+rhimgCAMI2_short_read_pooled_gsa	1343740	Streptomyces rapamycinicus strain	strain	1.0	1.0	1842248	1842248	1842248	1.0	1.0	7142	7142	7142	False
+rhimgCAMI2_short_read_pooled_gsa	1367847	Paracoccus aminophilus strain	strain	1.0	1.0	1491762	1491762	1491762	1.0	1.0	4815	4815	4815	False
+rhimgCAMI2_short_read_pooled_gsa	1005941	Planococcus halocryophilus strain	strain	1.0	1.0	1060668	1060668	1060668	1.0	1.0	3697	3697	3697	False
+rhimgCAMI2_short_read_pooled_gsa	1283299	Conexibacter woesei strain	strain	1.0	1.0	4208866	4208866	4208866	1.0	1.0	8298	8298	8298	False
+rhimgCAMI2_short_read_pooled_gsa	455632	Streptomyces griseus strain	strain	1.0	1.0	4734723	4734723	4734723	1.0	1.0	12898	12898	12898	False
+rhimgCAMI2_short_read_pooled_gsa	1246995	Actinoplanes friuliensis strain	strain	1.0	1.0	7926994	7926994	7926994	1.0	1.0	11331	11331	11331	False
+rhimgCAMI2_short_read_pooled_gsa	1089545	Amycolatopsis balhimycina strain	strain	1.0	1.0	472015	472015	472015	1.0	1.0	1948	1948	1948	False
+rhimgCAMI2_short_read_pooled_gsa	590998	Cellulomonas fimi strain	strain	1.0	1.0	769603	769603	769603	1.0	1.0	2945	2945	2945	False
+rhimgCAMI2_short_read_pooled_gsa	1285586	Lysinibacillus sphaericus strain	strain	1.0	1.0	437923	437923	437923	1.0	1.0	1771	1771	1771	False
+rhimgCAMI2_short_read_pooled_gsa	491205	Chryseobacterium hispalense strain	strain	1.0	1.0	2904681	2904681	2904681	1.0	1.0	6652	6652	6652	False
+rhimgCAMI2_short_read_pooled_gsa	756067	Microcoleus vaginatus strain	strain	1.0	1.0	477886	477886	477886	1.0	1.0	1926	1926	1926	False
+rhimgCAMI2_short_read_pooled_gsa	350054	Mycolicibacterium gilvum strain	strain	1.0	1.0	3650910	3650910	3650910	1.0	1.0	8674	8674	8674	False
+rhimgCAMI2_short_read_pooled_gsa	320771	Pedosphaera parvula strain	strain	1.0	1.0	755039	755039	755039	1.0	1.0	2997	2997	2997	False
+rhimgCAMI2_short_read_pooled_gsa	1123261	Solimonas soli strain	strain	1.0	1.0	3430325	3430325	3430325	1.0	1.0	5395	5395	5395	False
+rhimgCAMI2_short_read_pooled_gsa	446465	Brachybacterium faecium strain	strain	1.0	1.0	815231	815231	815231	1.0	1.0	3012	3012	3012	False
+rhimgCAMI2_short_read_pooled_gsa	1159488	Staphylococcus equorum strain	strain	1.0	1.0	1380875	1380875	1380875	1.0	1.0	4124	4124	4124	False
+rhimgCAMI2_short_read_pooled_gsa	1120936	Actinomadura atramentaria strain	strain	1.0	1.0	4933716	4933716	4933716	1.0	1.0	9842	9842	9842	False
+rhimgCAMI2_short_read_pooled_gsa	697284	Paenibacillus larvae strain	strain	1.0	1.0	1098131	1098131	1098131	1.0	1.0	3924	3924	3924	False
+rhimgCAMI2_short_read_pooled_gsa	479431	Nakamurella multipartita strain	strain	1.0	1.0	563216	563216	563216	1.0	1.0	2252	2252	2252	False
+rhimgCAMI2_short_read_pooled_gsa	987045	Jiangella gansuensis strain	strain	1.0	1.0	616791	616791	616791	1.0	1.0	2473	2473	2473	False
+rhimgCAMI2_short_read_pooled_gsa	323097	Nitrobacter hamburgensis strain	strain	1.0	1.0	455118	455118	455118	1.0	1.0	1852	1852	1852	False
+rhimgCAMI2_short_read_pooled_gsa	444461	Bacillus acidiproducens strain	strain	1.0	1.0	234138	234138	234138	1.0	1.0	944	944	944	False
+rhimgCAMI2_short_read_pooled_gsa	1121033	Azospirillum halopraeferens strain	strain	1.0	1.0	6506479	6506479	6506479	1.0	1.0	56	56	56	False
+rhimgCAMI2_short_read_pooled_gsa	315749	Bacillus cytotoxicus strain	strain	1.0	1.0	2023833	2023833	2023833	1.0	1.0	5882	5882	5882	False
+rhimgCAMI2_short_read_pooled_gsa	709986	Deinococcus maricopensis strain	strain	1.0	1.0	1572087	1572087	1572087	1.0	1.0	4832	4832	4832	False
+rhimgCAMI2_short_read_pooled_gsa	1121372	Gryllotalpicola ginsengisoli strain	strain	1.0	1.0	893456	893456	893456	1.0	1.0	3197	3197	3197	False
+rhimgCAMI2_short_read_pooled_gsa	243230	Deinococcus radiodurans strain	strain	1.0	1.0	2216618	2216618	2216618	1.0	1.0	4567	4567	4567	False
+rhimgCAMI2_short_read_pooled_gsa	1356854	Alicyclobacillus acidoterrestris strain	strain	1.0	1.0	230459	230459	230459	1.0	1.0	933	933	933	False
+rhimgCAMI2_short_read_pooled_gsa	1120949	Actinoplanes globisporus strain	strain	1.0	1.0	10464343	10464343	10464343	1.0	1.0	6601	6601	6601	False
+rhimgCAMI2_short_read_pooled_gsa	251221	Gloeobacter violaceus strain	strain	1.0	1.0	344453	344453	344453	1.0	1.0	1392	1392	1392	False
+rhimgCAMI2_short_read_pooled_gsa	1200352	Corynebacterium terpenotabidum strain	strain	1.0	1.0	243992	243992	243992	1.0	1.0	986	986	986	False
+rhimgCAMI2_short_read_pooled_gsa	1217715	Acinetobacter bohemicus strain	strain	1.0	1.0	129423	129423	129423	1.0	1.0	539	539	539	False
+rhimgCAMI2_short_read_pooled_gsa	546414	Deinococcus deserti strain	strain	1.0	1.0	886532	886532	886532	1.0	1.0	3086	3086	3086	False
+rhimgCAMI2_short_read_pooled_gsa	1156919	Achromobacter piechaudii strain	strain	1.0	1.0	2406101	2406101	2406101	1.0	1.0	8248	8248	8248	False
+rhimgCAMI2_short_read_pooled_gsa	365046	Ramlibacter tataouinensis strain	strain	1.0	1.0	1464226	1464226	1464226	1.0	1.0	4871	4871	4871	False
+rhimgCAMI2_short_read_pooled_gsa	1121125	Brevundimonas naejangsanensis strain	strain	1.0	1.0	272492	272492	272492	1.0	1.0	1117	1117	1117	False
+rhimgCAMI2_short_read_pooled_gsa	1304886	Desulfotignum balticum strain	strain	1.0	1.0	686909	686909	686909	1.0	1.0	2661	2661	2661	False
+rhimgCAMI2_short_read_pooled_gsa	1121346	Cohnella laeviribosi strain	strain	1.0	1.0	585822	585822	585822	1.0	1.0	2338	2338	2338	False
+rhimgCAMI2_short_read_pooled_gsa	457427	Streptomyces himastatinicus strain	strain	1.0	1.0	3602621	3602621	3602621	1.0	1.0	12152	12152	12152	False
+rhimgCAMI2_short_read_pooled_gsa	749927	Amycolatopsis mediterranei strain	strain	1.0	1.0	1265407	1265407	1265407	1.0	1.0	5000	5000	5000	False
+rhimgCAMI2_short_read_pooled_gsa	796606	Bacillus methanolicus strain	strain	1.0	1.0	1289257	1289257	1289257	1.0	1.0	4192	4192	4192	False
+rhimgCAMI2_short_read_pooled_gsa	485918	Chitinophaga pinensis strain	strain	1.0	1.0	3215181	3215181	3215181	1.0	1.0	10695	10695	10695	False
+rhimgCAMI2_short_read_pooled_gsa	591167	Streptomyces pratensis strain	strain	1.0	1.0	953439	953439	953439	1.0	1.0	3743	3743	3743	False
+rhimgCAMI2_short_read_pooled_gsa	1128398	Gottschalkia acidurici strain	strain	1.0	1.0	219360	219360	219360	1.0	1.0	882	882	882	False
+rhimgCAMI2_short_read_pooled_gsa	1408254	Brevibacillus panacihumi strain	strain	1.0	1.0	524683	524683	524683	1.0	1.0	2089	2089	2089	False
+rhimgCAMI2_short_read_pooled_gsa	525903	Thermanaerovibrio acidaminovorans strain	strain	1.0	1.0	694188	694188	694188	1.0	1.0	2273	2273	2273	False
+rhimgCAMI2_short_read_pooled_gsa	1205910	Nocardiopsis alba strain	strain	1.0	1.0	3670708	3670708	3670708	1.0	1.0	9022	9022	9022	False
+rhimgCAMI2_short_read_pooled_gsa	525897	Desulfomicrobium baculatum strain	strain	1.0	1.0	446593	446593	446593	1.0	1.0	1749	1749	1749	False
+rhimgCAMI2_short_read_pooled_gsa	1156918	Alcaligenes faecalis strain	strain	1.0	1.0	182578	182578	182578	1.0	1.0	740	740	740	False
+rhimgCAMI2_short_read_pooled_gsa	401053	Terriglobus saanensis strain	strain	1.0	1.0	1733415	1733415	1733415	1.0	1.0	5832	5832	5832	False
+rhimgCAMI2_short_read_pooled_gsa	1429046	Rhodococcus rhodochrous strain	strain	1.0	1.0	1548820	1548820	1548820	1.0	1.0	5691	5691	5691	False
+rhimgCAMI2_short_read_pooled_gsa	1068978	Amycolatopsis methanolica strain	strain	1.0	1.0	5184556	5184556	5184556	1.0	1.0	10752	10752	10752	False
+rhimgCAMI2_short_read_pooled_gsa	497964	Chthoniobacter flavus strain	strain	1.0	1.0	724187	724187	724187	1.0	1.0	2916	2916	2916	False
+rhimgCAMI2_short_read_pooled_gsa	1254432	Sorangium cellulosum strain	strain	1.0	1.0	12807269	12807269	12807269	1.0	1.0	16767	16767	16767	False
+rhimgCAMI2_short_read_pooled_gsa	398527	Paraburkholderia phytofirmans strain	strain	1.0	1.0	1242172	1242172	1242172	1.0	1.0	4788	4788	4788	False
+rhimgCAMI2_short_read_pooled_gsa	323733	Rhizobium etli strain	strain	1.0	1.0	1023203	1023203	1023203	1.0	1.0	3741	3741	3741	False
+rhimgCAMI2_short_read_pooled_gsa	979226	Cohnella panacarvi strain	strain	1.0	1.0	1046815	1046815	1046815	1.0	1.0	3909	3909	3909	False
+rhimgCAMI2_short_read_pooled_gsa	1441930	Chania multitudinisentens strain	strain	1.0	1.0	319793	319793	319793	1.0	1.0	1300	1300	1300	False
+rhimgCAMI2_short_read_pooled_gsa	204669	Candidatus Koribacter strain	strain	1.0	1.0	577850	577850	577850	1.0	1.0	2312	2312	2312	False
+rhimgCAMI2_short_read_pooled_gsa	323098	Nitrobacter winogradskyi strain	strain	1.0	1.0	3402089	3402089	3402089	1.0	1.0	1	1	1	False

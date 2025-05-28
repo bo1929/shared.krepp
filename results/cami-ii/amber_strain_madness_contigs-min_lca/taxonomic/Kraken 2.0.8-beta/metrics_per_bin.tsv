@@ -1,0 +1,268 @@
+sample_id	Taxon ID	Scientific name	Taxonomic rank	Purity (bp)	Completeness (bp)	Bin size (bp)	True positives (bp)	True size (bp)	Purity (seq)	Completeness (seq)	Bin size (seq)	True positives (seq)	True size (seq)	Filtered
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2	Bacteria	superkingdom	1.0	0.9968858910072236	1446819106	1446819106	1451338733	1.0	0.9935445510914805	35091	35091	35319	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2759	Eukaryota	superkingdom	0.0		98656	0	0	0.0		17	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	10239	Viruses	superkingdom	0.0		51652	0	0	0.0		10	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2157	Archaea	superkingdom	0.0		5135	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1224	Proteobacteria	phylum	0.9998317689265467	0.9998508664764727	899928871	899777475	899911682	0.9949238578680203	0.9946394110499607	13987	13916	13991	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1239	Firmicutes	phylum	0.9999616716159456	0.9988292223770169	515649185	515629421	516233816	0.9998047065716239	0.9923915677247395	20482	20478	20635	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	201174	Actinobacteria	phylum	0.9979648978230371	0.9978478160728314	2548275	2543089	2548574	0.6923076923076923	0.9	13	9	10	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	976	Bacteroidetes	phylum	0.997778935993191	0.8693321091617401	28442224	28379052	32644661	0.9927927927927928	0.8067349926793558	555	551	683	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	7711	Chordata	phylum	0.0		98656	0	0	0.0		17	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28890	Euryarchaeota	phylum	0.0		5135	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1117	Cyanobacteria	phylum	0.0		2811	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	32066	Fusobacteria	phylum	0.0		95957	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1236	Gammaproteobacteria	class	0.999851120588555	0.9998039440941494	899869221	899735249	899911682	0.9951292887328987	0.992995497105282	13961	13893	13991	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	91061	Bacilli	class	0.999745952351212	0.9995640798918186	510778197	510648435	510871134	0.9993113625184457	0.994566015567631	20330	20316	20427	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1760	Actinobacteria	class	0.9979648978230371	0.9978478160728314	2548275	2543089	2548574	0.6923076923076923	0.9	13	9	10	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	186801	Clostridia	class	0.9995796796238505	0.8993378686261837	4824891	4822863	5362682	0.9930555555555556	0.6875	144	143	208	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	200643	Bacteroidia	class	1.0	0.8642911623435147	28214492	28214492	32644661	1.0	0.7613469985358712	520	520	683	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	117743	Flavobacteriia	class	0.0		227732	0	0	0.0		35	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1737404	Tissierellia	class	0.0		22972	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	40674	Mammalia	class	0.0		98656	0	0	0.0		17	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28216	Betaproteobacteria	class	0.0		4826	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	183968	Thermococci	class	0.0		5135	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	29547	Epsilonproteobacteria	class	0.0		3962	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	526524	Erysipelotrichia	class	0.0		12757	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28211	Alphaproteobacteria	class	0.0		10465	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	203490	Fusobacteriia	class	0.0		95957	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	186826	Lactobacillales	order	0.9997064298966821	0.9995298988293189	444885220	444754615	444963793	0.9993918199787137	0.9954063604240283	19731	19719	19810	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	91347	Enterobacterales	order	0.9999062277839035	0.9992579316244502	899328218	899243886	899911682	0.9959340739127278	0.9804159817025231	13773	13717	13991	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1385	Bacillales	order	0.9992415812106561	0.9987944741997709	65877851	65827888	65907341	0.9728353140916808	0.9286871961102107	589	573	617	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	85009	Propionibacteriales	order	1.0	0.9978478160728314	2543089	2543089	2548574	1.0	0.9	9	9	10	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	186802	Clostridiales	order	0.9995796796238505	0.8993378686261837	4824891	4822863	5362682	0.9930555555555556	0.6875	144	143	208	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	171549	Bacteroidales	order	1.0	0.8642911623435147	28214492	28214492	32644661	1.0	0.7613469985358712	520	520	683	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	200644	Flavobacteriales	order	0.0		227732	0	0	0.0		35	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	72274	Pseudomonadales	order	0.0		31484	0	0	0.0		10	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1737405	Tissierellales	order	0.0		22972	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	9443	Primates	order	0.0		98656	0	0	0.0		17	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28883	Caudovirales	order	0.0		51652	0	0	0.0		10	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	80840	Burkholderiales	order	0.0		4826	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2258	Thermococcales	order	0.0		5135	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	85007	Corynebacteriales	order	0.0		2567	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	135613	Chromatiales	order	0.0		2761	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	135623	Vibrionales	order	0.0		14193	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1890424	Synechococcales	order	0.0		2811	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	85011	Streptomycetales	order	0.0		1136	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	213849	Campylobacterales	order	0.0		3962	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	135619	Oceanospirillales	order	0.0		3304	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	526525	Erysipelotrichales	order	0.0		12757	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	204457	Sphingomonadales	order	0.0		10465	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	135622	Alteromonadales	order	0.0		18086	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	85010	Pseudonocardiales	order	0.0		1483	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	203491	Fusobacteriales	order	0.0		95957	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1300	Streptococcaceae	family	0.9999822604900332	0.9998373261590919	369514153	369507598	369567717	0.9998758997269794	0.9983272411870392	16116	16114	16141	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	186822	Paenibacillaceae	family	1.0	0.9990865409165285	7200089	7200089	7206672	1.0	0.9230769230769231	24	24	26	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	543	Enterobacteriaceae	family	0.999963642829749	0.998947664510927	898997358	898964673	899911682	0.9980215431963069	0.9734829533271389	13647	13620	13991	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	90964	Staphylococcaceae	family	0.9995248370703123	0.9987586172143966	58655670	58627799	58700669	0.9821109123434705	0.9289340101522843	559	549	591	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	81852	Enterococcaceae	family	0.9996778800896532	0.9978784776159354	67139594	67117967	67260662	0.9988317757009346	0.9802235597592434	3424	3420	3489	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	31957	Propionibacteriaceae	family	1.0	0.9978478160728314	2543089	2543089	2548574	1.0	0.9	9	9	10	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	33958	Lactobacillaceae	family	1.0	0.9965336736397189	8107214	8107214	8135414	1.0	0.95	171	171	180	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	815	Bacteroidaceae	family	0.8838826382917555	0.7931257842435747	18477168	16331648	20591498	0.920863309352518	0.7058823529411765	417	384	544	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2005525	Tannerellaceae	family	0.9938747592568242	0.7882501049724459	9559461	9500907	12053163	0.9195402298850575	0.5755395683453237	87	80	139	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2005473	Muribaculaceae	family	0.0		21064	0	0	0.0		6	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1903411	Yersiniaceae	family	0.0		84766	0	0	0.0		32	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	186817	Bacillaceae	family	0.0		20521	0	0	0.0		5	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1853231	Odoribacteraceae	family	0.0		90387	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	135621	Pseudomonadaceae	family	0.0		21126	0	0	0.0		7	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	9604	Hominidae	family	0.0		39517	0	0	0.0		9	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	10699	Siphoviridae	family	0.0		21911	0	0	0.0		9	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	75682	Oxalobacteraceae	family	0.0		3341	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	468	Moraxellaceae	family	0.0		6827	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2259	Thermococcaceae	family	0.0		5135	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	49546	Flavobacteriaceae	family	0.0		164560	0	0	0.0		31	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1046	Chromatiaceae	family	0.0		1514	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	641	Vibrionaceae	family	0.0		14193	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	72276	Ectothiorhodospiraceae	family	0.0		1247	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1213	Prochloraceae	family	0.0		2811	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2062	Streptomycetaceae	family	0.0		1136	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	72293	Helicobacteraceae	family	0.0		3962	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1653	Corynebacteriaceae	family	0.0		1340	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	10744	Podoviridae	family	0.0		29741	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	31979	Clostridiaceae	family	0.0		2028	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1903409	Erwiniaceae	family	0.0		20010	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	171551	Porphyromonadaceae	family	0.0		1312	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	171550	Rikenellaceae	family	0.0		36373	0	0	0.0		4	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2070	Pseudonocardiaceae	family	0.0		1483	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	171552	Prevotellaceae	family	0.0		10968	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	119060	Burkholderiaceae	family	0.0		1485	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1903414	Morganellaceae	family	0.0		4263	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	267890	Shewanellaceae	family	0.0		1663	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	186827	Aerococcaceae	family	0.0		3463	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1301	Streptococcus	genus	0.9999460889247898	0.9998757336553493	367290022	367270221	367315866	0.9997508098679292	0.9986931358516398	16052	16048	16069	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	44249	Paenibacillus	genus	1.0	0.9990865409165285	7200089	7200089	7206672	1.0	0.9230769230769231	24	24	26	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1279	Staphylococcus	genus	0.9995248370703123	0.9987586172143966	58655670	58627799	58700669	0.9821109123434705	0.9289340101522843	559	549	591	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1350	Enterococcus	genus	0.9996778800896532	0.9978784776159354	67139594	67117967	67260662	0.9988317757009346	0.9802235597592434	3424	3420	3489	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1578	Lactobacillus	genus	1.0	0.9965336736397189	8107214	8107214	8135414	1.0	0.95	171	171	180	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	570	Klebsiella	genus	0.9935616763173297	0.992518297610381	265105963	263399125	265384654	0.9310699588477366	0.8508304606706362	2916	2715	3191	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	561	Escherichia	genus	0.9976035934361358	0.9918421348438803	497993545	496800150	500886313	0.9911727616645649	0.8981830647925951	7930	7860	8751	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	547	Enterobacter	genus	0.9762081069694146	0.9885929163235854	9643579	9414140	9522767	0.7375886524822695	0.8387096774193549	141	104	124	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1357	Lactococcus	genus	1.0	0.987690126922252	2224131	2224131	2251851	1.0	0.8888888888888888	64	64	72	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	544	Citrobacter	genus	0.992665099830324	0.9521895018735113	15137084	15026055	15780530	0.9402390438247012	0.7515923566878981	251	236	314	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	816	Bacteroides	genus	0.8838826382917555	0.7931257842435747	18477168	16331648	20591498	0.920863309352518	0.7058823529411765	417	384	544	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	375288	Parabacteroides	genus	0.9938747592568242	0.7882501049724459	9559461	9500907	12053163	0.9195402298850575	0.5755395683453237	87	80	139	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	620	Shigella	genus	0.0		122344	0	0	0.0		22	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	590	Salmonella	genus	0.0		905773	0	0	0.0		65	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1918540	Muribaculum	genus	0.0		19966	0	0	0.0		5	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	613	Serratia	genus	0.0		69474	0	0	0.0		30	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1386	Bacillus	genus	0.0		20521	0	0	0.0		5	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	283168	Odoribacter	genus	0.0		90387	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	286	Pseudomonas	genus	0.0		21126	0	0	0.0		7	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	83654	Leclercia	genus	0.0		14717	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	9605	Homo	genus	0.0		39517	0	0	0.0		9	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	579	Kluyvera	genus	0.0		57703	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	29580	Janthinobacterium	genus	0.0		3341	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	469	Acinetobacter	genus	0.0		6827	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2263	Thermococcus	genus	0.0		5135	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28250	Ornithobacterium	genus	0.0		164560	0	0	0.0		31	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	34037	Rahnella	genus	0.0		15292	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	67575	Rheinheimera	genus	0.0		1514	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2055876	Metakosakonia	genus	0.0		3346	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	662	Vibrio	genus	0.0		14193	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1051	Ectothiorhodospira	genus	0.0		1247	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1218	Prochlorococcus	genus	0.0		2811	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	413496	Cronobacter	genus	0.0		4614	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1883	Streptomyces	genus	0.0		1136	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	209	Helicobacter	genus	0.0		3962	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1716	Corynebacterium	genus	0.0		1340	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1485	Clostridium	genus	0.0		2028	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	53335	Pantoea	genus	0.0		18823	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1330547	Kosakonia	genus	0.0		11183	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	160674	Raoultella	genus	0.0		12270	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	239759	Alistipes	genus	0.0		10261	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	65496	Actinoalloteichus	genus	0.0		1483	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	577309	Paraprevotella	genus	0.0		10968	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	44013	Polynucleobacter	genus	0.0		1485	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1611681	Mucinivorans	genus	0.0		26112	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	581	Morganella	genus	0.0		4263	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	22	Shewanella	genus	0.0		1663	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1375	Aerococcus	genus	0.0		3463	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	82976	Buttiauxella	genus	0.0		1131	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1313	Streptococcus pneumoniae	species	0.9952432866927647	0.9995812258073027	356175975	354481748	354630258	0.9939157166645318	0.9969805987408454	15614	15519	15566	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	548	Klebsiella aerogenes	species	0.9635164097312182	0.9988615510093115	5307948	5114295	5120124	0.5806451612903226	0.8181818181818182	31	18	22	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	481743	Paenibacillus sp.	species	1.0	0.9986358474480315	7196841	7196841	7206672	1.0	0.8846153846153846	23	23	26	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1352	Enterococcus faecium	species	0.9999160807937887	0.9981130828197836	64145030	64139647	64260902	0.9997034400948992	0.9782356355194428	3372	3371	3446	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1280	Staphylococcus aureus	species	0.9998374569371032	0.9973867929852724	58556790	58547272	58700669	0.9924528301886792	0.8900169204737732	530	526	591	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1598	Lactobacillus reuteri	species	0.8873309032272331	0.9973825768330327	2351612	2086658	2092134	0.9705882352941176	0.99	102	99	100	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	562	Escherichia coli	species	0.9976697138895186	0.9916433791633672	497860754	496700596	500886313	0.9915168397062547	0.8948691578105359	7898	7831	8751	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	573	Klebsiella pneumoniae	species	0.9947684464712847	0.9895126815782389	258889447	257535053	260264530	0.9433469996272829	0.7986746607762701	2683	2531	3169	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1351	Enterococcus faecalis	species	0.9939633014949999	0.9864629170333626	2977124	2959152	2999760	0.9523809523809523	0.9302325581395349	42	40	43	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1363	Lactococcus garvieae	species	1.0	0.9703901368252162	2185174	2185174	2251851	1.0	0.8472222222222222	61	61	72	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	823	Parabacteroides distasonis	species	0.574566584404741	0.8882339324787358	8114325	4662220	5248865	0.5645161290322581	0.813953488372093	62	35	43	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	257758	Streptococcus pseudopneumoniae	species	0.978596390673795	0.8568458312460432	5830839	5706038	6659352	0.9506172839506173	0.752442996742671	243	231	307	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28037	Streptococcus mitis	species	0.938528143909845	0.5658754140139324	1287028	1207912	2134590	0.8545454545454545	0.5222222222222223	55	47	90	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	550	Enterobacter cloacae	species	0.7597536785795741	0.023920651537897613	144689	109928	4595527	0.2	0.09523809523809523	20	4	42	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1639133	Citrobacter portucalensis	species	0.8565500889152341	0.0004578426706834308	8435	7225	15780530	0.5	0.0031847133757961785	2	1	314	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	671267	Bacteroides sartorii	species		0.0	0	0	16103610		0.0	0	0	393	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	508451	Lactobacillus taiwanensis	species		0.0	0	0	1964616		0.0	0	0	31	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1235803	Parabacteroides sp.	species		0.0	0	0	6804298		0.0	0	0	96	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	97137	Lactobacillus sp.	species		0.0	0	0	4078664		0.0	0	0	49	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	68892	Streptococcus infantis	species		0.0	0	0	1689680		0.0	0	0	13	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	821	Bacteroides vulgatus	species	0.0		12241767	0	0	0.0		220	0	0	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	624	Shigella sonnei	species	0.0		19644	0	0	0.0		7	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28901	Salmonella enterica	species	0.0		904649	0	0	0.0		64	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	158836	Enterobacter hormaechei	species	0.0		4578906	0	0	0.0		53	0	0	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1134687	Klebsiella michiganensis	species	0.0		140174	0	0	0.0		23	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	357276	Bacteroides dorei	species	0.0		3170229	0	0	0.0		91	0	0	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	712633	Streptococcus sp.	species	0.0		1686171	0	0	0.0		11	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1604	Lactobacillus amylovorus	species	0.0		121675	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1796646	Muribaculum intestinale	species	0.0		2540	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	244366	Klebsiella variicola	species	0.0		260133	0	0	0.0		26	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	615	Serratia marcescens	species	0.0		46746	0	0	0.0		27	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	208962	Escherichia albertii	species	0.0		60383	0	0	0.0		8	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	290053	Bacteroides helcogenes	species	0.0		1645	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	33959	Lactobacillus johnsonii	species	0.0		4824463	0	0	0.0		46	0	0	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1396	Bacillus cereus	species	0.0		7090	0	0	0.0		4	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	546	Citrobacter freundii	species	0.0		14937010	0	0	0.0		219	0	0	False
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1796613	Bacteroides caecimuris	species	0.0		1122688	0	0	0.0		26	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28118	Odoribacter splanchnicus	species	0.0		85777	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	287	Pseudomonas aeruginosa	species	0.0		2646	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	47678	Bacteroides caccae	species	0.0		89417	0	0	0.0		9	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1920116	Leclercia sp.	species	0.0		13535	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1463165	Klebsiella quasipneumoniae	species	0.0		39912	0	0	0.0		12	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	817	Bacteroides fragilis	species	0.0		653899	0	0	0.0		10	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	9606	Homo sapiens	species	0.0		37039	0	0	0.0		8	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	61648	Kluyvera intermedia	species	0.0		57703	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1701811	Streptococcus phage	species	0.0		3521	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	564	Escherichia fergusonii	species	0.0		2786	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	246787	Bacteroides cellulosilyticus	species	0.0		113911	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1295	Staphylococcus schleiferi	species	0.0		18353	0	0	0.0		6	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	375286	Janthinobacterium sp.	species	0.0		3341	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	470	Acinetobacter baumannii	species	0.0		6827	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	246969	Thermococcus sp.	species	0.0		5135	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1920114	Leclercia sp.	species	0.0		1182	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	622	Shigella dysenteriae	species	0.0		35870	0	0	0.0		6	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2025876	Parabacteroides sp.	species	0.0		1130824	0	0	0.0		11	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	28251	Ornithobacterium rhinotracheale	species	0.0		164560	0	0	0.0		31	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	818	Bacteroides thetaiotaomicron	species	0.0		598374	0	0	0.0		6	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2420313	Enterococcus sp.	species	0.0		2511	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	67827	Citrobacter werkmanii	species	0.0		20177	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1358	Lactococcus lactis	species	0.0		38957	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	34038	Rahnella aquatilis	species	0.0		15292	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	623	Shigella flexneri	species	0.0		36716	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2498451	Rheinheimera sp.	species	0.0		1514	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1316414	Enterococcus sp.	species	0.0		3655	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2487150	Metakosakonia sp.	species	0.0		3346	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1759437	Serratia sp.	species	0.0		1612	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	35703	Citrobacter amalonaticus	species	0.0		10177	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1758196	Serratia sp.	species	0.0		9784	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	67825	Citrobacter rodentium	species	0.0		3887	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	45634	Streptococcus cristatus	species	0.0		15312	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1442136	Ectothiorhodospira sp.	species	0.0		1247	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1219	Prochlorococcus marinus	species	0.0		2811	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1920110	Citrobacter sp.	species	0.0		12363	0	0	0.0		4	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1316408	Streptococcus sp.	species	0.0		2141	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1915310	Enterobacter cloacae	species	0.0		65861	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2099584	Streptomyces sp.	species	0.0		1136	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	210	Helicobacter pylori	species	0.0		3962	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1587	Lactobacillus helveticus	species	0.0		3286	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	208224	Enterobacter kobei	species	0.0		29393	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1318	Streptococcus parasanguinis	species	0.0		13505	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	316	Pseudomonas stutzeri	species	0.0		5079	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	29385	Staphylococcus saprophyticus	species	0.0		5579	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	83683	Lactobacillus amylolyticus	species	0.0		214581	0	0	0.0		6	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1652495	Corynebacterium crudilactis	species	0.0		1340	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	985002	Staphylococcus argenteus	species	0.0		45307	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	977801	Enterococcus phage	species	0.0		29741	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1701830	Streptococcus phage	species	0.0		4575	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	217159	Clostridium carboxidivorans	species	0.0		2028	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	66269	Pantoea stewartii	species	0.0		18823	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	76860	Streptococcus constellatus	species	0.0		7473	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	208223	Kosakonia cowanii	species	0.0		11183	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1902136	Streptococcus sp.	species	0.0		4484	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1308	Streptococcus thermophilus	species	0.0		1431	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	376805	Bacteroides salanitronis	species	0.0		9584	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1905288	Klebsiella sp.	species	0.0		1209	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1245526	Pseudomonas guangdongensis	species	0.0		8377	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1579	Lactobacillus acidophilus	species	0.0		344086	0	0	0.0		6	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1566990	Streptococcus phage	species	0.0		1102	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1600	Lactobacillus acetotolerans	species	0.0		160364	0	0	0.0		4	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	54291	Raoultella ornithinolytica	species	0.0		3321	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	571	Klebsiella oxytoca	species	0.0		129036	0	0	0.0		5	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1703250	Citrobacter sp.	species	0.0		1333	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2026240	Klebsiella quasivariicola	species	0.0		7739	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1920109	Enterobacteriaceae bacterium	species	0.0		30639	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1401	Paenibacillus lautus	species	0.0		3248	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	67824	Citrobacter farmeri	species	0.0		2131	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1563222	Citrobacter pasteurii	species	0.0		8287	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1338	Streptococcus intermedius	species	0.0		2122	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1701826	Streptococcus phage	species	0.0		1140	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1156431	Streptococcus sp.	species	0.0		3235	0	0	0.0		2	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1334	Streptococcus dysgalactiae	species	0.0		1984	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	328814	Alistipes shahii	species	0.0		10261	0	0	0.0		3	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1448273	Streptococcus phage	species	0.0		3218	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1336	Streptococcus equi	species	0.0		9376	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2072503	Actinoalloteichus sp.	species	0.0		1483	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1307	Streptococcus suis	species	0.0		11791	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	61645	Enterobacter asburiae	species	0.0		1158	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	575	Raoultella planticola	species	0.0		4629	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	109790	Lactobacillus jensenii	species	0.0		77982	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	576610	Polynucleobacter necessarius	species	0.0		1485	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1596	Lactobacillus gasseri	species	0.0		1840	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1433126	Mucinivorans hirudinis	species	0.0		26112	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	582	Morganella morganii	species	0.0		4263	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	351745	Shewanella sp.	species	0.0		1663	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1376	Aerococcus urinae	species	0.0		3463	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2479367	Buttiauxella sp.	species	0.0		1131	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	621	Shigella boydii	species	0.0		2764	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	2077149	Citrobacter freundii	species	0.0		6390	0	0	0.0		1	0	0	True
+strmgCAMI2_short_read_pooled_gold_standard_assembly	1701837	Streptococcus phage	species	0.0		4004	0	0	0.0		1	0	0	True
