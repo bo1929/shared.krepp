@@ -1,0 +1,215 @@
+method	process	nthreads	time_sec	peak_memory	data	partition	size
+bowtie2	index	32	26169	191732049	WoLv1	compute	10575
+bowtie2	index	32	22727	285287103	WoLv2	large_shared	15953
+bowtie2	index	32	2782	37824496	WoLv1_sampled2000	compute	2000
+bowtie2	index	32	9112	94379152	WoLv1_sampled5000	compute	5000
+krepp-v000	index-0	32	1034	115743800	WoLv2	shared	15953
+krepp-v000	index-1	32	950	106755368	WoLv2	shared	15953
+krepp-v000	index-2	32	1051	112612536	WoLv2	shared	15953
+krepp-v000	index-3	32	1160	114350820	WoLv2	shared	15953
+krepp-v000	index-4	32	1108	111156644	WoLv2	shared	15953
+krepp-v000	index-5	32	1047	111130908	WoLv2	shared	15953
+krepp-v000	index-6	32	1065	116839064	WoLv2	shared	15953
+krepp-v000	index-7	32	1192	109540812	WoLv2	shared	15953
+krepp-v000	index-8	32	1084	112387800	WoLv2	shared	15953
+krepp-v000	index-9	32	1200	120324108	WoLv2	shared	15953
+krepp-v000	index-10	32	1041	113066132	WoLv2	shared	15953
+krepp-v000	index-11	32	942	111031616	WoLv2	shared	15953
+krepp-v000	index-12	32	1024	106109188	WoLv2	shared	15953
+krepp-v000	index-13	32	1035	111541664	WoLv2	shared	15953
+krepp-v000	index-14	32	985	110058428	WoLv2	shared	15953
+krepp-v000	index-15	32	1025	117026356	WoLv2	shared	15953
+krepp-v000	index-0	32	1584	158155176	WoLv1	shared	10575
+krepp-v000	index-1	32	1473	180396844	WoLv1	shared	10575
+krepp-v000	index-2	32	1571	171777740	WoLv1	shared	10575
+krepp-v000	index-3	32	1370	166972912	WoLv1	shared	10575
+krepp-v000	index-4	32	1405	166492928	WoLv1	shared	10575
+krepp-v000	index-5	32	1431	168868396	WoLv1	shared	10575
+krepp-v000	index-6	32	1504	167080960	WoLv1	shared	10575
+krepp-v000	index-7	32	1501	179340788	WoLv1	shared	10575
+krepp-v000	index-7	32	117	58030748	WoLv1_sampled2000	shared	2000
+krepp-v000	index-7	32	286	67942908	WoLv1_sampled5000	shared	2000
+krepp-v000	index-0	32	165	61952416	WoLv1_sampled2000	shared	2000
+krepp-v000	index-0	32	401	77861928	WoLv1_sampled5000	shared	2000
+krepp-v000	index-1	32	118	57706616	WoLv1_sampled2000	shared	2000
+krepp-v000	index-1	32	283	69594408	WoLv1_sampled5000	shared	2000
+krepp-v000	index-2	32	113	55464752	WoLv1_sampled2000	shared	2000
+krepp-v000	index-2	32	291	70179848	WoLv1_sampled5000	shared	2000
+krepp-v000	index-3	32	124	57824228	WoLv1_sampled2000	shared	2000
+krepp-v000	index-3	32	329	76212476	WoLv1_sampled5000	shared	2000
+krepp-v000	index-4	32	119	58539188	WoLv1_sampled2000	shared	2000
+krepp-v000	index-4	32	280	68108136	WoLv1_sampled5000	shared	5000
+krepp-v000	index-5	32	129	53280084	WoLv1_sampled2000	shared	5000
+krepp-v000	index-5	32	312	70149968	WoLv1_sampled5000	shared	5000
+krepp-v000	index-6	32	141	54786840	WoLv1_sampled2000	shared	5000
+krepp-v000	index-6	32	327	69489376	WoLv1_sampled5000	shared	5000
+krepp-v000	query	16	73	85788196	WoLv2	shared	100000
+krepp-v000	query	16	119	86164100	WoLv2	shared	1000000
+krepp-v000	query	16	808	87141128	WoLv2	shared	10000000
+krepp-v044	query	16	40	85653320	WoLv2	shared	100000
+krepp-v044	query	16	57	85765224	WoLv2	shared	1000000
+krepp-v044	query	16	258	85788268	WoLv2	shared	10000000
+bowtie2	query	16	91	70518024	WoLv2	shared	100000
+bowtie2	query	16	303	74240064	WoLv2	shared	1000000
+bowtie2	query	16	2139	78170560	WoLv2	shared	10000000
+krepp-v000	query	16	41	53956240	WoLv1	shared	100000
+krepp-v000	query	16	92	54301820	WoLv1	shared	1000000
+krepp-v000	query	16	685	55284972	WoLv1	shared	10000000
+krepp-v044	query	16	27	53848504	WoLv1	shared	100000
+krepp-v044	query	16	31	53958276	WoLv1	shared	1000000
+krepp-v044	query	16	160	53973828 	WoLv1	shared	10000000
+bowtie2	query	16	89	47488612	WoLv1	shared	100000
+bowtie2	query	16	182	51058572	WoLv1	shared	1000000
+bowtie2	query	16	1480	53657536	WoLv1	shared	10000000
+krepp-v000	query	16	9	13808524	WoLv1_sampled5000	shared	100000
+krepp-v000	query	16	46	14080856	WoLv1_sampled5000	shared	1000000
+krepp-v000	query	16	425	14945508	WoLv1_sampled5000	shared	10000000
+krepp-v044	query	16	11	13759276	WoLv1_sampled5000	shared	100000
+krepp-v044	query	16	16	13874376	WoLv1_sampled5000	shared	1000000
+krepp-v044	query	16	65	13879036 	WoLv1_sampled5000	shared	10000000
+bowtie2	query	16	18	22609212	WoLv1_sampled5000	shared	100000
+bowtie2	query	16	68	24363996	WoLv1_sampled5000	shared	1000000
+bowtie2	query	16	580	26313296	WoLv1_sampled5000	shared	10000000
+krepp-v000	query	16	5	6430768	WoLv1_sampled2000	shared	100000
+krepp-v000	query	16	43	6674340	WoLv1_sampled2000	shared	1000000
+krepp-v000	query	16	420	7506572	WoLv1_sampled2000	shared	10000000
+krepp-v044	query	16	5	6398352	WoLv1_sampled2000	shared	100000
+krepp-v044	query	16	6	6511252	WoLv1_sampled2000	shared	1000000
+krepp-v044	query	16	54	6513364	WoLv1_sampled2000	shared	10000000
+krepp-v044	query	16	114	165848372	RefSeq (CAMI-II) [dedup]	shared	100000
+krepp-v044	query	16	110	16602956	RefSeq (CAMI-II) [dedup]	shared	1000000
+krepp-v044	query	16	625	166119916	RefSeq (CAMI-II) [dedup]	shared	10000000
+krepp-v044	query	16	97	219773936	RefSeq (CAMI-II)	shared	100000
+krepp-v044	query	16	353	220274892	RefSeq (CAMI-II)	shared	1000000
+krepp-v044	query	16	1580	221548332	RefSeq (CAMI-II)	shared	10000000
+bowtie2	query	16	5	9166668	WoLv1_sampled2000	shared	100000
+bowtie2	query	16	23	10097868	WoLv1_sampled2000	shared	1000000
+bowtie2	query	16	213	11071520	WoLv1_sampled2000	shared	10000000
+krepp-v044	index-1	32	1274.67	37105364	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-2	32	1290.9	47171788	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-3	32	1288.63	36198360	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-4	32	1244.2	32802944	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-5	32	1269.73	37641892	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-6	32	1254.5	33130788	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-7	32	1303.37	35397624	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-8	32	1257.41	34523272	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-9	32	1290.67	36662040	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-10	32	1274.23	36775304	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-11	32	1280.58	43559572	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-12	32	1272.45	41883748	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-13	32	1325.38	65143744	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-14	32	1284.77	47960312	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-15	32	1316.61	66698876	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-16	32	1215.09	28326908	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-17	32	1283.01	44651844	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-18	32	1321.27	39717976	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-19	32	1260.74	35763632	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-20	32	1290.29	45393996	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-21	32	1340.61	72525424	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-22	32	1260.37	36848704	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-23	32	1255.89	37091180	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-24	32	1227.97	31048936	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-25	32	1261.35	35453740	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-26	32	1250.65	34348144	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-27	32	1210.65	28007796	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-28	32	1268.87	37857128	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-29	32	1281.03	50471268	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-30	32	1274.35	37179932	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-31	32	1277.55	42193780	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-32	32	1267.51	33647276	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-33	32	1311.17	46007884	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-34	32	1223.21	33048024	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-35	32	1171.16	39147476	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-36	32	1228.92	38114664	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-37	32	1198.93	30693792	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-38	32	1182.07	40780112	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-39	32	1128.9	29513028	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-40	32	1182.14	38680832	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-41	32	1231.93	38073588	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-42	32	1162.63	35136800	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-43	32	1232.75	36057328	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-44	32	1250.29	37716572	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-45	32	1342.51	34585428	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-46	32	1315.91	69046572	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-47	32	1235.81	37074928	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-48	32	1221.65	33998936	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-49	32	1187.27	35153872	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-50	32	1160.9	37928124	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-51	32	1294.7	40595720	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-52	32	1212.65	67078396	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-53	32	1183.56	40669652	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-54	32	1271.49	66412936	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-55	32	1172.76	38426980	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-56	32	1215	38459716	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-57	32	1230.37	34938292	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-58	32	1135.25	29276420	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-59	32	1191.98	34506340	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-60	32	1159.43	36982428	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-61	32	1241.06	34044768	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-62	32	1216.84	44747620	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-63	32	1225.7	32283372	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-64	32	1180.64	39462356	RefSeq (CAMI-II) [dedup]	shared	50752
+krepp-v044	index-1	64	2326.56	110410924	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-2	64	1668.08	105039552	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-3	64	1381.24	96473612	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-4	64	1383.28	99452740	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-5	64	1448.92	107262484	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-6	64	1354.51	95382128	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-7	64	1492.97	95965052	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-8	64	1445.1	103582328	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-9	64	1330.42	105682056	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-10	64	1316.26	101120900	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-11	64	1451.6	115741664	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-12	64	1397.23	101411616	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-13	64	1302.99	97115588	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-14	64	1326.9	113766032	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-15	64	1562.15	104164268	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-16	64	1359.87	109148256	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-17	64	1535	96675096	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-18	64	1373.6	103175080	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-19	64	1355.58	97638136	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-20	64	1526.94	114888432	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-21	64	1391.54	101408436	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-22	64	1387.66	103473916	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-23	64	1333.87	100643920	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-24	64	1584.25	118924616	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-25	64	1328.77	106106476	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-26	64	1447.97	109050788	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-27	64	1699.44	127661912	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-28	64	1611.36	117419956	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-29	64	1337.68	106549888	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-30	64	1306.76	94685796	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-31	64	1315.89	97628764	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-32	64	1515.39	102474180	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-33	64	1408.17	104035064	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-34	64	1517.7	102879064	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-35	64	1341.47	102049192	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-36	64	1307.22	104982028	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-37	64	1689.85	107039500	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-38	64	1536.07	115053016	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-39	64	1748.57	124140852	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-40	64	NaN	133947020	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-41	64	1715.93	110378436	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-42	64	1384.21	104373260	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-43	64	1612.14	127139964	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-44	64	1256.58	100986080	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-45	64	1380.25	105334608	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-46	64	1329.13	84005840	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-47	64	1391.39	98904832	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-48	64	1245.13	109976176	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-49	64	1306.64	98768936	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-50	64	1260.26	93264760	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-51	64	1150.22	102623292	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-52	64	1160.39	87588200	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-53	64	1417.67	92496344	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-54	64	1461.47	110879276	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-55	64	1261.17	103279684	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-56	64	1524.76	114785672	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-57	64	1246.18	93668604	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-58	64	1285.36	104919344	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-59	64	1378.8	116254240	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-60	64	1387.63	98712332	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-61	64	1334.83	93655616	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-62	64	1297.54	101287076	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-63	64	1365.27	100686568	RefSeq (CAMI-II)	shared	123853
+krepp-v044	index-64	64	1473.23	116270948	RefSeq (CAMI-II)	shared	123853
