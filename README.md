@@ -1,2 +1,2 @@
 # shared.krepp
-Results used in the krepp paper and some scripts to analyze them.
+Results used used in the paper and some scripts to analyze them.
