@@ -1,2 +1,6 @@
 # *.xz filter=lfs diff=lfs merge=lfs -text
 results/expt-emp/emp-ogu-WoLv2/*.xz filter=lfs diff=lfs merge=lfs -text
+results/expt-hmi/hmi-ogu-RefSeqCIIdup/*.xz filter=lfs diff=lfs merge=lfs -text
+misc_data/data-WoLv1_placement/distances_WoLv1.csv.xz filter=lfs diff=lfs merge=lfs -text
+results/algorithmic_evaluation/multitree_heights_info-WoLv2.tsv.xz filter=lfs diff=lfs merge=lfs -text
+results/alignment_comparison/*.xz filter=lfs diff=lfs merge=lfs -text

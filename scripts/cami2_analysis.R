@@ -45,19 +45,20 @@ ggsave2("../figures/cami2-accuracy.pdf", width = 4, height = 6)
 
 df %>% filter(filtered==FALSE & rank != "superkingdom") %>%
   ggplot() +
-  aes(y=precision_avg_seq, color=Tool, x=recall_avg_seq) +
+  aes(y=recall_avg_seq, color=Tool, x=precision_avg_seq) +
   facet_grid(cols = vars(Dataset), rows= vars(reorder(rank, -accuracy_seq)), scale="fixed") +
   # geom_point(aes(shape=rank), size = 9, alpha=0.75) +
   geom_point(size = 3, shape=16, alpha=0.65) +
   scale_color_manual(values = c( "#66a2b5", "#55c00c", "#e41a1c", "#ff7f00", "#b15928", "#e7298a", "#6a3d9a")) +
-  theme_half_open() +
+  theme_half_open(font_size = 13) +
   background_grid() +
+  theme(panel.spacing.x = unit(5, "mm")) +
   labs(x = "Purity", y="Completeness") +
-  scale_y_continuous(breaks = c(0, 0.25, 0.50, 0.75)) +
-  scale_x_continuous(breaks = c(0, 0.25, 0.50, 0.75, 1)) +
+  scale_y_continuous(breaks = c(0, 0.25, 0.50, 0.75, 1.0)) +
+  scale_x_continuous(breaks = c(0, 0.2, 0.4, 0.6, 0.8)) +
   # coord_cartesian(xlim=c(0,0.8), ylim=c(0, 1)) +
   guides(color="none")
-ggsave2("../figures/cami2-completeness_purity.pdf", width = 4, height = 6)
+ggsave2("../figures/cami2-completeness_purity.pdf", width = 3.9, height = 6)
 
 df %>% filter(filtered==FALSE) %>% filter(!grepl("krepp ", Tool)) %>%
   ggplot() +

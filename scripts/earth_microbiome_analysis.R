@@ -55,3 +55,44 @@ p <- plot_ly(df, x= ~PC1, y= ~PC2, z= ~PC3,
 ) %>% layout(scene = scene)
 p
 save_image(p, "../figures/pcoa_emp_empo4.pdf", width = 1000, height = 600, scale=3)
+
+df <- vroom("../results/expt-emp/emp-ogu-WoLv1/feature_tables_merged.tsv")
+df_ogu <- transpose(df %>%  summarise(across(!`#FeatureID`, sum), method="OGU"), keep.names = "SampleID", make.names = "method")
+df <- vroom("../results/expt-emp/emp-pp-WoLv1/placement_table.tsv")
+df_dist <- vroom("../results/expt-emp/emp-pp-WoLv1/placement_distances.tsv", col_names = c("#FeatureID", "dist"))
+df<-merge(df_dist, df)
+dfm_pp <- df %>% pivot_longer(cols = -c(dist, `#FeatureID`), values_to = "Count", names_to = "SampleID")
+df <- merge(dfm_pp, df_ogu, by = "SampleID")
+df$ndist <- df$dist
+dfs_emp <- df %>% 
+  mutate(qth=quantile(OGU, 0.05)) %>%
+  # mutate(distBin = cut(ndist, c(0:10)/10)) %>% 
+  # group_by(SampleID, distBin) %>% 
+  # summarise(ncount = sum(Count)/OGU)
+  group_by(SampleID) %>%  
+  summarise(ncount = sum(Count)/max(OGU), mOGU=max(OGU), qth=max(qth), dist=sum(dist*(Count/sum(Count))))
+dfs_emp$data <- "EMP"
+
+df <- vroom("../results/expt-hmi/hmi-ogu-WoLv2/table_merged.tsv")
+df_ogu <- transpose(df %>%  summarise(across(!`#FeatureID`, sum), method="OGU"), keep.names = "SampleID", make.names = "method")
+df <- vroom("../results/expt-hmi/hmi-pp-WoLv2/placement_table.tsv")
+df_dist <- vroom("../results/expt-hmi/hmi-pp-WoLv2/placement_distances.tsv", col_names = c("#FeatureID", "dist"))
+df<-merge(df_dist, df)
+dfm_pp <- df %>% pivot_longer(cols = -c(dist, `#FeatureID`), values_to = "Count", names_to = "SampleID")
+df <- merge(dfm_pp, df_ogu, by = "SampleID")
+df$ndist <- df$dist
+dfs_hmi <- df %>% 
+  mutate(qth=quantile(OGU, 0.05)) %>%
+  # mutate(distBin = cut(ndist, c(0:10)/10)) %>% 
+  # group_by(SampleID, distBin) %>%  
+  group_by(SampleID) %>%  
+  summarise(ncount = sum(Count)/max(OGU), mOGU=max(OGU), qth=max(qth), dist=sum(dist*(Count/sum(Count))))
+dfs_hmi$data <- "HMP"
+
+rbind(dfs_hmi, dfs_emp) %>% # filter(mOGU > qth) %>%
+  ggplot() +
+  aes(x=data, y=ncount) +
+  geom_boxplot(outliers = FALSE, color="black") +
+  coord_cartesian(ylim=c(0, 1)) + theme_cowplot() +
+  theme(axis.title.x = element_blank(), axis.text.x = element_text(angle=90, vjust = 0.5)) +
+  labs(y="Ratio of total counts (PP/OGU)")
