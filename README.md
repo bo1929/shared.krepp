@@ -1,6 +1,6 @@
 # shared.krepp
 - Results used used in the paper and some scripts to analyze them.
-- Larger files, raw results, and sequence data can be found on [Dryad](doi.org/10.5061/dryad.63xsj3vd3).
+- Larger files, raw results, and sequence data can be found on [Dryad](https://doi.org/10.5061/dryad.63xsj3vd3).
 - The source code and precompile binaries, together with a tutorial, are available in the [main repository](https://github.com/bo1929/krepp).
 - A catalogue of indexes are [available](https://ter-trees.ucsd.edu/data/krepp/), more information is in the main repository.
 
