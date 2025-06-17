@@ -44,13 +44,14 @@ df %>% filter(process == "query") %>%
   filter(size > 1000000) %>%
   ggplot() +
   aes(x = reference_size, y = time_sec, color = method) +
-  geom_line() +
+  #geom_line() +
+  stat_smooth(method="lm",se=F)+
   geom_point(aes(shape = method), size = 3, alpha = 0.75) +
   # labs(x = "Number of references", y = "Running time (minutes)", linetype = "Reads", shape = "Method", color = "Method") +
   labs(x = "Number of reference genomes", y = "Running time (minutes)", linetype = "Reads", shape = "Method", color = "Method") +
   # scale_linetype_manual(values = c(2, 1), labels=c("1M", "10M")) +
   scale_linetype_manual(values = c(1), labels=c("10M")) +
-  scale_y_continuous(breaks = c(1*60, 10*60, 20*60, 30*60), labels=c("1", "10", "20", "30")) +
+  scale_y_continuous(transform = "log2", breaks = c(1*60, 10*60, 20*60, 30*60), labels=c("1", "10", "20", "30")) +
   scale_x_continuous(transform = "log2", breaks = c(2000, 8000, 32000, 128000)) +
   # scale_color_manual(values = c("#377eb8", "#ff7f00", "#e41a1c")) +
   scale_color_brewer(palette = "Set1", direction = -1) +

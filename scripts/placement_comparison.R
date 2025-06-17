@@ -47,6 +47,34 @@ dfe %>%
   theme(legend.position = "bottom", legend.direction = "horizontal")
 ggsave("../figures/placement_WoLv2-x_percent_placed-y_mean_node_error.pdf", width = 5, height = 4)
 
+
+dfe %>%
+  filter(!method %in% c("krepp-LCA") & novelty < 12) %>%
+  mutate(
+    error = ifelse((placement != "N1" & (filter == "True" & !is.na(placement))), error, NaN),
+    novelty_bin = cut_number(novelty, 10)
+  ) %>%
+  group_by(novelty_bin, method) %>%
+  summarise(
+    # root_placement_ratio = sum(placement == "N1")/n(),
+    median_error = median(error, na.rm = TRUE),
+    mean_error = mean(error, na.rm = TRUE),
+    portion_placed = 1 - sum(is.na(error)) / n(),
+    exactly_placed = sum(!is.na(error) & error == 0, rm.na = TRUE) / n()
+  ) %>% #portion_placed
+  ggplot() +
+  aes(x = novelty_bin, color = method, y = mean_error, size=portion_placed) +
+  geom_line(aes(group = method), linetype = 1, size = 0.5, color = "grey20") +
+  geom_point(aes(), alpha = 0.85) +
+  scale_color_manual(values = c("#377eb8", "#e41a1c", "#ff7f00")) +
+  labs(y = "Mean node error", x = "Placed reads", color = "Method") +
+  scale_x_discrete() +
+  theme_half_open() +
+  background_grid() +
+  scale_size_area(name="placed",labels=percent)+
+  theme(legend.position = "bottom", legend.direction = "horizontal",
+        axis.text.x = element_text(angle=30))
+
 dfe %>%
   filter(!method %in% c("krepp-LCA") & novelty < 12) %>%
   mutate(
