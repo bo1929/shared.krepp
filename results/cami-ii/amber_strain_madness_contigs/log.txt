@@ -1,0 +1,211 @@
+2025-03-03 14:05:46,679 INFO Loading NCBI taxonomy
+2025-03-03 14:05:47,105 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,122 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,124 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,126 INFO Found @Version:0.9.0
+2025-03-03 14:05:47,126 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,134 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,135 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,135 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,190 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,205 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,212 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,218 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,219 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,219 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,281 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 14:05:47,300 INFO Loading Gold standard
+2025-03-03 14:05:47,308 INFO Aggregating taxonomy information
+2025-03-03 14:05:47,580 INFO Deriving bins at rank: superkingdom
+2025-03-03 14:05:47,586 INFO Deriving bins at rank: phylum
+2025-03-03 14:05:47,590 INFO Deriving bins at rank: class
+2025-03-03 14:05:47,595 INFO Deriving bins at rank: order
+2025-03-03 14:05:47,599 INFO Deriving bins at rank: family
+2025-03-03 14:05:47,602 INFO Deriving bins at rank: genus
+2025-03-03 14:05:47,606 INFO Deriving bins at rank: species
+2025-03-03 14:05:47,609 INFO Deriving bins at rank: strain
+2025-03-03 14:05:47,610 INFO Loading LSHVec cami2
+2025-03-03 14:05:47,615 INFO Aggregating taxonomy information
+2025-03-03 14:05:47,891 INFO Deriving bins at rank: superkingdom
+2025-03-03 14:05:47,895 INFO Deriving bins at rank: phylum
+2025-03-03 14:05:47,899 INFO Deriving bins at rank: class
+2025-03-03 14:05:47,902 INFO Deriving bins at rank: order
+2025-03-03 14:05:47,905 INFO Deriving bins at rank: family
+2025-03-03 14:05:47,908 INFO Deriving bins at rank: genus
+2025-03-03 14:05:47,911 INFO Deriving bins at rank: species
+2025-03-03 14:05:47,915 INFO Deriving bins at rank: strain
+2025-03-03 14:05:47,915 INFO Loading PhyloPythiaS+ 1.4
+2025-03-03 14:05:47,919 INFO Aggregating taxonomy information
+2025-03-03 14:05:48,193 INFO Deriving bins at rank: superkingdom
+2025-03-03 14:05:48,198 INFO Deriving bins at rank: phylum
+2025-03-03 14:05:48,201 INFO Deriving bins at rank: class
+2025-03-03 14:05:48,204 INFO Deriving bins at rank: order
+2025-03-03 14:05:48,207 INFO Deriving bins at rank: family
+2025-03-03 14:05:48,209 INFO Deriving bins at rank: genus
+2025-03-03 14:05:48,212 INFO Deriving bins at rank: species
+2025-03-03 14:05:48,214 INFO Deriving bins at rank: strain
+2025-03-03 14:05:48,215 INFO Loading Kraken 2.0.8-beta
+2025-03-03 14:05:48,219 INFO Aggregating taxonomy information
+2025-03-03 14:05:48,490 INFO Deriving bins at rank: superkingdom
+2025-03-03 14:05:48,495 INFO Deriving bins at rank: phylum
+2025-03-03 14:05:48,498 INFO Deriving bins at rank: class
+2025-03-03 14:05:48,501 INFO Deriving bins at rank: order
+2025-03-03 14:05:48,505 INFO Deriving bins at rank: family
+2025-03-03 14:05:48,508 INFO Deriving bins at rank: genus
+2025-03-03 14:05:48,511 INFO Deriving bins at rank: species
+2025-03-03 14:05:48,514 INFO Deriving bins at rank: strain
+2025-03-03 14:05:48,517 INFO Loading DIAMOND 0.9.28
+2025-03-03 14:05:48,521 INFO Aggregating taxonomy information
+2025-03-03 14:05:48,801 INFO Deriving bins at rank: superkingdom
+2025-03-03 14:05:48,805 INFO Deriving bins at rank: phylum
+2025-03-03 14:05:48,807 INFO Deriving bins at rank: class
+2025-03-03 14:05:48,809 INFO Deriving bins at rank: order
+2025-03-03 14:05:48,811 INFO Deriving bins at rank: family
+2025-03-03 14:05:48,813 INFO Deriving bins at rank: genus
+2025-03-03 14:05:48,815 INFO Deriving bins at rank: species
+2025-03-03 14:05:48,817 INFO Deriving bins at rank: strain
+2025-03-03 14:05:48,819 INFO Loading MEGAN
+2025-03-03 14:05:48,823 INFO Aggregating taxonomy information
+2025-03-03 14:05:49,100 INFO Deriving bins at rank: superkingdom
+2025-03-03 14:05:49,104 INFO Deriving bins at rank: phylum
+2025-03-03 14:05:49,107 INFO Deriving bins at rank: class
+2025-03-03 14:05:49,110 INFO Deriving bins at rank: order
+2025-03-03 14:05:49,113 INFO Deriving bins at rank: family
+2025-03-03 14:05:49,116 INFO Deriving bins at rank: genus
+2025-03-03 14:05:49,119 INFO Deriving bins at rank: species
+2025-03-03 14:05:49,121 INFO Deriving bins at rank: strain
+2025-03-03 14:05:49,124 INFO Loading krepp v0.4.2
+2025-03-03 14:05:49,128 INFO Aggregating taxonomy information
+2025-03-03 14:05:49,399 INFO Deriving bins at rank: superkingdom
+2025-03-03 14:05:49,404 INFO Deriving bins at rank: phylum
+2025-03-03 14:05:49,407 INFO Deriving bins at rank: class
+2025-03-03 14:05:49,410 INFO Deriving bins at rank: order
+2025-03-03 14:05:49,413 INFO Deriving bins at rank: family
+2025-03-03 14:05:49,416 INFO Deriving bins at rank: genus
+2025-03-03 14:05:49,420 INFO Deriving bins at rank: species
+2025-03-03 14:05:49,422 INFO Deriving bins at rank: strain
+2025-03-03 14:05:49,426 INFO Creating output directories
+2025-03-03 14:05:49,433 INFO Evaluating Gold standard (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 14:05:49,937 INFO Evaluating LSHVec cami2 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 14:05:53,309 INFO Evaluating PhyloPythiaS+ 1.4 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 14:05:53,966 INFO Evaluating Kraken 2.0.8-beta (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 14:05:54,820 INFO Evaluating DIAMOND 0.9.28 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 14:05:55,510 INFO Evaluating MEGAN (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 14:05:56,194 INFO Evaluating krepp v0.4.2 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 14:05:57,125 INFO Saving computed metrics
+2025-03-03 14:05:57,204 INFO Creating taxonomic binning plots
+2025-03-03 14:06:16,271 INFO Creating HTML page
+2025-03-03 14:06:28,971 INFO AMBER finished successfully. All results have been saved to /expanse/lustre/projects/uot138/asapci/krepp/expt-CAMI_II/second_challenge_evaluation/binning/taxonomic_binning/strain_madness_dataset/data/results/amber_strain_madness_contigs
+2025-03-03 16:20:59,084 INFO Loading NCBI taxonomy
+2025-03-03 16:20:59,754 CRITICAL File ../../../../strmg-queries/short_read/krepp_taxids.txt not found or malformed. [Errno 2] No such file or directory: '../../../../strmg-queries/short_read/krepp_taxids.txt'
+2025-03-03 16:20:59,787 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,799 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,808 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,823 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,833 INFO Found @Version:0.9.0
+2025-03-03 16:20:59,834 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,834 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,844 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,864 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,873 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,893 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,900 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:20:59,934 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:20,654 INFO Loading NCBI taxonomy
+2025-03-03 16:21:21,078 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,078 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,078 INFO Found @Version:0.9.0
+2025-03-03 16:21:21,079 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,079 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,079 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,081 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,082 INFO Found @SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,121 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,144 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,144 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,145 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,202 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,240 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,244 INFO Loading strmgCAMI2_short_read_pooled_gold_standard_assembly
+2025-03-03 16:21:21,271 INFO Loading Gold standard
+2025-03-03 16:21:21,278 INFO Aggregating taxonomy information
+2025-03-03 16:21:21,558 INFO Deriving bins at rank: superkingdom
+2025-03-03 16:21:21,564 INFO Deriving bins at rank: phylum
+2025-03-03 16:21:21,568 INFO Deriving bins at rank: class
+2025-03-03 16:21:21,573 INFO Deriving bins at rank: order
+2025-03-03 16:21:21,578 INFO Deriving bins at rank: family
+2025-03-03 16:21:21,581 INFO Deriving bins at rank: genus
+2025-03-03 16:21:21,585 INFO Deriving bins at rank: species
+2025-03-03 16:21:21,588 INFO Deriving bins at rank: strain
+2025-03-03 16:21:21,589 INFO Loading LSHVec cami2
+2025-03-03 16:21:21,594 INFO Aggregating taxonomy information
+2025-03-03 16:21:21,876 INFO Deriving bins at rank: superkingdom
+2025-03-03 16:21:21,881 INFO Deriving bins at rank: phylum
+2025-03-03 16:21:21,884 INFO Deriving bins at rank: class
+2025-03-03 16:21:21,887 INFO Deriving bins at rank: order
+2025-03-03 16:21:21,890 INFO Deriving bins at rank: family
+2025-03-03 16:21:21,894 INFO Deriving bins at rank: genus
+2025-03-03 16:21:21,897 INFO Deriving bins at rank: species
+2025-03-03 16:21:21,900 INFO Deriving bins at rank: strain
+2025-03-03 16:21:21,901 INFO Loading PhyloPythiaS+ 1.4
+2025-03-03 16:21:21,905 INFO Aggregating taxonomy information
+2025-03-03 16:21:22,186 INFO Deriving bins at rank: superkingdom
+2025-03-03 16:21:22,191 INFO Deriving bins at rank: phylum
+2025-03-03 16:21:22,194 INFO Deriving bins at rank: class
+2025-03-03 16:21:22,197 INFO Deriving bins at rank: order
+2025-03-03 16:21:22,200 INFO Deriving bins at rank: family
+2025-03-03 16:21:22,203 INFO Deriving bins at rank: genus
+2025-03-03 16:21:22,206 INFO Deriving bins at rank: species
+2025-03-03 16:21:22,208 INFO Deriving bins at rank: strain
+2025-03-03 16:21:22,209 INFO Loading Kraken 2.0.8-beta
+2025-03-03 16:21:22,213 INFO Aggregating taxonomy information
+2025-03-03 16:21:22,494 INFO Deriving bins at rank: superkingdom
+2025-03-03 16:21:22,498 INFO Deriving bins at rank: phylum
+2025-03-03 16:21:22,502 INFO Deriving bins at rank: class
+2025-03-03 16:21:22,505 INFO Deriving bins at rank: order
+2025-03-03 16:21:22,509 INFO Deriving bins at rank: family
+2025-03-03 16:21:22,512 INFO Deriving bins at rank: genus
+2025-03-03 16:21:22,515 INFO Deriving bins at rank: species
+2025-03-03 16:21:22,518 INFO Deriving bins at rank: strain
+2025-03-03 16:21:22,521 INFO Loading DIAMOND 0.9.28
+2025-03-03 16:21:22,526 INFO Aggregating taxonomy information
+2025-03-03 16:21:22,804 INFO Deriving bins at rank: superkingdom
+2025-03-03 16:21:22,808 INFO Deriving bins at rank: phylum
+2025-03-03 16:21:22,810 INFO Deriving bins at rank: class
+2025-03-03 16:21:22,812 INFO Deriving bins at rank: order
+2025-03-03 16:21:22,815 INFO Deriving bins at rank: family
+2025-03-03 16:21:22,817 INFO Deriving bins at rank: genus
+2025-03-03 16:21:22,818 INFO Deriving bins at rank: species
+2025-03-03 16:21:22,820 INFO Deriving bins at rank: strain
+2025-03-03 16:21:22,822 INFO Loading MEGAN
+2025-03-03 16:21:22,826 INFO Aggregating taxonomy information
+2025-03-03 16:21:23,108 INFO Deriving bins at rank: superkingdom
+2025-03-03 16:21:23,112 INFO Deriving bins at rank: phylum
+2025-03-03 16:21:23,115 INFO Deriving bins at rank: class
+2025-03-03 16:21:23,118 INFO Deriving bins at rank: order
+2025-03-03 16:21:23,122 INFO Deriving bins at rank: family
+2025-03-03 16:21:23,125 INFO Deriving bins at rank: genus
+2025-03-03 16:21:23,127 INFO Deriving bins at rank: species
+2025-03-03 16:21:23,130 INFO Deriving bins at rank: strain
+2025-03-03 16:21:23,132 INFO Loading krepp v0.4.2
+2025-03-03 16:21:23,137 INFO Aggregating taxonomy information
+2025-03-03 16:21:23,409 INFO Deriving bins at rank: superkingdom
+2025-03-03 16:21:23,414 INFO Deriving bins at rank: phylum
+2025-03-03 16:21:23,417 INFO Deriving bins at rank: class
+2025-03-03 16:21:23,421 INFO Deriving bins at rank: order
+2025-03-03 16:21:23,424 INFO Deriving bins at rank: family
+2025-03-03 16:21:23,427 INFO Deriving bins at rank: genus
+2025-03-03 16:21:23,431 INFO Deriving bins at rank: species
+2025-03-03 16:21:23,435 INFO Deriving bins at rank: strain
+2025-03-03 16:21:23,438 INFO Creating output directories
+2025-03-03 16:21:23,443 INFO Evaluating Gold standard (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 16:21:23,949 INFO Evaluating LSHVec cami2 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 16:21:27,360 INFO Evaluating PhyloPythiaS+ 1.4 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 16:21:28,033 INFO Evaluating Kraken 2.0.8-beta (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 16:21:28,904 INFO Evaluating DIAMOND 0.9.28 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 16:21:29,604 INFO Evaluating MEGAN (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 16:21:30,302 INFO Evaluating krepp v0.4.2 (sample strmgCAMI2_short_read_pooled_gold_standard_assembly, taxonomic binning)
+2025-03-03 16:21:31,484 INFO Saving computed metrics
+2025-03-03 16:21:34,586 INFO Creating taxonomic binning plots
+2025-03-03 16:23:29,201 INFO Creating HTML page
+2025-03-03 16:23:42,150 INFO AMBER finished successfully. All results have been saved to /expanse/lustre/projects/uot138/asapci/krepp/expt-CAMI_II/second_challenge_evaluation/binning/taxonomic_binning/strain_madness_dataset/data/results/amber_strain_madness_contigs
