@@ -1,0 +1,212 @@
+Sample ID	Host sex	Body site
+#q2:types	categorical	categorical
+SRS011061	female	Stool
+SRS011084	male	Stool
+SRS011086	female	Tongue dorsum
+SRS011090	female	Buccal mucosa
+SRS011098	female	Supragingival plaque
+SRS011105	female	Anterior nares
+SRS011111	female	Posterior fornix
+SRS011115	male	Tongue dorsum
+SRS011126	male	Supragingival plaque
+SRS011134	male	Stool
+SRS011140	male	Tongue dorsum
+SRS011144	male	Buccal mucosa
+SRS011152	male	Supragingival plaque
+SRS011239	female	Stool
+SRS011243	female	Tongue dorsum
+SRS011247	female	Buccal mucosa
+SRS011255	female	Supragingival plaque
+SRS011269	female	Posterior fornix
+SRS011271	male	Stool
+SRS011302	female	Stool
+SRS011306	female	Tongue dorsum
+SRS011310	female	Buccal mucosa
+SRS011343	female	Supragingival plaque
+SRS011355	female	Posterior fornix
+SRS011405	female	Stool
+SRS011452	male	Stool
+SRS011529	male	Stool
+SRS011586	female	Stool
+SRS013234	male	Tongue dorsum
+SRS013252	male	Supragingival plaque
+SRS013258	male	Retroauricular crease
+SRS013261	male	Retroauricular crease
+SRS013502	male	Tongue dorsum
+SRS013506	male	Buccal mucosa
+SRS013638	male	Stool
+SRS013687	male	Stool
+SRS013705	male	Tongue dorsum
+SRS013711	male	Buccal mucosa
+SRS013723	male	Supragingival plaque
+SRS013825	male	Buccal mucosa
+SRS014235	male	Stool
+SRS014271	male	Tongue dorsum
+SRS014287	male	Stool
+SRS014343	female	Posterior fornix
+SRS014613	female	Stool
+SRS014923	male	Stool
+SRS015133	female	Stool
+SRS015174	female	Tongue dorsum
+SRS015190	female	Stool
+SRS015395	female	Tongue dorsum
+SRS015425	female	Posterior fornix
+SRS015470	male	Supragingival plaque
+SRS015574	male	Supragingival plaque
+SRS015578	male	Stool
+SRS015663	male	Stool
+SRS015762	male	Tongue dorsum
+SRS015782	male	Stool
+SRS015854	male	Stool
+SRS015921	male	Buccal mucosa
+SRS015960	male	Stool
+SRS016002	male	Tongue dorsum
+SRS016018	male	Stool
+SRS016056	male	Stool
+SRS016095	female	Stool
+SRS016203	female	Stool
+SRS016225	female	Tongue dorsum
+SRS016267	male	Stool
+SRS016319	male	Tongue dorsum
+SRS016331	male	Supragingival plaque
+SRS016335	male	Stool
+SRS016349	male	Buccal mucosa
+SRS016437	male	Stool
+SRS016517	female	Stool
+SRS016529	female	Tongue dorsum
+SRS016533	female	Buccal mucosa
+SRS016541	female	Supragingival plaque
+SRS016585	female	Stool
+SRS016600	female	Buccal mucosa
+SRS016753	male	Stool
+SRS016944	male	Retroauricular crease
+SRS016954	male	Stool
+SRS017076	male	Tongue dorsum
+SRS017080	male	Buccal mucosa
+SRS017088	male	Supragingival plaque
+SRS017103	male	Stool
+SRS017127	male	Buccal mucosa
+SRS017139	male	Supragingival plaque
+SRS017191	male	Stool
+SRS017209	male	Tongue dorsum
+SRS017215	male	Buccal mucosa
+SRS017227	male	Supragingival plaque
+SRS017304	male	Supragingival plaque
+SRS017307	male	Stool
+SRS017497	female	Posterior fornix
+SRS017521	female	Stool
+SRS017533	female	Tongue dorsum
+SRS017537	female	Buccal mucosa
+SRS017701	female	Stool
+SRS017713	female	Tongue dorsum
+SRS017788	male	Supragingival plaque
+SRS017821	male	Stool
+SRS017849	male	Retroauricular crease
+SRS017851	male	Retroauricular crease
+SRS018133	male	Stool
+SRS018145	male	Tongue dorsum
+SRS018149	male	Buccal mucosa
+SRS018157	male	Supragingival plaque
+SRS018313	male	Stool
+SRS018329	male	Buccal mucosa
+SRS018337	male	Supragingival plaque
+SRS018394	male	Supragingival plaque
+SRS018427	male	Stool
+SRS018439	male	Tongue dorsum
+SRS018443	male	Buccal mucosa
+SRS018501	female	Tongue dorsum
+SRS018513	female	Supragingival plaque
+SRS018591	male	Tongue dorsum
+SRS018739	female	Tongue dorsum
+SRS018791	male	Tongue dorsum
+SRS018817	male	Stool
+SRS019081	male	Retroauricular crease
+SRS019245	female	Posterior fornix
+SRS019267	female	Stool
+SRS019381	female	Stool
+SRS019582	male	Stool
+SRS019685	male	Stool
+SRS019787	male	Stool
+SRS019894	male	Tongue dorsum
+SRS019906	male	Supragingival plaque
+SRS019910	male	Stool
+SRS020233	male	Stool
+SRS020261	male	Retroauricular crease
+SRS020263	male	Retroauricular crease
+SRS020386	female	Anterior nares
+SRS020869	male	Stool
+SRS021484	male	Stool
+SRS021496	male	Tongue dorsum
+SRS021986	female	Buccal mucosa
+SRS022006	female	Anterior nares
+SRS022609	male	Stool
+SRS022621	male	Tongue dorsum
+SRS022625	male	Buccal mucosa
+SRS023176	male	Stool
+SRS023557	male	Tongue dorsum
+SRS023617	female	Tongue dorsum
+SRS023914	male	Stool
+SRS023926	male	Tongue dorsum
+SRS023930	male	Buccal mucosa
+SRS023938	male	Supragingival plaque
+SRS023971	male	Stool
+SRS023987	male	Buccal mucosa
+SRS024265	female	Stool
+SRS024277	female	Tongue dorsum
+SRS024281	female	Buccal mucosa
+SRS024289	female	Supragingival plaque
+SRS024310	female	Posterior fornix
+SRS024331	male	Stool
+SRS024347	male	Buccal mucosa
+SRS024355	male	Supragingival plaque
+SRS024388	female	Stool
+SRS024424	female	Anterior nares
+SRS024470	male	Buccal mucosa
+SRS024482	male	Retroauricular crease
+SRS024580	male	Tongue dorsum
+SRS024596	male	Retroauricular crease
+SRS024598	male	Retroauricular crease
+SRS024625	male	Stool
+SRS024637	male	Tongue dorsum
+SRS024649	male	Supragingival plaque
+SRS024655	male	Retroauricular crease
+SRS042628	male	Stool
+SRS042643	male	Tongue dorsum
+SRS043411	female	Stool
+SRS043422	male	Buccal mucosa
+SRS043701	male	Stool
+SRS044474	male	Anterior nares
+SRS044902	female	Posterior fornix
+SRS045197	male	Supragingival plaque
+SRS047113	male	Supragingival plaque
+SRS047219	male	Tongue dorsum
+SRS047225	male	Anterior nares
+SRS047265	male	Supragingival plaque
+SRS047634	male	Supragingival plaque
+SRS048870	female	Stool
+SRS049164	male	Stool
+SRS049389	male	Tongue dorsum
+SRS049959	male	Stool
+SRS050422	male	Stool
+SRS051031	male	Stool
+SRS052697	female	Stool
+SRS053335	female	Stool
+SRS054590	female	Stool
+SRS055450	male	Supragingival plaque
+SRS056259	male	Stool
+SRS056796	female	Posterior fornix
+SRS057692	male	Tongue dorsum
+SRS058182	male	Retroauricular crease
+SRS058770	male	Stool
+SRS062427	male	Stool
+SRS062540	female	Tongue dorsum
+SRS062544	male	Tongue dorsum
+SRS063287	male	Buccal mucosa
+SRS063603	female	Supragingival plaque
+SRS063985	female	Stool
+SRS064276	female	Stool
+SRS064493	male	Supragingival plaque
+SRS064557	female	Stool
+SRS064809	female	Buccal mucosa
+SRS065278	female	Tongue dorsum
+SRS065310	female	Supragingival plaque
