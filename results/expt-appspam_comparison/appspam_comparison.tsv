@@ -1,0 +1,13 @@
+method,reference,percent_of_correct,avg_node_error,memory_gb,running_time_s
+krepp,Piscirickettsiaceae,19,3.28,1.58,213
+krepp,Bacteroides,35,2.73,3.87,161
+krepp,Moraxella,23,2.44,0.93,218
+krepp,Bartonella,33,1.77,1.73,183
+krepp,Mycobacterium,20,3.97,6.1,347
+krepp,Rhizobiaceae,19,3.88,5.5,231
+App-SpaM,Piscirickettsiaceae,20,3.46,132,732
+App-SpaM,Bacteroides,25,3.12,189,524
+App-SpaM,Moraxella,14,2.28,84,457
+App-SpaM,Bartonella,27,1.97,106,432
+App-SpaM,Mycobacterium,,,,
+App-SpaM,Rhizobiaceae,,,,
