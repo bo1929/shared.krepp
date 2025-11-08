@@ -1,8 +1,10 @@
 # shared.krepp
 - Results used used in the paper and some scripts to analyze them. The preprint is available in [bioRxiv](https://doi.org/10.1101/2025.01.20.633730).
 - Larger files, raw results, and sequence data can be found on [Dryad](https://doi.org/10.5061/dryad.63xsj3vd3).
-- The source code and precompile binaries, together with a tutorial, are available in the [main repository](https://github.com/bo1929/krepp).
-- A catalogue of indexes are [available](https://ter-trees.ucsd.edu/data/krepp/), more information is in the main repository.
+- The source code and precompiled binaries, together with a tutorial, are available in the [main repository](https://github.com/bo1929/krepp).
+- A catalogue of indexes are available [here](https://ter-trees.ucsd.edu/data/krepp/) and [here](https://aws.amazon.com/marketplace/pp/prodview-jmcpocaivg74m), more information can be found in the main repository.
+- For more details on WoL see [v1](https://biocore.github.io/wol/) and [v2]().
+- You can install krep via [conda](https://anaconda.org/bioconda/krepp).
 
 ## `misc_data`
 * `misc_data/backbone-WoLv1.nwk`: WoL-v1 backbone tree.
